@@ -1,0 +1,2643 @@
+[     2][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM addeduccessful
+[  5326][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card write test successful
+[  5327][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WiFi in AP mode...
+[  5327][W][STA.cpp:543] disconnect(): STA already disconnected.
+sdio_mempool_create free:31855836 min-free:31853284 lfb-def:30932980 lfb-8bit:30932980
+
+Name: 
+Type: SDIO
+Speed: 40.00 MHz (limit: 40.00 MHz)
+Size: 0MB
+CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
+SCR: sd_spec=0, bus_width=0
+TUPLE: DEVICE, size: 3: D9 01 FF 
+TUPLE: MANFID, size: 4
+  MANF: 0092, CARD: 6666
+TUPLE: FUNCID, size: 2: 0C 00 
+TUPLE: FUNCE, size: 4: 00 00 02 32 
+TUPLE: CONFIG, size: 5: 01 01 00 02 07 
+TUPLE: CFTABLE_ENTRY, size: 8
+  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
+  IF: 41
+  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
+  IR: 30, mask: 1,   IRQ: FF FF
+  LEN: FFFF
+TUPLE: END
+[  8162][W][WiFiGeneric.cpp:739] setTxPower(): Neither AP or STA has been started
+[   0:00:08.225] [INFO ] #000031: WiFi AP Mode active
+[  8225][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WiFi AP Mode active
+[   0:00:08.226] [INFO ] #000032: AP SSID: ESP32P4-ImageViewer
+[  8226][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP SSID: ESP32P4-ImageViewer
+[   0:00:08.227] [INFO ] #000033: AP IP Address: 192.168.4.1
+[  8227][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP IP Address: 192.168.4.1
+[   0:00:08.228] [INFO ] #000034: AP Channel: 6
+[  8228][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP Channel: 6
+[   0:00:08.228] [INFO ] #000035: Setting up LVGL...
+[  8229][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LVGL...
+[   0:00:08.229] [DEBUG] #000036: Allocating LVGL buffers: 2048000 bytes each
+[  8230][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Allocating LVGL buffers: 2048000 bytes each
+[   0:00:08.232] [INFO ] #000037: LVGL initialized successfully
+[  8232][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LVGL initialized successfully
+[   0:00:08.233] [INFO ] #000038: Setting up UI...
+[  8233][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up UI...
+[   0:00:08.239] [INFO ] #000039: UI initialized successfully
+[  8239][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] UI initialized successfully
+[   0:00:08.240] [INFO ] #000040: Setting up WebServer...
+[  8240][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WebServer...
+[   0:00:08.242] [INFO ] #000041: WebServer started on port 80
+[  8242][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WebServer started on port 80
+[   0:00:08.243] [INFO ] #000042: Access URLs:
+[  8243][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Access URLs:
+[   0:00:08.243] [INFO ] #000043:   Main gallery: http://192.168.4.1/
+[  8244][I][debug_logger.cc:243] info(): [ESP32P4_Gallery]   Main gallery: http://192.168.4.1/
+[   0:00:08.244] [INFO ] #000044:   System info:  http://192.168.4.1/system
+[  8245][I][debug_logger.cc:243] info(): [ESP32P4_Gallery]   System info:  http://192.168.4.1/system
+[   0:00:08.245] [INFO ] #000045: Server initialization complete at 2025-06-13 11:09:55 UTC
+[  8246][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Server initialization complete at 2025-06-13 11:09:55 UTC
+[   0:00:08.247] [INFO ] #000046: Current user: Chamil1983
+[  8247][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Current user: Chamil1983
+[   0:00:08.247] [INFO ] #000047: Scanning for images...
+[  8248][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Scanning for images...
+[   0:00:08.252] [DEBUG] #000048: Found image 0: /images/img_39767.jpg
+[  8253][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 0: /images/img_39767.jpg
+[   0:00:08.254] [DEBUG] #000049: Found image 1: /images/img_79907.jpg
+[  8255][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 1: /images/img_79907.jpg
+[   0:00:08.256] [DEBUG] #000050: Found image 2: /images/img_32173_chicago skyline.jpg
+[  8257][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 2: /images/img_32173_chicago skyline.jpg
+[   0:00:08.258] [DEBUG] #000051: Found image 3: /images/img_54221.jpg
+[  8259][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 3: /images/img_54221.jpg
+[   0:00:08.260] [DEBUG] #000052: Found image 4: /images/img_11892.jpg
+[  8261][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 4: /images/img_11892.jpg
+[   0:00:08.263] [DEBUG] #000053: Found image 5: /images/img_11059.jpg
+[  8265][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 5: /images/img_11059.jpg
+[   0:00:08.267] [DEBUG] #000054: Found image 6: /images/img_37892.jpg
+[  8268][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 6: /images/img_37892.jpg
+[   0:00:08.268] [INFO ] #000055: Found 7 images
+[  8303][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Found 7 images
+[   0:00:08.304] [INFO ] #000056: Displaying image 0: /images/img_39767.jpg
+[  8306][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Displaying image 0: /images/img_39767.jpg
+[   0:00:08.384] [DEBUG] #000057: Starting JPEG decoding for image: /images/img_39767.jpg
+[  8385][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Starting JPEG decoding for image: /images/img_39767.jpg
+[  8385][E][vfs_api.cpp:23] open(): File system is not mounted
+[   0:00:08.385] [INFO ] #000058: JPEG decoded successfully: 0x0
+[  8386][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG decoded successfully: 0x0
+[   0:00:08.386] [ERROR] #000059: Invalid JPEG dimensions: 0x0
+[  8387][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] Invalid JPEG dimensions: 0x0
+[   0:00:08.388] [INFO ] #000060: Initialization complete!
+[  8388][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initialization complete!
+[   0:00:08.389] [INFO ] #000061: Status: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
+[  8389][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Status: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
+=========== After Setup Start ============
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   531128 B ( 518.7 KB)
+  Free Bytes        :   422284 B ( 412.4 KB)
+  Allocated Bytes   :    98904 B (  96.6 KB)
+  Minimum Free Bytes:   412600 B ( 402.9 KB)
+  Largest Free Block:   376820 B ( 368.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        : 33554432 B (32768.0 KB)
+  Free Bytes        : 27242484 B (26604.0 KB)
+  Allocated Bytes   :  6308940 B (6161.1 KB)
+  Minimum Free Bytes: 27240556 B (26602.1 KB)
+  Largest Free Block: 26738676 B (26112.0 KB)
+------------------------------------------
+GPIO Info:
+------------------------------------------
+  GPIO : BUS_TYPE[bus/unit][chan]
+  --------------------------------------  
+    23 : GPIO
+    24 : USB_DM
+    25 : USB_DP
+    37 : UART_TX[0]
+    38 : UART_RX[0]
+    39 : SDMMC_D0
+    40 : SDMMC_D1
+    41 : SDMMC_D2
+    42 : SDMMC_D3
+    43 : SDMMC_CLK
+    44 : SDMMC_CMD
+    45 : SDMMC_POWER
+============ After Setup End =============
+E (8413) task_wdt: esp_task_wdt_reset(705): task not found
+E (8424) task_wdt: esp_task_wdt_reset(705): task not found
+E (8435) task_wdt: esp_task_wdt_reset(705): task not found
+E (8446) task_wdt: esp_task_wdt_reset(705): task not found
+E (8457) task_wdt: esp_task_wdt_reset(705): task not found
+E (8468) task_wdt: esp_task_wdt_reset(705): task not found
+E (8479) task_wdt: esp_task_wdt_reset(705): task not found
+E (8490) task_wdt: esp_task_wdt_reset(705): task not found
+E (8501) task_wdt: esp_task_wdt_reset(705): task not found
+E (8512) task_wdt: esp_task_wdt_reset(705): task not found
+E (8523) task_wdt: esp_task_wdt_reset(705): task not found
+E (8534) task_wdt: esp_task_wdt_reset(705): task not found
+E (8545) task_wdt: esp_task_wdt_reset(705): task not found
+E (8556) task_wdt: esp_task_wdt_reset(705): task not found
+E (8567) task_wdt: esp_task_wdt_reset(705): task not found
+E (8578) task_wdt: esp_task_wdt_reset(705): task not found
+E (8589) task_wdt: esp_task_wdt_reset(705): task not found
+E (8600) task_wdt: esp_task_wdt_reset(705): task not found
+E (8611) task_wdt: esp_task_wdt_reset(705): task not found
+E (8622) task_wdt: esp_task_wdt_reset(705): task not found
+E (8633) task_wdt: esp_task_wdt_reset(705): task not found
+E (8644) task_wdt: esp_task_wdt_reset(705): task not found
+E (8655) task_wdt: esp_task_wdt_reset(705): task not found
+E (8666) task_wdt: esp_task_wdt_reset(705): task not found
+E (8677) task_wdt: esp_task_wdt_reset(705): task not found
+E (8688) task_wdt: esp_task_wdt_reset(705): task not found
+E (8699) task_wdt: esp_task_wdt_reset(705): task not found
+E (8710) task_wdt: esp_task_wdt_reset(705): task not found
+E (8721) task_wdt: esp_task_wdt_reset(705): task not found
+E (8732) task_wdt: esp_task_wdt_reset(705): task not found
+E (8743) task_wdt: esp_task_wdt_reset(705): task not found
+E (8754) task_wdt: esp_task_wdt_reset(705): task not found
+E (8765) task_wdt: esp_task_wdt_reset(705): task not found
+E (8776) task_wdt: esp_task_wdt_reset(705): task not found
+E (8787) task_wdt: esp_task_wdt_reset(705): task not found
+E (8798) task_wdt: esp_task_wdt_reset(705): task not found
+E (8809) task_wdt: esp_task_wdt_reset(705): task not found
+E (8820) task_wdt: esp_task_wdt_reset(705): task not found
+E (8831) task_wdt: esp_task_wdt_reset(705): task not found
+E (8842) task_wdt: esp_task_wdt_reset(705): task not found
+E (8853) task_wdt: esp_task_wdt_reset(705): task not found
+E (8864) task_wdt: esp_task_wdt_reset(705): task not found
+E (8875) task_wdt: esp_task_wdt_reset(705): task not found
+E (8886) task_wdt: esp_task_wdt_reset(705): task not found
+E (8897) task_wdt: esp_task_wdt_reset(705): task not found
+E (8908) task_wdt: esp_task_wdt_reset(705): task not found
+E (8919) task_wdt: esp_task_wdt_reset(705): task not found
+E (8930) task_wdt: esp_task_wdt_reset(705): task not found
+E (8941) task_wdt: esp_task_wdt_reset(705): task not found
+E (8952) task_wdt: esp_task_wdt_reset(705): task not found
+E (8963) task_wdt: esp_task_wdt_reset(705): task not found
+E (8974) task_wdt: esp_task_wdt_reset(705): task not found
+E (8985) task_wdt: esp_task_wdt_reset(705): task not found
+E (8996) task_wdt: esp_task_wdt_reset(705): task not found
+E (9007) task_wdt: esp_task_wdt_reset(705): task not found
+E (9018) task_wdt: esp_task_wdt_reset(705): task not found
+E (9029) task_wdt: esp_task_wdt_reset(705): task not found
+E (9040) task_wdt: esp_task_wdt_reset(705): task not found
+E (9051) task_wdt: esp_task_wdt_reset(705): task not found
+E (9062) task_wdt: esp_task_wdt_reset(705): task not found
+E (9073) task_wdt: esp_task_wdt_reset(705): task not found
+E (9084) task_wdt: esp_task_wdt_reset(705): task not found
+E (9095) task_wdt: esp_task_wdt_reset(705): task not found
+E (9106) task_wdt: esp_task_wdt_reset(705): task not found
+E (9117) task_wdt: esp_task_wdt_reset(705): task not found
+E (9128) task_wdt: esp_task_wdt_reset(705): task not found
+E (9139) task_wdt: esp_task_wdt_reset(705): task not found
+E (9150) task_wdt: esp_task_wdt_reset(705): task not found
+E (9161) task_wdt: esp_task_wdt_reset(705): task not found
+E (9172) task_wdt: esp_task_wdt_reset(705): task not found
+E (9183) task_wdt: esp_task_wdt_reset(705): task not found
+E (9194) task_wdt: esp_task_wdt_reset(705): task not found
+E (9205) task_wdt: esp_task_wdt_reset(705): task not found
+E (9216) task_wdt: esp_task_wdt_reset(705): task not found
+E (9227) task_wdt: esp_task_wdt_reset(705): task not found
+E (9238) task_wdt: esp_task_wdt_reset(705): task not found
+E (9249) task_wdt: esp_task_wdt_reset(705): task not found
+E (9260) task_wdt: esp_task_wdt_reset(705): task not found
+E (9271) task_wdt: esp_task_wdt_reset(705): task not found
+E (9282) task_wdt: esp_task_wdt_reset(705): task not found
+E (9293) task_wdt: esp_task_wdt_reset(705): task not found
+E (9304) task_wdt: esp_task_wdt_reset(705): task not found
+E (9315) task_wdt: esp_task_wdt_reset(705): task not found
+E (9326) task_wdt: esp_task_wdt_reset(705): task not found
+E (9337) task_wdt: esp_task_wdt_reset(705): task not found
+E (9348) task_wdt: esp_task_wdt_reset(705): task not found
+E (9359) task_wdt: esp_task_wdt_reset(705): task not found
+E (9370) task_wdt: esp_task_wdt_reset(705): task not found
+E (9381) task_wdt: esp_task_wdt_reset(705): task not found
+E (9392) task_wdt: esp_task_wdt_reset(705): task not found
+E (9403) task_wdt: esp_task_wdt_reset(705): task not found
+E (9414) task_wdt: esp_task_wdt_reset(705): task not found
+E (9425) task_wdt: esp_task_wdt_reset(705): task not found
+E (9436) task_wdt: esp_task_wdt_reset(705): task not found
+E (9447) task_wdt: esp_task_wdt_reset(705): task not found
+E (9458) task_wdt: esp_task_wdt_reset(705): task not found
+E (9469) task_wdt: esp_task_wdt_reset(705): task not found
+E (9480) task_wdt: esp_task_wdt_reset(705): task not found
+E (9491) task_wdt: esp_task_wdt_reset(705): task not found
+E (9502) task_wdt: esp_task_wdt_reset(705): task not found
+E (9513) task_wdt: esp_task_wdt_reset(705): task not found
+E (9524) task_wdt: esp_task_wdt_reset(705): task not found
+E (9535) task_wdt: esp_task_wdt_reset(705): task not found
+E (9546) task_wdt: esp_task_wdt_reset(705): task not found
+E (9557) task_wdt: esp_task_wdt_reset(705): task not found
+E (9568) task_wdt: esp_task_wdt_reset(705): task not found
+E (9579) task_wdt: esp_task_wdt_reset(705): task not found
+E (9590) task_wdt: esp_task_wdt_reset(705): task not found
+E (9601) task_wdt: esp_task_wdt_reset(705): task not found
+E (9612) task_wdt: esp_task_wdt_reset(705): task not found
+E (9623) task_wdt: esp_task_wdt_reset(705): task not found
+E (9634) task_wdt: esp_task_wdt_reset(705): task not found
+E (9645) task_wdt: esp_task_wdt_reset(705): task not found
+E (9656) task_wdt: esp_task_wdt_reset(705): task not found
+E (9667) task_wdt: esp_task_wdt_reset(705): task not found
+E (9678) task_wdt: esp_task_wdt_reset(705): task not found
+E (9689) task_wdt: esp_task_wdt_reset(705): task not found
+E (9700) task_wdt: esp_task_wdt_reset(705): task not found
+E (9711) task_wdt: esp_task_wdt_reset(705): task not found
+E (9722) task_wdt: esp_task_wdt_reset(705): task not found
+E (9733) task_wdt: esp_task_wdt_reset(705): task not found
+E (9744) task_wdt: esp_task_wdt_reset(705): task not found
+E (9755) task_wdt: esp_task_wdt_reset(705): task not found
+E (9766) task_wdt: esp_task_wdt_reset(705): task not found
+E (9777) task_wdt: esp_task_wdt_reset(705): task not found
+E (9788) task_wdt: esp_task_wdt_reset(705): task not found
+E (9799) task_wdt: esp_task_wdt_reset(705): task not found
+E (9810) task_wdt: esp_task_wdt_reset(705): task not found
+E (9821) task_wdt: esp_task_wdt_reset(705): task not found
+E (9832) task_wdt: esp_task_wdt_reset(705): task not found
+E (9843) task_wdt: esp_task_wdt_reset(705): task not found
+E (9854) task_wdt: esp_task_wdt_reset(705): task not found
+E (9865) task_wdt: esp_task_wdt_reset(705): task not found
+E (9876) task_wdt: esp_task_wdt_reset(705): task not found
+E (9887) task_wdt: esp_task_wdt_reset(705): task not found
+E (9898) task_wdt: esp_task_wdt_reset(705): task not found
+E (9909) task_wdt: esp_task_wdt_reset(705): task not found
+E (9920) task_wdt: esp_task_wdt_reset(705): task not found
+E (9931) task_wdt: esp_task_wdt_reset(705): task not found
+E (9942) task_wdt: esp_task_wdt_reset(705): task not found
+E (9953) task_wdt: esp_task_wdt_reset(705): task not found
+E (9964) task_wdt: esp_task_wdt_reset(705): task not found
+E (9975) task_wdt: esp_task_wdt_reset(705): task not found
+E (9986) task_wdt: esp_task_wdt_reset(705): task not found
+E (9997) task_wdt: esp_task_wdt_reset(705): task not found
+E (10008) task_wdt: esp_task_wdt_reset(705): task not found
+E (10019) task_wdt: esp_task_wdt_reset(705): task not found
+E (10030) task_wdt: esp_task_wdt_reset(705): task not found
+E (10041) task_wdt: esp_task_wdt_reset(705): task not found
+E (10052) task_wdt: esp_task_wdt_reset(705): task not found
+E (10063) task_wdt: esp_task_wdt_reset(705): task not found
+E (10074) task_wdt: esp_task_wdt_reset(705): task not found
+E (10085) task_wdt: esp_task_wdt_reset(705): task not found
+E (10096) task_wdt: esp_task_wdt_reset(705): task not found
+E (10107) task_wdt: esp_task_wdt_reset(705): task not found
+E (10118) task_wdt: esp_task_wdt_reset(705): task not found
+E (10129) task_wdt: esp_task_wdt_reset(705): task not found
+E (10140) task_wdt: esp_task_wdt_reset(705): task not found
+E (10151) task_wdt: esp_task_wdt_reset(705): task not found
+E (10162) task_wdt: esp_task_wdt_reset(705): task not found
+E (10173) task_wdt: esp_task_wdt_reset(705): task not found
+E (10184) task_wdt: esp_task_wdt_reset(705): task not found
+E (10195) task_wdt: esp_task_wdt_reset(705): task not found
+E (10206) task_wdt: esp_task_wdt_reset(705): task not found
+E (10217) task_wdt: esp_task_wdt_reset(705): task not found
+E (10228) task_wdt: esp_task_wdt_reset(705): task not found
+E (10239) task_wdt: esp_task_wdt_reset(705): task not found
+E (10250) task_wdt: esp_task_wdt_reset(705): task not found
+E (10261) task_wdt: esp_task_wdt_reset(705): task not found
+E (10272) task_wdt: esp_task_wdt_reset(705): task not found
+E (10283) task_wdt: esp_task_wdt_reset(705): task not found
+E (10294) task_wdt: esp_task_wdt_reset(705): task not found
+E (10305) task_wdt: esp_task_wdt_reset(705): task not found
+E (10316) task_wdt: esp_task_wdt_reset(705): task not found
+E (10327) task_wdt: esp_task_wdt_reset(705): task not found
+E (10338) task_wdt: esp_task_wdt_reset(705): task not found
+E (10349) task_wdt: esp_task_wdt_reset(705): task not found
+E (10360) task_wdt: esp_task_wdt_reset(705): task not found
+E (10371) task_wdt: esp_task_wdt_reset(705): task not found
+E (10382) task_wdt: esp_task_wdt_reset(705): task not found
+E (10393) task_wdt: esp_task_wdt_reset(705): task not found
+E (10404) task_wdt: esp_task_wdt_reset(705): task not found
+E (10415) task_wdt: esp_task_wdt_reset(705): task not found
+E (10426) task_wdt: esp_task_wdt_reset(705): task not found
+E (10437) task_wdt: esp_task_wdt_reset(705): task not found
+E (10448) task_wdt: esp_task_wdt_reset(705): task not found
+E (10459) task_wdt: esp_task_wdt_reset(705): task not found
+E (10470) task_wdt: esp_task_wdt_reset(705): task not found
+E (10481) task_wdt: esp_task_wdt_reset(705): task not found
+E (10492) task_wdt: esp_task_wdt_reset(705): task not found
+E (10503) task_wdt: esp_task_wdt_reset(705): task not found
+E (10514) task_wdt: esp_task_wdt_reset(705): task not found
+E (10525) task_wdt: esp_task_wdt_reset(705): task not found
+E (10536) task_wdt: esp_task_wdt_reset(705): task not found
+E (10547) task_wdt: esp_task_wdt_reset(705): task not found
+E (10558) task_wdt: esp_task_wdt_reset(705): task not found
+E (10569) task_wdt: esp_task_wdt_reset(705): task not found
+E (10580) task_wdt: esp_task_wdt_reset(705): task not found
+E (10591) task_wdt: esp_task_wdt_reset(705): task not found
+E (10602) task_wdt: esp_task_wdt_reset(705): task not found
+E (10613) task_wdt: esp_task_wdt_reset(705): task not found
+E (10624) task_wdt: esp_task_wdt_reset(705): task not found
+E (10635) task_wdt: esp_task_wdt_reset(705): task not found
+E (10646) task_wdt: esp_task_wdt_reset(705): task not found
+E (10657) task_wdt: esp_task_wdt_reset(705): task not found
+E (10668) task_wdt: esp_task_wdt_reset(705): task not found
+E (10679) task_wdt: esp_task_wdt_reset(705): task not found
+E (10690) task_wdt: esp_task_wdt_reset(705): task not found
+E (10701) task_wdt: esp_task_wdt_reset(705): task not found
+E (10712) task_wdt: esp_task_wdt_reset(705): task not found
+E (10723) task_wdt: esp_task_wdt_reset(705): task not found
+E (10734) task_wdt: esp_task_wdt_reset(705): task not found
+E (10745) task_wdt: esp_task_wdt_reset(705): task not found
+E (10756) task_wdt: esp_task_wdt_reset(705): task not found
+E (10767) task_wdt: esp_task_wdt_reset(705): task not found
+E (10778) task_wdt: esp_task_wdt_reset(705): task not found
+E (10789) task_wdt: esp_task_wdt_reset(705): task not found
+E (10800) task_wdt: esp_task_wdt_reset(705): task not found
+E (10811) task_wdt: esp_task_wdt_reset(705): task not found
+E (10822) task_wdt: esp_task_wdt_reset(705): task not found
+E (10833) task_wdt: esp_task_wdt_reset(705): task not found
+E (10844) task_wdt: esp_task_wdt_reset(705): task not found
+E (10855) task_wdt: esp_task_wdt_reset(705): task not found
+E (10866) task_wdt: esp_task_wdt_reset(705): task not found
+E (10877) task_wdt: esp_task_wdt_reset(705): task not found
+E (10888) task_wdt: esp_task_wdt_reset(705): task not found
+E (10899) task_wdt: esp_task_wdt_reset(705): task not found
+E (10910) task_wdt: esp_task_wdt_reset(705): task not found
+E (10921) task_wdt: esp_task_wdt_reset(705): task not found
+E (10932) task_wdt: esp_task_wdt_reset(705): task not found
+E (10943) task_wdt: esp_task_wdt_reset(705): task not found
+E (10954) task_wdt: esp_task_wdt_reset(705): task not found
+E (10965) task_wdt: esp_task_wdt_reset(705): task not found
+E (10976) task_wdt: esp_task_wdt_reset(705): task not found
+E (10987) task_wdt: esp_task_wdt_reset(705): task not found
+E (10998) task_wdt: esp_task_wdt_reset(705): task not found
+E (11009) task_wdt: esp_task_wdt_reset(705): task not found
+E (11020) task_wdt: esp_task_wdt_reset(705): task not found
+E (11031) task_wdt: esp_task_wdt_reset(705): task not found
+E (11042) task_wdt: esp_task_wdt_reset(705): task not found
+E (11053) task_wdt: esp_task_wdt_reset(705): task not found
+E (11064) task_wdt: esp_task_wdt_reset(705): task not found
+E (11075) task_wdt: esp_task_wdt_reset(705): task not found
+E (11086) task_wdt: esp_task_wdt_reset(705): task not found
+E (11097) task_wdt: esp_task_wdt_reset(705): task not found
+E (11108) task_wdt: esp_task_wdt_reset(705): task not found
+E (11119) task_wdt: esp_task_wdt_reset(705): task not found
+E (11130) task_wdt: esp_task_wdt_reset(705): task not found
+E (11141) task_wdt: esp_task_wdt_reset(705): task not found
+E (11152) task_wdt: esp_task_wdt_reset(705): task not found
+E (11163) task_wdt: esp_task_wdt_reset(705): task not found
+E (11174) task_wdt: esp_task_wdt_reset(705): task not found
+E (11185) task_wdt: esp_task_wdt_reset(705): task not found
+E (11196) task_wdt: esp_task_wdt_reset(705): task not found
+E (11207) task_wdt: esp_task_wdt_reset(705): task not found
+E (11218) task_wdt: esp_task_wdt_reset(705): task not found
+E (11229) task_wdt: esp_task_wdt_reset(705): task not found
+E (11240) task_wdt: esp_task_wdt_reset(705): task not found
+E (11251) task_wdt: esp_task_wdt_reset(705): task not found
+E (11262) task_wdt: esp_task_wdt_reset(705): task not found
+E (11273) task_wdt: esp_task_wdt_reset(705): task not found
+E (11284) task_wdt: esp_task_wdt_reset(705): task not found
+E (11295) task_wdt: esp_task_wdt_reset(705): task not found
+E (11306) task_wdt: esp_task_wdt_reset(705): task not found
+E (11317) task_wdt: esp_task_wdt_reset(705): task not found
+E (11328) task_wdt: esp_task_wdt_reset(705): task not found
+E (11339) task_wdt: esp_task_wdt_reset(705): task not found
+E (11350) task_wdt: esp_task_wdt_reset(705): task not found
+E (11361) task_wdt: esp_task_wdt_reset(705): task not found
+E (11372) task_wdt: esp_task_wdt_reset(705): task not found
+E (11383) task_wdt: esp_task_wdt_reset(705): task not found
+E (11394) task_wdt: esp_task_wdt_reset(705): task not found
+E (11405) task_wdt: esp_task_wdt_reset(705): task not found
+E (11416) task_wdt: esp_task_wdt_reset(705): task not found
+E (11427) task_wdt: esp_task_wdt_reset(705): task not found
+E (11438) task_wdt: esp_task_wdt_reset(705): task not found
+E (11449) task_wdt: esp_task_wdt_reset(705): task not found
+E (11460) task_wdt: esp_task_wdt_reset(705): task not found
+E (11471) task_wdt: esp_task_wdt_reset(705): task not found
+E (11482) task_wdt: esp_task_wdt_reset(705): task not found
+E (11493) task_wdt: esp_task_wdt_reset(705): task not found
+E (11504) task_wdt: esp_task_wdt_reset(705): task not found
+E (11515) task_wdt: esp_task_wdt_reset(705): task not found
+E (11526) task_wdt: esp_task_wdt_reset(705): task not found
+E (11537) task_wdt: esp_task_wdt_reset(705): task not found
+E (11548) task_wdt: esp_task_wdt_reset(705): task not found
+E (11559) task_wdt: esp_task_wdt_reset(705): task not found
+E (11570) task_wdt: esp_task_wdt_reset(705): task not found
+E (11581) task_wdt: esp_task_wdt_reset(705): task not found
+E (11592) task_wdt: esp_task_wdt_reset(705): task not found
+E (11603) task_wdt: esp_task_wdt_reset(705): task not found
+E (11614) task_wdt: esp_task_wdt_reset(705): task not found
+E (11625) task_wdt: esp_task_wdt_reset(705): task not found
+E (11636) task_wdt: esp_task_wdt_reset(705): task not found
+E (11647) task_wdt: esp_task_wdt_reset(705): task not found
+E (11658) task_wdt: esp_task_wdt_reset(705): task not found
+E (11669) task_wdt: esp_task_wdt_reset(705): task not found
+E (11680) task_wdt: esp_task_wdt_reset(705): task not found
+E (11691) task_wdt: esp_task_wdt_reset(705): task not found
+E (11702) task_wdt: esp_task_wdt_reset(705): task not found
+E (11713) task_wdt: esp_task_wdt_reset(705): task not found
+E (11724) task_wdt: esp_task_wdt_reset(705): task not found
+E (11735) task_wdt: esp_task_wdt_reset(705): task not found
+E (11746) task_wdt: esp_task_wdt_reset(705): task not found
+E (11757) task_wdt: esp_task_wdt_reset(705): task not found
+E (11768) task_wdt: esp_task_wdt_reset(705): task not found
+E (11779) task_wdt: esp_task_wdt_reset(705): task not found
+E (11790) task_wdt: esp_task_wdt_reset(705): task not found
+E (11801) task_wdt: esp_task_wdt_reset(705): task not found
+E (11812) task_wdt: esp_task_wdt_reset(705): task not found
+E (11823) task_wdt: esp_task_wdt_reset(705): task not found
+E (11834) task_wdt: esp_task_wdt_reset(705): task not found
+E (11845) task_wdt: esp_task_wdt_reset(705): task not found
+E (11856) task_wdt: esp_task_wdt_reset(705): task not found
+E (11867) task_wdt: esp_task_wdt_reset(705): task not found
+E (11878) task_wdt: esp_task_wdt_reset(705): task not found
+E (11889) task_wdt: esp_task_wdt_reset(705): task not found
+E (11900) task_wdt: esp_task_wdt_reset(705): task not found
+E (11911) task_wdt: esp_task_wdt_reset(705): task not found
+E (11922) task_wdt: esp_task_wdt_reset(705): task not found
+E (11933) task_wdt: esp_task_wdt_reset(705): task not found
+E (11944) task_wdt: esp_task_wdt_reset(705): task not found
+E (11955) task_wdt: esp_task_wdt_reset(705): task not found
+E (11966) task_wdt: esp_task_wdt_reset(705): task not found
+E (11977) task_wdt: esp_task_wdt_reset(705): task not found
+E (11988) task_wdt: esp_task_wdt_reset(705): task not found
+E (11999) task_wdt: esp_task_wdt_reset(705): task not found
+E (12010) task_wdt: esp_task_wdt_reset(705): task not found
+E (12021) task_wdt: esp_task_wdt_reset(705): task not found
+E (12032) task_wdt: esp_task_wdt_reset(705): task not found
+E (12043) task_wdt: esp_task_wdt_reset(705): task not found
+E (12054) task_wdt: esp_task_wdt_reset(705): task not found
+E (12065) task_wdt: esp_task_wdt_reset(705): task not found
+E (12076) task_wdt: esp_task_wdt_reset(705): task not found
+E (12087) task_wdt: esp_task_wdt_reset(705): task not found
+E (12098) task_wdt: esp_task_wdt_reset(705): task not found
+E (12109) task_wdt: esp_task_wdt_reset(705): task not found
+E (12120) task_wdt: esp_task_wdt_reset(705): task not found
+E (12131) task_wdt: esp_task_wdt_reset(705): task not found
+E (12142) task_wdt: esp_task_wdt_reset(705): task not found
+E (12153) task_wdt: esp_task_wdt_reset(705): task not found
+E (12164) task_wdt: esp_task_wdt_reset(705): task not found
+E (12175) task_wdt: esp_task_wdt_reset(705): task not found
+E (12186) task_wdt: esp_task_wdt_reset(705): task not found
+E (12197) task_wdt: esp_task_wdt_reset(705): task not found
+E (12208) task_wdt: esp_task_wdt_reset(705): task not found
+E (12219) task_wdt: esp_task_wdt_reset(705): task not found
+E (12230) task_wdt: esp_task_wdt_reset(705): task not found
+E (12241) task_wdt: esp_task_wdt_reset(705): task not found
+E (12252) task_wdt: esp_task_wdt_reset(705): task not found
+E (12263) task_wdt: esp_task_wdt_reset(705): task not found
+E (12274) task_wdt: esp_task_wdt_reset(705): task not found
+E (12285) task_wdt: esp_task_wdt_reset(705): task not found
+E (12296) task_wdt: esp_task_wdt_reset(705): task not found
+E (12307) task_wdt: esp_task_wdt_reset(705): task not found
+E (12318) task_wdt: esp_task_wdt_reset(705): task not found
+E (12329) task_wdt: esp_task_wdt_reset(705): task not found
+E (12340) task_wdt: esp_task_wdt_reset(705): task not found
+E (12351) task_wdt: esp_task_wdt_reset(705): task not found
+E (12362) task_wdt: esp_task_wdt_reset(705): task not found
+E (12373) task_wdt: esp_task_wdt_reset(705): task not found
+E (12384) task_wdt: esp_task_wdt_reset(705): task not found
+E (12395) task_wdt: esp_task_wdt_reset(705): task not found
+E (12406) task_wdt: esp_task_wdt_reset(705): task not found
+E (12417) task_wdt: esp_task_wdt_reset(705): task not found
+E (12428) task_wdt: esp_task_wdt_reset(705): task not found
+E (12439) task_wdt: esp_task_wdt_reset(705): task not found
+E (12450) task_wdt: esp_task_wdt_reset(705): task not found
+E (12461) task_wdt: esp_task_wdt_reset(705): task not found
+E (12472) task_wdt: esp_task_wdt_reset(705): task not found
+E (12483) task_wdt: esp_task_wdt_reset(705): task not found
+E (12494) task_wdt: esp_task_wdt_reset(705): task not found
+E (12505) task_wdt: esp_task_wdt_reset(705): task not found
+E (12516) task_wdt: esp_task_wdt_reset(705): task not found
+E (12527) task_wdt: esp_task_wdt_reset(705): task not found
+E (12538) task_wdt: esp_task_wdt_reset(705): task not found
+E (12549) task_wdt: esp_task_wdt_reset(705): task not found
+E (12560) task_wdt: esp_task_wdt_reset(705): task not found
+E (12571) task_wdt: esp_task_wdt_reset(705): task not found
+E (12582) task_wdt: esp_task_wdt_reset(705): task not found
+E (12593) task_wdt: esp_task_wdt_reset(705): task not found
+E (12604) task_wdt: esp_task_wdt_reset(705): task not found
+E (12615) task_wdt: esp_task_wdt_reset(705): task not found
+E (12626) task_wdt: esp_task_wdt_reset(705): task not found
+E (12637) task_wdt: esp_task_wdt_reset(705): task not found
+E (12648) task_wdt: esp_task_wdt_reset(705): task not found
+E (12659) task_wdt: esp_task_wdt_reset(705): task not found
+E (12670) task_wdt: esp_task_wdt_reset(705): task not found
+E (12681) task_wdt: esp_task_wdt_reset(705): task not found
+E (12692) task_wdt: esp_task_wdt_reset(705): task not found
+E (12703) task_wdt: esp_task_wdt_reset(705): task not found
+E (12714) task_wdt: esp_task_wdt_reset(705): task not found
+E (12725) task_wdt: esp_task_wdt_reset(705): task not found
+E (12736) task_wdt: esp_task_wdt_reset(705): task not found
+E (12747) task_wdt: esp_task_wdt_reset(705): task not found
+E (12758) task_wdt: esp_task_wdt_reset(705): task not found
+E (12769) task_wdt: esp_task_wdt_reset(705): task not found
+E (12780) task_wdt: esp_task_wdt_reset(705): task not found
+E (12791) task_wdt: esp_task_wdt_reset(705): task not found
+E (12802) task_wdt: esp_task_wdt_reset(705): task not found
+E (12813) task_wdt: esp_task_wdt_reset(705): task not found
+E (12824) task_wdt: esp_task_wdt_reset(705): task not found
+E (12835) task_wdt: esp_task_wdt_reset(705): task not found
+E (12846) task_wdt: esp_task_wdt_reset(705): task not found
+E (12857) task_wdt: esp_task_wdt_reset(705): task not found
+E (12868) task_wdt: esp_task_wdt_reset(705): task not found
+E (12879) task_wdt: esp_task_wdt_reset(705): task not found
+E (12890) task_wdt: esp_task_wdt_reset(705): task not found
+E (12901) task_wdt: esp_task_wdt_reset(705): task not found
+E (12912) task_wdt: esp_task_wdt_reset(705): task not found
+E (12923) task_wdt: esp_task_wdt_reset(705): task not found
+E (12934) task_wdt: esp_task_wdt_reset(705): task not found
+E (12945) task_wdt: esp_task_wdt_reset(705): task not found
+E (12956) task_wdt: esp_task_wdt_reset(705): task not found
+E (12967) task_wdt: esp_task_wdt_reset(705): task not found
+E (12978) task_wdt: esp_task_wdt_reset(705): task not found
+E (12989) task_wdt: esp_task_wdt_reset(705): task not found
+E (13000) task_wdt: esp_task_wdt_reset(705): task not found
+E (13011) task_wdt: esp_task_wdt_reset(705): task not found
+E (13022) task_wdt: esp_task_wdt_reset(705): task not found
+E (13033) task_wdt: esp_task_wdt_reset(705): task not found
+E (13044) task_wdt: esp_task_wdt_reset(705): task not found
+E (13055) task_wdt: esp_task_wdt_reset(705): task not found
+E (13066) task_wdt: esp_task_wdt_reset(705): task not found
+E (13077) task_wdt: esp_task_wdt_reset(705): task not found
+E (13088) task_wdt: esp_task_wdt_reset(705): task not found
+E (13099) task_wdt: esp_task_wdt_reset(705): task not found
+E (13110) task_wdt: esp_task_wdt_reset(705): task not found
+E (13121) task_wdt: esp_task_wdt_reset(705): task not found
+E (13132) task_wdt: esp_task_wdt_reset(705): task not found
+E (13143) task_wdt: esp_task_wdt_reset(705): task not found
+E (13154) task_wdt: esp_task_wdt_reset(705): task not found
+E (13165) task_wdt: esp_task_wdt_reset(705): task not found
+E (13176) task_wdt: esp_task_wdt_reset(705): task not found
+E (13187) task_wdt: esp_task_wdt_reset(705): task not found
+E (13198) task_wdt: esp_task_wdt_reset(705): task not found
+E (13209) task_wdt: esp_task_wdt_reset(705): task not found
+E (13220) task_wdt: esp_task_wdt_reset(705): task not found
+E (13231) task_wdt: esp_task_wdt_reset(705): task not found
+E (13242) task_wdt: esp_task_wdt_reset(705): task not found
+E (13253) task_wdt: esp_task_wdt_reset(705): task not found
+E (13264) task_wdt: esp_task_wdt_reset(705): task not found
+E (13275) task_wdt: esp_task_wdt_reset(705): task not found
+E (13286) task_wdt: esp_task_wdt_reset(705): task not found
+E (13297) task_wdt: esp_task_wdt_reset(705): task not found
+E (13308) task_wdt: esp_task_wdt_reset(705): task not found
+E (13319) task_wdt: esp_task_wdt_reset(705): task not found
+E (13330) task_wdt: esp_task_wdt_reset(705): task not found
+E (13341) task_wdt: esp_task_wdt_reset(705): task not found
+E (13352) task_wdt: esp_task_wdt_reset(705): task not found
+E (13363) task_wdt: esp_task_wdt_reset(705): task not found
+E (13374) task_wdt: esp_task_wdt_reset(705): task not found
+E (13385) task_wdt: esp_task_wdt_reset(705): task not found
+E (13396) task_wdt: esp_task_wdt_reset(705): task not found
+E (13407) task_wdt: esp_task_wdt_reset(705): task not found
+E (13418) task_wdt: esp_task_wdt_reset(705): task not found
+E (13429) task_wdt: esp_task_wdt_reset(705): task not found
+E (13440) task_wdt: esp_task_wdt_reset(705): task not found
+E (13451) task_wdt: esp_task_wdt_reset(705): task not found
+E (13462) task_wdt: esp_task_wdt_reset(705): task not found
+E (13473) task_wdt: esp_task_wdt_reset(705): task not found
+E (13484) task_wdt: esp_task_wdt_reset(705): task not found
+E (13495) task_wdt: esp_task_wdt_reset(705): task not found
+E (13506) task_wdt: esp_task_wdt_reset(705): task not found
+E (13517) task_wdt: esp_task_wdt_reset(705): task not found
+E (13528) task_wdt: esp_task_wdt_reset(705): task not found
+E (13539) task_wdt: esp_task_wdt_reset(705): task not found
+E (13550) task_wdt: esp_task_wdt_reset(705): task not found
+E (13561) task_wdt: esp_task_wdt_reset(705): task not found
+E (13572) task_wdt: esp_task_wdt_reset(705): task not found
+E (13583) task_wdt: esp_task_wdt_reset(705): task not found
+E (13594) task_wdt: esp_task_wdt_reset(705): task not found
+E (13605) task_wdt: esp_task_wdt_reset(705): task not found
+E (13616) task_wdt: esp_task_wdt_reset(705): task not found
+E (13627) task_wdt: esp_task_wdt_reset(705): task not found
+E (13638) task_wdt: esp_task_wdt_reset(705): task not found
+E (13649) task_wdt: esp_task_wdt_reset(705): task not found
+E (13660) task_wdt: esp_task_wdt_reset(705): task not found
+E (13671) task_wdt: esp_task_wdt_reset(705): task not found
+E (13682) task_wdt: esp_task_wdt_reset(705): task not found
+E (13693) task_wdt: esp_task_wdt_reset(705): task not found
+E (13704) task_wdt: esp_task_wdt_reset(705): task not found
+E (13715) task_wdt: esp_task_wdt_reset(705): task not found
+E (13726) task_wdt: esp_task_wdt_reset(705): task not found
+E (13737) task_wdt: esp_task_wdt_reset(705): task not found
+E (13748) task_wdt: esp_task_wdt_reset(705): task not found
+E (13759) task_wdt: esp_task_wdt_reset(705): task not found
+E (13770) task_wdt: esp_task_wdt_reset(705): task not found
+E (13781) task_wdt: esp_task_wdt_reset(705): task not found
+E (13792) task_wdt: esp_task_wdt_reset(705): task not found
+E (13803) task_wdt: esp_task_wdt_reset(705): task not found
+E (13814) task_wdt: esp_task_wdt_reset(705): task not found
+E (13825) task_wdt: esp_task_wdt_reset(705): task not found
+E (13836) task_wdt: esp_task_wdt_reset(705): task not found
+E (13847) task_wdt: esp_task_wdt_reset(705): task not found
+E (13858) task_wdt: esp_task_wdt_reset(705): task not found
+E (13869) task_wdt: esp_task_wdt_reset(705): task not found
+E (13880) task_wdt: esp_task_wdt_reset(705): task not found
+E (13891) task_wdt: esp_task_wdt_reset(705): task not found
+E (13902) task_wdt: esp_task_wdt_reset(705): task not found
+E (13913) task_wdt: esp_task_wdt_reset(705): task not found
+E (13924) task_wdt: esp_task_wdt_reset(705): task not found
+E (13935) task_wdt: esp_task_wdt_reset(705): task not found
+E (13946) task_wdt: esp_task_wdt_reset(705): task not found
+E (13957) task_wdt: esp_task_wdt_reset(705): task not found
+E (13968) task_wdt: esp_task_wdt_reset(705): task not found
+E (13979) task_wdt: esp_task_wdt_reset(705): task not found
+E (13990) task_wdt: esp_task_wdt_reset(705): task not found
+E (14001) task_wdt: esp_task_wdt_reset(705): task not found
+E (14012) task_wdt: esp_task_wdt_reset(705): task not found
+E (14023) task_wdt: esp_task_wdt_reset(705): task not found
+E (14034) task_wdt: esp_task_wdt_reset(705): task not found
+E (14045) task_wdt: esp_task_wdt_reset(705): task not found
+E (14056) task_wdt: esp_task_wdt_reset(705): task not found
+E (14067) task_wdt: esp_task_wdt_reset(705): task not found
+E (14078) task_wdt: esp_task_wdt_reset(705): task not found
+E (14089) task_wdt: esp_task_wdt_reset(705): task not found
+E (14100) task_wdt: esp_task_wdt_reset(705): task not found
+E (14111) task_wdt: esp_task_wdt_reset(705): task not found
+E (14122) task_wdt: esp_task_wdt_reset(705): task not found
+E (14133) task_wdt: esp_task_wdt_reset(705): task not found
+E (14144) task_wdt: esp_task_wdt_reset(705): task not found
+E (14155) task_wdt: esp_task_wdt_reset(705): task not found
+E (14166) task_wdt: esp_task_wdt_reset(705): task not found
+E (14177) task_wdt: esp_task_wdt_reset(705): task not found
+E (14188) task_wdt: esp_task_wdt_reset(705): task not found
+E (14199) task_wdt: esp_task_wdt_reset(705): task not found
+E (14210) task_wdt: esp_task_wdt_reset(705): task not found
+E (14221) task_wdt: esp_task_wdt_reset(705): task not found
+E (14232) task_wdt: esp_task_wdt_reset(705): task not found
+E (14243) task_wdt: esp_task_wdt_reset(705): task not found
+E (14254) task_wdt: esp_task_wdt_reset(705): task not found
+E (14265) task_wdt: esp_task_wdt_reset(705): task not found
+E (14276) task_wdt: esp_task_wdt_reset(705): task not found
+E (14287) task_wdt: esp_task_wdt_reset(705): task not found
+E (14298) task_wdt: esp_task_wdt_reset(705): task not found
+E (14309) task_wdt: esp_task_wdt_reset(705): task not found
+E (14320) task_wdt: esp_task_wdt_reset(705): task not found
+E (14331) task_wdt: esp_task_wdt_reset(705): task not found
+E (14342) task_wdt: esp_task_wdt_reset(705): task not found
+E (14353) task_wdt: esp_task_wdt_reset(705): task not found
+E (14364) task_wdt: esp_task_wdt_reset(705): task not found
+E (14375) task_wdt: esp_task_wdt_reset(705): task not found
+E (14386) task_wdt: esp_task_wdt_reset(705): task not found
+E (14397) task_wdt: esp_task_wdt_reset(705): task not found
+E (14408) task_wdt: esp_task_wdt_reset(705): task not found
+E (14419) task_wdt: esp_task_wdt_reset(705): task not found
+E (14430) task_wdt: esp_task_wdt_reset(705): task not found
+E (14441) task_wdt: esp_task_wdt_reset(705): task not found
+E (14452) task_wdt: esp_task_wdt_reset(705): task not found
+E (14463) task_wdt: esp_task_wdt_reset(705): task not found
+E (14474) task_wdt: esp_task_wdt_reset(705): task not found
+E (14485) task_wdt: esp_task_wdt_reset(705): task not found
+E (14496) task_wdt: esp_task_wdt_reset(705): task not found
+E (14507) task_wdt: esp_task_wdt_reset(705): task not found
+E (14518) task_wdt: esp_task_wdt_reset(705): task not found
+E (14529) task_wdt: esp_task_wdt_reset(705): task not found
+E (14540) task_wdt: esp_task_wdt_reset(705): task not found
+E (14551) task_wdt: esp_task_wdt_reset(705): task not found
+E (14562) task_wdt: esp_task_wdt_reset(705): task not found
+E (14573) task_wdt: esp_task_wdt_reset(705): task not found
+E (14584) task_wdt: esp_task_wdt_reset(705): task not found
+E (14595) task_wdt: esp_task_wdt_reset(705): task not found
+E (14606) task_wdt: esp_task_wdt_reset(705): task not found
+E (14617) task_wdt: esp_task_wdt_reset(705): task not found
+E (14628) task_wdt: esp_task_wdt_reset(705): task not found
+E (14639) task_wdt: esp_task_wdt_reset(705): task not found
+E (14650) task_wdt: esp_task_wdt_reset(705): task not found
+E (14661) task_wdt: esp_task_wdt_reset(705): task not found
+E (14672) task_wdt: esp_task_wdt_reset(705): task not found
+E (14683) task_wdt: esp_task_wdt_reset(705): task not found
+E (14694) task_wdt: esp_task_wdt_reset(705): task not found
+E (14705) task_wdt: esp_task_wdt_reset(705): task not found
+E (14716) task_wdt: esp_task_wdt_reset(705): task not found
+E (14727) task_wdt: esp_task_wdt_reset(705): task not found
+E (14738) task_wdt: esp_task_wdt_reset(705): task not found
+E (14749) task_wdt: esp_task_wdt_reset(705): task not found
+E (14760) task_wdt: esp_task_wdt_reset(705): task not found
+E (14771) task_wdt: esp_task_wdt_reset(705): task not found
+E (14782) task_wdt: esp_task_wdt_reset(705): task not found
+E (14793) task_wdt: esp_task_wdt_reset(705): task not found
+E (14804) task_wdt: esp_task_wdt_reset(705): task not found
+E (14815) task_wdt: esp_task_wdt_reset(705): task not found
+E (14826) task_wdt: esp_task_wdt_reset(705): task not found
+E (14837) task_wdt: esp_task_wdt_reset(705): task not found
+E (14848) task_wdt: esp_task_wdt_reset(705): task not found
+E (14859) task_wdt: esp_task_wdt_reset(705): task not found
+E (14870) task_wdt: esp_task_wdt_reset(705): task not found
+E (14881) task_wdt: esp_task_wdt_reset(705): task not found
+E (14892) task_wdt: esp_task_wdt_reset(705): task not found
+E (14903) task_wdt: esp_task_wdt_reset(705): task not found
+E (14914) task_wdt: esp_task_wdt_reset(705): task not found
+E (14925) task_wdt: esp_task_wdt_reset(705): task not found
+E (14936) task_wdt: esp_task_wdt_reset(705): task not found
+E (14947) task_wdt: esp_task_wdt_reset(705): task not found
+E (14958) task_wdt: esp_task_wdt_reset(705): task not found
+E (14969) task_wdt: esp_task_wdt_reset(705): task not found
+E (14980) task_wdt: esp_task_wdt_reset(705): task not found
+E (14991) task_wdt: esp_task_wdt_reset(705): task not found
+E (15002) task_wdt: esp_task_wdt_reset(705): task not found
+E (15013) task_wdt: esp_task_wdt_reset(705): task not found
+E (15024) task_wdt: esp_task_wdt_reset(705): task not found
+E (15035) task_wdt: esp_task_wdt_reset(705): task not found
+E (15046) task_wdt: esp_task_wdt_reset(705): task not found
+E (15057) task_wdt: esp_task_wdt_reset(705): task not found
+E (15068) task_wdt: esp_task_wdt_reset(705): task not found
+E (15079) task_wdt: esp_task_wdt_reset(705): task not found
+E (15090) task_wdt: esp_task_wdt_reset(705): task not found
+E (15101) task_wdt: esp_task_wdt_reset(705): task not found
+E (15112) task_wdt: esp_task_wdt_reset(705): task not found
+E (15123) task_wdt: esp_task_wdt_reset(705): task not found
+E (15134) task_wdt: esp_task_wdt_reset(705): task not found
+E (15145) task_wdt: esp_task_wdt_reset(705): task not found
+E (15156) task_wdt: esp_task_wdt_reset(705): task not found
+E (15167) task_wdt: esp_task_wdt_reset(705): task not found
+E (15178) task_wdt: esp_task_wdt_reset(705): task not found
+E (15189) task_wdt: esp_task_wdt_reset(705): task not found
+E (15200) task_wdt: esp_task_wdt_reset(705): task not found
+E (15211) task_wdt: esp_task_wdt_reset(705): task not found
+E (15222) task_wdt: esp_task_wdt_reset(705): task not found
+E (15233) task_wdt: esp_task_wdt_reset(705): task not found
+E (15244) task_wdt: esp_task_wdt_reset(705): task not found
+E (15255) task_wdt: esp_task_wdt_reset(705): task not found
+E (15266) task_wdt: esp_task_wdt_reset(705): task not found
+E (15277) task_wdt: esp_task_wdt_reset(705): task not found
+E (15288) task_wdt: esp_task_wdt_reset(705): task not found
+E (15299) task_wdt: esp_task_wdt_reset(705): task not found
+E (15310) task_wdt: esp_task_wdt_reset(705): task not found
+E (15321) task_wdt: esp_task_wdt_reset(705): task not found
+E (15332) task_wdt: esp_task_wdt_reset(705): task not found
+E (15343) task_wdt: esp_task_wdt_reset(705): task not found
+E (15354) task_wdt: esp_task_wdt_reset(705): task not found
+E (15365) task_wdt: esp_task_wdt_reset(705): task not found
+E (15376) task_wdt: esp_task_wdt_reset(705): task not found
+E (15387) task_wdt: esp_task_wdt_reset(705): task not found
+E (15398) task_wdt: esp_task_wdt_reset(705): task not found
+E (15409) task_wdt: esp_task_wdt_reset(705): task not found
+E (15420) task_wdt: esp_task_wdt_reset(705): task not found
+E (15431) task_wdt: esp_task_wdt_reset(705): task not found
+E (15442) task_wdt: esp_task_wdt_reset(705): task not found
+E (15453) task_wdt: esp_task_wdt_reset(705): task not found
+E (15464) task_wdt: esp_task_wdt_reset(705): task not found
+E (15475) task_wdt: esp_task_wdt_reset(705): task not found
+E (15486) task_wdt: esp_task_wdt_reset(705): task not found
+E (15497) task_wdt: esp_task_wdt_reset(705): task not found
+E (15508) task_wdt: esp_task_wdt_reset(705): task not found
+E (15519) task_wdt: esp_task_wdt_reset(705): task not found
+E (15530) task_wdt: esp_task_wdt_reset(705): task not found
+E (15541) task_wdt: esp_task_wdt_reset(705): task not found
+E (15552) task_wdt: esp_task_wdt_reset(705): task not found
+E (15563) task_wdt: esp_task_wdt_reset(705): task not found
+E (15574) task_wdt: esp_task_wdt_reset(705): task not found
+E (15585) task_wdt: esp_task_wdt_reset(705): task not found
+E (15596) task_wdt: esp_task_wdt_reset(705): task not found
+E (15607) task_wdt: esp_task_wdt_reset(705): task not found
+E (15618) task_wdt: esp_task_wdt_reset(705): task not found
+E (15629) task_wdt: esp_task_wdt_reset(705): task not found
+E (15640) task_wdt: esp_task_wdt_reset(705): task not found
+E (15651) task_wdt: esp_task_wdt_reset(705): task not found
+E (15662) task_wdt: esp_task_wdt_reset(705): task not found
+E (15673) task_wdt: esp_task_wdt_reset(705): task not found
+E (15684) task_wdt: esp_task_wdt_reset(705): task not found
+E (15695) task_wdt: esp_task_wdt_reset(705): task not found
+E (15706) task_wdt: esp_task_wdt_reset(705): task not found
+E (15717) task_wdt: esp_task_wdt_reset(705): task not found
+E (15728) task_wdt: esp_task_wdt_reset(705): task not found
+E (15739) task_wdt: esp_task_wdt_reset(705): task not found
+E (15750) task_wdt: esp_task_wdt_reset(705): task not found
+E (15761) task_wdt: esp_task_wdt_reset(705): task not found
+E (15772) task_wdt: esp_task_wdt_reset(705): task not found
+E (15783) task_wdt: esp_task_wdt_reset(705): task not found
+E (15794) task_wdt: esp_task_wdt_reset(705): task not found
+E (15805) task_wdt: esp_task_wdt_reset(705): task not found
+E (15816) task_wdt: esp_task_wdt_reset(705): task not found
+E (15827) task_wdt: esp_task_wdt_reset(705): task not found
+E (15838) task_wdt: esp_task_wdt_reset(705): task not found
+E (15849) task_wdt: esp_task_wdt_reset(705): task not found
+E (15860) task_wdt: esp_task_wdt_reset(705): task not found
+E (15871) task_wdt: esp_task_wdt_reset(705): task not found
+E (15882) task_wdt: esp_task_wdt_reset(705): task not found
+E (15893) task_wdt: esp_task_wdt_reset(705): task not found
+E (15904) task_wdt: esp_task_wdt_reset(705): task not found
+E (15915) task_wdt: esp_task_wdt_reset(705): task not found
+E (15926) task_wdt: esp_task_wdt_reset(705): task not found
+E (15937) task_wdt: esp_task_wdt_reset(705): task not found
+E (15948) task_wdt: esp_task_wdt_reset(705): task not found
+E (15959) task_wdt: esp_task_wdt_reset(705): task not found
+E (15970) task_wdt: esp_task_wdt_reset(705): task not found
+E (15981) task_wdt: esp_task_wdt_reset(705): task not found
+E (15992) task_wdt: esp_task_wdt_reset(705): task not found
+E (16003) task_wdt: esp_task_wdt_reset(705): task not found
+E (16014) task_wdt: esp_task_wdt_reset(705): task not found
+E (16025) task_wdt: esp_task_wdt_reset(705): task not found
+E (16036) task_wdt: esp_task_wdt_reset(705): task not found
+E (16047) task_wdt: esp_task_wdt_reset(705): task not found
+E (16058) task_wdt: esp_task_wdt_reset(705): task not found
+E (16069) task_wdt: esp_task_wdt_reset(705): task not found
+E (16080) task_wdt: esp_task_wdt_reset(705): task not found
+E (16091) task_wdt: esp_task_wdt_reset(705): task not found
+E (16102) task_wdt: esp_task_wdt_reset(705): task not found
+E (16113) task_wdt: esp_task_wdt_reset(705): task not found
+E (16124) task_wdt: esp_task_wdt_reset(705): task not found
+E (16135) task_wdt: esp_task_wdt_reset(705): task not found
+E (16146) task_wdt: esp_task_wdt_reset(705): task not found
+E (16157) task_wdt: esp_task_wdt_reset(705): task not found
+E (16168) task_wdt: esp_task_wdt_reset(705): task not found
+E (16179) task_wdt: esp_task_wdt_reset(705): task not found
+E (16190) task_wdt: esp_task_wdt_reset(705): task not found
+E (16201) task_wdt: esp_task_wdt_reset(705): task not found
+E (16212) task_wdt: esp_task_wdt_reset(705): task not found
+E (16223) task_wdt: esp_task_wdt_reset(705): task not found
+E (16234) task_wdt: esp_task_wdt_reset(705): task not found
+E (16245) task_wdt: esp_task_wdt_reset(705): task not found
+E (16256) task_wdt: esp_task_wdt_reset(705): task not found
+E (16267) task_wdt: esp_task_wdt_reset(705): task not found
+E (16278) task_wdt: esp_task_wdt_reset(705): task not found
+E (16289) task_wdt: esp_task_wdt_reset(705): task not found
+E (16300) task_wdt: esp_task_wdt_reset(705): task not found
+E (16311) task_wdt: esp_task_wdt_reset(705): task not found
+E (16322) task_wdt: esp_task_wdt_reset(705): task not found
+E (16333) task_wdt: esp_task_wdt_reset(705): task not found
+E (16344) task_wdt: esp_task_wdt_reset(705): task not found
+E (16355) task_wdt: esp_task_wdt_reset(705): task not found
+E (16366) task_wdt: esp_task_wdt_reset(705): task not found
+E (16377) task_wdt: esp_task_wdt_reset(705): task not found
+E (16388) task_wdt: esp_task_wdt_reset(705): task not found
+E (16399) task_wdt: esp_task_wdt_reset(705): task not found
+E (16410) task_wdt: esp_task_wdt_reset(705): task not found
+E (16421) task_wdt: esp_task_wdt_reset(705): task not found
+E (16432) task_wdt: esp_task_wdt_reset(705): task not found
+E (16443) task_wdt: esp_task_wdt_reset(705): task not found
+E (16454) task_wdt: esp_task_wdt_reset(705): task not found
+E (16465) task_wdt: esp_task_wdt_reset(705): task not found
+E (16476) task_wdt: esp_task_wdt_reset(705): task not found
+E (16487) task_wdt: esp_task_wdt_reset(705): task not found
+E (16498) task_wdt: esp_task_wdt_reset(705): task not found
+E (16509) task_wdt: esp_task_wdt_reset(705): task not found
+E (16520) task_wdt: esp_task_wdt_reset(705): task not found
+E (16531) task_wdt: esp_task_wdt_reset(705): task not found
+E (16542) task_wdt: esp_task_wdt_reset(705): task not found
+E (16553) task_wdt: esp_task_wdt_reset(705): task not found
+E (16564) task_wdt: esp_task_wdt_reset(705): task not found
+E (16575) task_wdt: esp_task_wdt_reset(705): task not found
+E (16586) task_wdt: esp_task_wdt_reset(705): task not found
+E (16597) task_wdt: esp_task_wdt_reset(705): task not found
+E (16608) task_wdt: esp_task_wdt_reset(705): task not found
+E (16619) task_wdt: esp_task_wdt_reset(705): task not found
+E (16630) task_wdt: esp_task_wdt_reset(705): task not found
+E (16641) task_wdt: esp_task_wdt_reset(705): task not found
+E (16652) task_wdt: esp_task_wdt_reset(705): task not found
+E (16663) task_wdt: esp_task_wdt_reset(705): task not found
+E (16674) task_wdt: esp_task_wdt_reset(705): task not found
+E (16685) task_wdt: esp_task_wdt_reset(705): task not found
+E (16696) task_wdt: esp_task_wdt_reset(705): task not found
+E (16707) task_wdt: esp_task_wdt_reset(705): task not found
+E (16718) task_wdt: esp_task_wdt_reset(705): task not found
+E (16729) task_wdt: esp_task_wdt_reset(705): task not found
+E (16740) task_wdt: esp_task_wdt_reset(705): task not found
+E (16751) task_wdt: esp_task_wdt_reset(705): task not found
+E (16762) task_wdt: esp_task_wdt_reset(705): task not found
+E (16773) task_wdt: esp_task_wdt_reset(705): task not found
+E (16784) task_wdt: esp_task_wdt_reset(705): task not found
+E (16795) task_wdt: esp_task_wdt_reset(705): task not found
+E (16806) task_wdt: esp_task_wdt_reset(705): task not found
+E (16817) task_wdt: esp_task_wdt_reset(705): task not found
+E (16828) task_wdt: esp_task_wdt_reset(705): task not found
+E (16839) task_wdt: esp_task_wdt_reset(705): task not found
+E (16850) task_wdt: esp_task_wdt_reset(705): task not found
+E (16861) task_wdt: esp_task_wdt_reset(705): task not found
+E (16872) task_wdt: esp_task_wdt_reset(705): task not found
+E (16883) task_wdt: esp_task_wdt_reset(705): task not found
+E (16894) task_wdt: esp_task_wdt_reset(705): task not found
+E (16905) task_wdt: esp_task_wdt_reset(705): task not found
+E (16916) task_wdt: esp_task_wdt_reset(705): task not found
+E (16927) task_wdt: esp_task_wdt_reset(705): task not found
+E (16938) task_wdt: esp_task_wdt_reset(705): task not found
+E (16949) task_wdt: esp_task_wdt_reset(705): task not found
+E (16960) task_wdt: esp_task_wdt_reset(705): task not found
+E (16971) task_wdt: esp_task_wdt_reset(705): task not found
+E (16982) task_wdt: esp_task_wdt_reset(705): task not found
+E (16993) task_wdt: esp_task_wdt_reset(705): task not found
+E (17004) task_wdt: esp_task_wdt_reset(705): task not found
+E (17015) task_wdt: esp_task_wdt_reset(705): task not found
+E (17026) task_wdt: esp_task_wdt_reset(705): task not found
+E (17037) task_wdt: esp_task_wdt_reset(705): task not found
+E (17048) task_wdt: esp_task_wdt_reset(705): task not found
+E (17059) task_wdt: esp_task_wdt_reset(705): task not found
+E (17070) task_wdt: esp_task_wdt_reset(705): task not found
+E (17081) task_wdt: esp_task_wdt_reset(705): task not found
+E (17092) task_wdt: esp_task_wdt_reset(705): task not found
+E (17103) task_wdt: esp_task_wdt_reset(705): task not found
+E (17114) task_wdt: esp_task_wdt_reset(705): task not found
+E (17125) task_wdt: esp_task_wdt_reset(705): task not found
+E (17136) task_wdt: esp_task_wdt_reset(705): task not found
+E (17147) task_wdt: esp_task_wdt_reset(705): task not found
+E (17158) task_wdt: esp_task_wdt_reset(705): task not found
+E (17169) task_wdt: esp_task_wdt_reset(705): task not found
+E (17180) task_wdt: esp_task_wdt_reset(705): task not found
+E (17191) task_wdt: esp_task_wdt_reset(705): task not found
+E (17202) task_wdt: esp_task_wdt_reset(705): task not found
+E (17213) task_wdt: esp_task_wdt_reset(705): task not found
+E (17224) task_wdt: esp_task_wdt_reset(705): task not found
+E (17235) task_wdt: esp_task_wdt_reset(705): task not found
+E (17246) task_wdt: esp_task_wdt_reset(705): task not found
+E (17257) task_wdt: esp_task_wdt_reset(705): task not found
+E (17268) task_wdt: esp_task_wdt_reset(705): task not found
+E (17279) task_wdt: esp_task_wdt_reset(705): task not found
+E (17290) task_wdt: esp_task_wdt_reset(705): task not found
+E (17301) task_wdt: esp_task_wdt_reset(705): task not found
+E (17312) task_wdt: esp_task_wdt_reset(705): task not found
+E (17323) task_wdt: esp_task_wdt_reset(705): task not found
+E (17334) task_wdt: esp_task_wdt_reset(705): task not found
+E (17345) task_wdt: esp_task_wdt_reset(705): task not found
+E (17356) task_wdt: esp_task_wdt_reset(705): task not found
+E (17367) task_wdt: esp_task_wdt_reset(705): task not found
+E (17378) task_wdt: esp_task_wdt_reset(705): task not found
+E (17389) task_wdt: esp_task_wdt_reset(705): task not found
+E (17400) task_wdt: esp_task_wdt_reset(705): task not found
+E (17411) task_wdt: esp_task_wdt_reset(705): task not found
+E (17422) task_wdt: esp_task_wdt_reset(705): task not found
+E (17433) task_wdt: esp_task_wdt_reset(705): task not found
+E (17444) task_wdt: esp_task_wdt_reset(705): task not found
+E (17455) task_wdt: esp_task_wdt_reset(705): task not found
+E (17466) task_wdt: esp_task_wdt_reset(705): task not found
+E (17477) task_wdt: esp_task_wdt_reset(705): task not found
+E (17488) task_wdt: esp_task_wdt_reset(705): task not found
+E (17499) task_wdt: esp_task_wdt_reset(705): task not found
+E (17510) task_wdt: esp_task_wdt_reset(705): task not found
+E (17521) task_wdt: esp_task_wdt_reset(705): task not found
+E (17532) task_wdt: esp_task_wdt_reset(705): task not found
+E (17543) task_wdt: esp_task_wdt_reset(705): task not found
+E (17554) task_wdt: esp_task_wdt_reset(705): task not found
+E (17565) task_wdt: esp_task_wdt_reset(705): task not found
+E (17576) task_wdt: esp_task_wdt_reset(705): task not found
+E (17587) task_wdt: esp_task_wdt_reset(705): task not found
+E (17598) task_wdt: esp_task_wdt_reset(705): task not found
+E (17609) task_wdt: esp_task_wdt_reset(705): task not found
+E (17620) task_wdt: esp_task_wdt_reset(705): task not found
+E (17631) task_wdt: esp_task_wdt_reset(705): task not found
+E (17642) task_wdt: esp_task_wdt_reset(705): task not found
+E (17653) task_wdt: esp_task_wdt_reset(705): task not found
+E (17664) task_wdt: esp_task_wdt_reset(705): task not found
+E (17675) task_wdt: esp_task_wdt_reset(705): task not found
+E (17686) task_wdt: esp_task_wdt_reset(705): task not found
+E (17697) task_wdt: esp_task_wdt_reset(705): task not found
+E (17708) task_wdt: esp_task_wdt_reset(705): task not found
+E (17719) task_wdt: esp_task_wdt_reset(705): task not found
+E (17730) task_wdt: esp_task_wdt_reset(705): task not found
+E (17741) task_wdt: esp_task_wdt_reset(705): task not found
+E (17752) task_wdt: esp_task_wdt_reset(705): task not found
+E (17763) task_wdt: esp_task_wdt_reset(705): task not found
+E (17774) task_wdt: esp_task_wdt_reset(705): task not found
+E (17785) task_wdt: esp_task_wdt_reset(705): task not found
+E (17796) task_wdt: esp_task_wdt_reset(705): task not found
+E (17807) task_wdt: esp_task_wdt_reset(705): task not found
+E (17818) task_wdt: esp_task_wdt_reset(705): task not found
+E (17829) task_wdt: esp_task_wdt_reset(705): task not found
+E (17840) task_wdt: esp_task_wdt_reset(705): task not found
+E (17851) task_wdt: esp_task_wdt_reset(705): task not found
+E (17862) task_wdt: esp_task_wdt_reset(705): task not found
+E (17873) task_wdt: esp_task_wdt_reset(705): task not found
+E (17884) task_wdt: esp_task_wdt_reset(705): task not found
+E (17895) task_wdt: esp_task_wdt_reset(705): task not found
+E (17906) task_wdt: esp_task_wdt_reset(705): task not found
+E (17917) task_wdt: esp_task_wdt_reset(705): task not found
+E (17928) task_wdt: esp_task_wdt_reset(705): task not found
+E (17939) task_wdt: esp_task_wdt_reset(705): task not found
+E (17950) task_wdt: esp_task_wdt_reset(705): task not found
+E (17961) task_wdt: esp_task_wdt_reset(705): task not found
+E (17972) task_wdt: esp_task_wdt_reset(705): task not found
+E (17983) task_wdt: esp_task_wdt_reset(705): task not found
+E (17994) task_wdt: esp_task_wdt_reset(705): task not found
+E (18005) task_wdt: esp_task_wdt_reset(705): task not found
+E (18016) task_wdt: esp_task_wdt_reset(705): task not found
+E (18027) task_wdt: esp_task_wdt_reset(705): task not found
+E (18038) task_wdt: esp_task_wdt_reset(705): task not found
+E (18049) task_wdt: esp_task_wdt_reset(705): task not found
+E (18060) task_wdt: esp_task_wdt_reset(705): task not found
+E (18071) task_wdt: esp_task_wdt_reset(705): task not found
+E (18082) task_wdt: esp_task_wdt_reset(705): task not found
+E (18093) task_wdt: esp_task_wdt_reset(705): task not found
+E (18104) task_wdt: esp_task_wdt_reset(705): task not found
+E (18115) task_wdt: esp_task_wdt_reset(705): task not found
+E (18126) task_wdt: esp_task_wdt_reset(705): task not found
+E (18137) task_wdt: esp_task_wdt_reset(705): task not found
+E (18148) task_wdt: esp_task_wdt_reset(705): task not found
+E (18159) task_wdt: esp_task_wdt_reset(705): task not found
+E (18170) task_wdt: esp_task_wdt_reset(705): task not found
+E (18181) task_wdt: esp_task_wdt_reset(705): task not found
+E (18192) task_wdt: esp_task_wdt_reset(705): task not found
+E (18203) task_wdt: esp_task_wdt_reset(705): task not found
+E (18214) task_wdt: esp_task_wdt_reset(705): task not found
+E (18225) task_wdt: esp_task_wdt_reset(705): task not found
+E (18236) task_wdt: esp_task_wdt_reset(705): task not found
+E (18247) task_wdt: esp_task_wdt_reset(705): task not found
+E (18258) task_wdt: esp_task_wdt_reset(705): task not found
+E (18269) task_wdt: esp_task_wdt_reset(705): task not found
+E (18280) task_wdt: esp_task_wdt_reset(705): task not found
+E (18291) task_wdt: esp_task_wdt_reset(705): task not found
+E (18302) task_wdt: esp_task_wdt_reset(705): task not found
+E (18313) task_wdt: esp_task_wdt_reset(705): task not found
+E (18324) task_wdt: esp_task_wdt_reset(705): task not found
+E (18335) task_wdt: esp_task_wdt_reset(705): task not found
+E (18346) task_wdt: esp_task_wdt_reset(705): task not found
+E (18357) task_wdt: esp_task_wdt_reset(705): task not found
+E (18368) task_wdt: esp_task_wdt_reset(705): task not found
+E (18379) task_wdt: esp_task_wdt_reset(705): task not found
+E (18390) task_wdt: esp_task_wdt_reset(705): task not found
+E (18401) task_wdt: esp_task_wdt_reset(705): task not found
+E (18412) task_wdt: esp_task_wdt_reset(705): task not found
+E (18423) task_wdt: esp_task_wdt_reset(705): task not found
+E (18434) task_wdt: esp_task_wdt_reset(705): task not found
+E (18445) task_wdt: esp_task_wdt_reset(705): task not found
+E (18456) task_wdt: esp_task_wdt_reset(705): task not found
+E (18467) task_wdt: esp_task_wdt_reset(705): task not found
+E (18478) task_wdt: esp_task_wdt_reset(705): task not found
+E (18489) task_wdt: esp_task_wdt_reset(705): task not found
+E (18500) task_wdt: esp_task_wdt_reset(705): task not found
+E (18511) task_wdt: esp_task_wdt_reset(705): task not found
+E (18522) task_wdt: esp_task_wdt_reset(705): task not found
+E (18533) task_wdt: esp_task_wdt_reset(705): task not found
+E (18544) task_wdt: esp_task_wdt_reset(705): task not found
+E (18555) task_wdt: esp_task_wdt_reset(705): task not found
+E (18566) task_wdt: esp_task_wdt_reset(705): task not found
+E (18577) task_wdt: esp_task_wdt_reset(705): task not found
+E (18588) task_wdt: esp_task_wdt_reset(705): task not found
+E (18599) task_wdt: esp_task_wdt_reset(705): task not found
+E (18610) task_wdt: esp_task_wdt_reset(705): task not found
+E (18621) task_wdt: esp_task_wdt_reset(705): task not found
+E (18632) task_wdt: esp_task_wdt_reset(705): task not found
+E (18643) task_wdt: esp_task_wdt_reset(705): task not found
+E (18654) task_wdt: esp_task_wdt_reset(705): task not found
+E (18665) task_wdt: esp_task_wdt_reset(705): task not found
+E (18676) task_wdt: esp_task_wdt_reset(705): task not found
+E (18687) task_wdt: esp_task_wdt_reset(705): task not found
+E (18698) task_wdt: esp_task_wdt_reset(705): task not found
+E (18709) task_wdt: esp_task_wdt_reset(705): task not found
+E (18720) task_wdt: esp_task_wdt_reset(705): task not found
+E (18731) task_wdt: esp_task_wdt_reset(705): task not found
+E (18742) task_wdt: esp_task_wdt_reset(705): task not found
+E (18753) task_wdt: esp_task_wdt_reset(705): task not found
+E (18764) task_wdt: esp_task_wdt_reset(705): task not found
+E (18775) task_wdt: esp_task_wdt_reset(705): task not found
+E (18786) task_wdt: esp_task_wdt_reset(705): task not found
+E (18797) task_wdt: esp_task_wdt_reset(705): task not found
+E (18808) task_wdt: esp_task_wdt_reset(705): task not found
+E (18819) task_wdt: esp_task_wdt_reset(705): task not found
+E (18830) task_wdt: esp_task_wdt_reset(705): task not found
+E (18841) task_wdt: esp_task_wdt_reset(705): task not found
+E (18852) task_wdt: esp_task_wdt_reset(705): task not found
+E (18863) task_wdt: esp_task_wdt_reset(705): task not found
+E (18874) task_wdt: esp_task_wdt_reset(705): task not found
+E (18885) task_wdt: esp_task_wdt_reset(705): task not found
+E (18896) task_wdt: esp_task_wdt_reset(705): task not found
+E (18907) task_wdt: esp_task_wdt_reset(705): task not found
+E (18918) task_wdt: esp_task_wdt_reset(705): task not found
+E (18929) task_wdt: esp_task_wdt_reset(705): task not found
+E (18940) task_wdt: esp_task_wdt_reset(705): task not found
+E (18951) task_wdt: esp_task_wdt_reset(705): task not found
+E (18962) task_wdt: esp_task_wdt_reset(705): task not found
+E (18973) task_wdt: esp_task_wdt_reset(705): task not found
+E (18984) task_wdt: esp_task_wdt_reset(705): task not found
+E (18995) task_wdt: esp_task_wdt_reset(705): task not found
+E (19006) task_wdt: esp_task_wdt_reset(705): task not found
+E (19017) task_wdt: esp_task_wdt_reset(705): task not found
+E (19028) task_wdt: esp_task_wdt_reset(705): task not found
+E (19039) task_wdt: esp_task_wdt_reset(705): task not found
+E (19050) task_wdt: esp_task_wdt_reset(705): task not found
+E (19061) task_wdt: esp_task_wdt_reset(705): task not found
+E (19072) task_wdt: esp_task_wdt_reset(705): task not found
+E (19083) task_wdt: esp_task_wdt_reset(705): task not found
+E (19094) task_wdt: esp_task_wdt_reset(705): task not found
+E (19105) task_wdt: esp_task_wdt_reset(705): task not found
+E (19116) task_wdt: esp_task_wdt_reset(705): task not found
+E (19127) task_wdt: esp_task_wdt_reset(705): task not found
+E (19138) task_wdt: esp_task_wdt_reset(705): task not found
+E (19149) task_wdt: esp_task_wdt_reset(705): task not found
+E (19160) task_wdt: esp_task_wdt_reset(705): task not found
+E (19171) task_wdt: esp_task_wdt_reset(705): task not found
+E (19182) task_wdt: esp_task_wdt_reset(705): task not found
+E (19193) task_wdt: esp_task_wdt_reset(705): task not found
+E (19204) task_wdt: esp_task_wdt_reset(705): task not found
+E (19215) task_wdt: esp_task_wdt_reset(705): task not found
+E (19226) task_wdt: esp_task_wdt_reset(705): task not found
+E (19237) task_wdt: esp_task_wdt_reset(705): task not found
+E (19248) task_wdt: esp_task_wdt_reset(705): task not found
+E (19259) task_wdt: esp_task_wdt_reset(705): task not found
+E (19270) task_wdt: esp_task_wdt_reset(705): task not found
+E (19281) task_wdt: esp_task_wdt_reset(705): task not found
+E (19292) task_wdt: esp_task_wdt_reset(705): task not found
+E (19303) task_wdt: esp_task_wdt_reset(705): task not found
+E (19314) task_wdt: esp_task_wdt_reset(705): task not found
+E (19325) task_wdt: esp_task_wdt_reset(705): task not found
+E (19336) task_wdt: esp_task_wdt_reset(705): task not found
+E (19347) task_wdt: esp_task_wdt_reset(705): task not found
+E (19358) task_wdt: esp_task_wdt_reset(705): task not found
+E (19369) task_wdt: esp_task_wdt_reset(705): task not found
+E (19380) task_wdt: esp_task_wdt_reset(705): task not found
+E (19391) task_wdt: esp_task_wdt_reset(705): task not found
+E (19402) task_wdt: esp_task_wdt_reset(705): task not found
+E (19413) task_wdt: esp_task_wdt_reset(705): task not found
+E (19424) task_wdt: esp_task_wdt_reset(705): task not found
+E (19435) task_wdt: esp_task_wdt_reset(705): task not found
+E (19446) task_wdt: esp_task_wdt_reset(705): task not found
+E (19457) task_wdt: esp_task_wdt_reset(705): task not found
+E (19468) task_wdt: esp_task_wdt_reset(705): task not found
+E (19479) task_wdt: esp_task_wdt_reset(705): task not found
+E (19490) task_wdt: esp_task_wdt_reset(705): task not found
+E (19501) task_wdt: esp_task_wdt_reset(705): task not found
+E (19512) task_wdt: esp_task_wdt_reset(705): task not found
+E (19523) task_wdt: esp_task_wdt_reset(705): task not found
+E (19534) task_wdt: esp_task_wdt_reset(705): task not found
+E (19545) task_wdt: esp_task_wdt_reset(705): task not found
+E (19556) task_wdt: esp_task_wdt_reset(705): task not found
+E (19567) task_wdt: esp_task_wdt_reset(705): task not found
+E (19578) task_wdt: esp_task_wdt_reset(705): task not found
+E (19589) task_wdt: esp_task_wdt_reset(705): task not found
+E (19600) task_wdt: esp_task_wdt_reset(705): task not found
+E (19611) task_wdt: esp_task_wdt_reset(705): task not found
+E (19622) task_wdt: esp_task_wdt_reset(705): task not found
+E (19633) task_wdt: esp_task_wdt_reset(705): task not found
+E (19644) task_wdt: esp_task_wdt_reset(705): task not found
+E (19655) task_wdt: esp_task_wdt_reset(705): task not found
+E (19666) task_wdt: esp_task_wdt_reset(705): task not found
+E (19677) task_wdt: esp_task_wdt_reset(705): task not found
+E (19688) task_wdt: esp_task_wdt_reset(705): task not found
+E (19699) task_wdt: esp_task_wdt_reset(705): task not found
+E (19710) task_wdt: esp_task_wdt_reset(705): task not found
+E (19721) task_wdt: esp_task_wdt_reset(705): task not found
+E (19732) task_wdt: esp_task_wdt_reset(705): task not found
+E (19743) task_wdt: esp_task_wdt_reset(705): task not found
+E (19754) task_wdt: esp_task_wdt_reset(705): task not found
+E (19765) task_wdt: esp_task_wdt_reset(705): task not found
+E (19776) task_wdt: esp_task_wdt_reset(705): task not found
+E (19787) task_wdt: esp_task_wdt_reset(705): task not found
+E (19798) task_wdt: esp_task_wdt_reset(705): task not found
+E (19809) task_wdt: esp_task_wdt_reset(705): task not found
+E (19820) task_wdt: esp_task_wdt_reset(705): task not found
+E (19831) task_wdt: esp_task_wdt_reset(705): task not found
+E (19842) task_wdt: esp_task_wdt_reset(705): task not found
+E (19853) task_wdt: esp_task_wdt_reset(705): task not found
+E (19864) task_wdt: esp_task_wdt_reset(705): task not found
+E (19875) task_wdt: esp_task_wdt_reset(705): task not found
+E (19886) task_wdt: esp_task_wdt_reset(705): task not found
+E (19897) task_wdt: esp_task_wdt_reset(705): task not found
+E (19908) task_wdt: esp_task_wdt_reset(705): task not found
+E (19919) task_wdt: esp_task_wdt_reset(705): task not found
+E (19930) task_wdt: esp_task_wdt_reset(705): task not found
+E (19941) task_wdt: esp_task_wdt_reset(705): task not found
+E (19952) task_wdt: esp_task_wdt_reset(705): task not found
+E (19963) task_wdt: esp_task_wdt_reset(705): task not found
+E (19974) task_wdt: esp_task_wdt_reset(705): task not found
+E (19985) task_wdt: esp_task_wdt_reset(705): task not found
+E (19996) task_wdt: esp_task_wdt_reset(705): task not found
+E (20007) task_wdt: esp_task_wdt_reset(705): task not found
+E (20018) task_wdt: esp_task_wdt_reset(705): task not found
+E (20029) task_wdt: esp_task_wdt_reset(705): task not found
+E (20040) task_wdt: esp_task_wdt_reset(705): task not found
+E (20051) task_wdt: esp_task_wdt_reset(705): task not found
+E (20062) task_wdt: esp_task_wdt_reset(705): task not found
+E (20073) task_wdt: esp_task_wdt_reset(705): task not found
+E (20084) task_wdt: esp_task_wdt_reset(705): task not found
+E (20095) task_wdt: esp_task_wdt_reset(705): task not found
+E (20106) task_wdt: esp_task_wdt_reset(705): task not found
+E (20117) task_wdt: esp_task_wdt_reset(705): task not found
+E (20128) task_wdt: esp_task_wdt_reset(705): task not found
+E (20139) task_wdt: esp_task_wdt_reset(705): task not found
+E (20150) task_wdt: esp_task_wdt_reset(705): task not found
+E (20161) task_wdt: esp_task_wdt_reset(705): task not found
+E (20172) task_wdt: esp_task_wdt_reset(705): task not found
+E (20183) task_wdt: esp_task_wdt_reset(705): task not found
+E (20194) task_wdt: esp_task_wdt_reset(705): task not found
+E (20205) task_wdt: esp_task_wdt_reset(705): task not found
+E (20216) task_wdt: esp_task_wdt_reset(705): task not found
+E (20227) task_wdt: esp_task_wdt_reset(705): task not found
+E (20238) task_wdt: esp_task_wdt_reset(705): task not found
+E (20249) task_wdt: esp_task_wdt_reset(705): task not found
+E (20260) task_wdt: esp_task_wdt_reset(705): task not found
+E (20271) task_wdt: esp_task_wdt_reset(705): task not found
+E (20282) task_wdt: esp_task_wdt_reset(705): task not found
+E (20293) task_wdt: esp_task_wdt_reset(705): task not found
+E (20304) task_wdt: esp_task_wdt_reset(705): task not found
+E (20315) task_wdt: esp_task_wdt_reset(705): task not found
+E (20326) task_wdt: esp_task_wdt_reset(705): task not found
+E (20337) task_wdt: esp_task_wdt_reset(705): task not found
+E (20348) task_wdt: esp_task_wdt_reset(705): task not found
+E (20359) task_wdt: esp_task_wdt_reset(705): task not found
+E (20370) task_wdt: esp_task_wdt_reset(705): task not found
+E (20381) task_wdt: esp_task_wdt_reset(705): task not found
+E (20392) task_wdt: esp_task_wdt_reset(705): task not found
+E (20403) task_wdt: esp_task_wdt_reset(705): task not found
+E (20414) task_wdt: esp_task_wdt_reset(705): task not found
+E (20425) task_wdt: esp_task_wdt_reset(705): task not found
+E (20436) task_wdt: esp_task_wdt_reset(705): task not found
+E (20447) task_wdt: esp_task_wdt_reset(705): task not found
+E (20458) task_wdt: esp_task_wdt_reset(705): task not found
+E (20469) task_wdt: esp_task_wdt_reset(705): task not found
+E (20480) task_wdt: esp_task_wdt_reset(705): task not found
+E (20491) task_wdt: esp_task_wdt_reset(705): task not found
+E (20502) task_wdt: esp_task_wdt_reset(705): task not found
+E (20513) task_wdt: esp_task_wdt_reset(705): task not found
+E (20524) task_wdt: esp_task_wdt_reset(705): task not found
+E (20535) task_wdt: esp_task_wdt_reset(705): task not found
+E (20546) task_wdt: esp_task_wdt_reset(705): task not found
+E (20557) task_wdt: esp_task_wdt_reset(705): task not found
+E (20568) task_wdt: esp_task_wdt_reset(705): task not found
+E (20579) task_wdt: esp_task_wdt_reset(705): task not found
+E (20590) task_wdt: esp_task_wdt_reset(705): task not found
+E (20601) task_wdt: esp_task_wdt_reset(705): task not found
+E (20612) task_wdt: esp_task_wdt_reset(705): task not found
+E (20623) task_wdt: esp_task_wdt_reset(705): task not found
+E (20634) task_wdt: esp_task_wdt_reset(705): task not found
+E (20645) task_wdt: esp_task_wdt_reset(705): task not found
+E (20656) task_wdt: esp_task_wdt_reset(705): task not found
+E (20667) task_wdt: esp_task_wdt_reset(705): task not found
+E (20678) task_wdt: esp_task_wdt_reset(705): task not found
+E (20689) task_wdt: esp_task_wdt_reset(705): task not found
+E (20700) task_wdt: esp_task_wdt_reset(705): task not found
+E (20711) task_wdt: esp_task_wdt_reset(705): task not found
+E (20722) task_wdt: esp_task_wdt_reset(705): task not found
+E (20733) task_wdt: esp_task_wdt_reset(705): task not found
+E (20744) task_wdt: esp_task_wdt_reset(705): task not found
+E (20755) task_wdt: esp_task_wdt_reset(705): task not found
+E (20766) task_wdt: esp_task_wdt_reset(705): task not found
+E (20777) task_wdt: esp_task_wdt_reset(705): task not found
+E (20788) task_wdt: esp_task_wdt_reset(705): task not found
+E (20799) task_wdt: esp_task_wdt_reset(705): task not found
+E (20810) task_wdt: esp_task_wdt_reset(705): task not found
+E (20821) task_wdt: esp_task_wdt_reset(705): task not found
+E (20832) task_wdt: esp_task_wdt_reset(705): task not found
+E (20843) task_wdt: esp_task_wdt_reset(705): task not found
+E (20854) task_wdt: esp_task_wdt_reset(705): task not found
+E (20865) task_wdt: esp_task_wdt_reset(705): task not found
+E (20876) task_wdt: esp_task_wdt_reset(705): task not found
+E (20887) task_wdt: esp_task_wdt_reset(705): task not found
+E (20898) task_wdt: esp_task_wdt_reset(705): task not found
+E (20909) task_wdt: esp_task_wdt_reset(705): task not found
+E (20920) task_wdt: esp_task_wdt_reset(705): task not found
+E (20931) task_wdt: esp_task_wdt_reset(705): task not found
+E (20942) task_wdt: esp_task_wdt_reset(705): task not found
+E (20953) task_wdt: esp_task_wdt_reset(705): task not found
+E (20964) task_wdt: esp_task_wdt_reset(705): task not found
+E (20975) task_wdt: esp_task_wdt_reset(705): task not found
+E (20986) task_wdt: esp_task_wdt_reset(705): task not found
+E (20997) task_wdt: esp_task_wdt_reset(705): task not found
+E (21008) task_wdt: esp_task_wdt_reset(705): task not found
+E (21019) task_wdt: esp_task_wdt_reset(705): task not found
+E (21030) task_wdt: esp_task_wdt_reset(705): task not found
+E (21041) task_wdt: esp_task_wdt_reset(705): task not found
+E (21052) task_wdt: esp_task_wdt_reset(705): task not found
+E (21063) task_wdt: esp_task_wdt_reset(705): task not found
+E (21074) task_wdt: esp_task_wdt_reset(705): task not found
+E (21085) task_wdt: esp_task_wdt_reset(705): task not found
+E (21096) task_wdt: esp_task_wdt_reset(705): task not found
+E (21107) task_wdt: esp_task_wdt_reset(705): task not found
+E (21118) task_wdt: esp_task_wdt_reset(705): task not found
+E (21129) task_wdt: esp_task_wdt_reset(705): task not found
+E (21140) task_wdt: esp_task_wdt_reset(705): task not found
+E (21151) task_wdt: esp_task_wdt_reset(705): task not found
+E (21162) task_wdt: esp_task_wdt_reset(705): task not found
+E (21173) task_wdt: esp_task_wdt_reset(705): task not found
+E (21184) task_wdt: esp_task_wdt_reset(705): task not found
+E (21195) task_wdt: esp_task_wdt_reset(705): task not found
+E (21206) task_wdt: esp_task_wdt_reset(705): task not found
+E (21217) task_wdt: esp_task_wdt_reset(705): task not found
+E (21228) task_wdt: esp_task_wdt_reset(705): task not found
+E (21239) task_wdt: esp_task_wdt_reset(705): task not found
+E (21250) task_wdt: esp_task_wdt_reset(705): task not found
+E (21261) task_wdt: esp_task_wdt_reset(705): task not found
+E (21272) task_wdt: esp_task_wdt_reset(705): task not found
+E (21283) task_wdt: esp_task_wdt_reset(705): task not found
+E (21294) task_wdt: esp_task_wdt_reset(705): task not found
+E (21305) task_wdt: esp_task_wdt_reset(705): task not found
+E (21316) task_wdt: esp_task_wdt_reset(705): task not found
+E (21327) task_wdt: esp_task_wdt_reset(705): task not found
+E (21338) task_wdt: esp_task_wdt_reset(705): task not found
+E (21349) task_wdt: esp_task_wdt_reset(705): task not found
+E (21360) task_wdt: esp_task_wdt_reset(705): task not found
+E (21371) task_wdt: esp_task_wdt_reset(705): task not found
+E (21382) task_wdt: esp_task_wdt_reset(705): task not found
+E (21393) task_wdt: esp_task_wdt_reset(705): task not found
+E (21404) task_wdt: esp_task_wdt_reset(705): task not found
+E (21415) task_wdt: esp_task_wdt_reset(705): task not found
+E (21426) task_wdt: esp_task_wdt_reset(705): task not found
+E (21437) task_wdt: esp_task_wdt_reset(705): task not found
+E (21448) task_wdt: esp_task_wdt_reset(705): task not found
+E (21459) task_wdt: esp_task_wdt_reset(705): task not found
+E (21470) task_wdt: esp_task_wdt_reset(705): task not found
+E (21481) task_wdt: esp_task_wdt_reset(705): task not found
+E (21492) task_wdt: esp_task_wdt_reset(705): task not found
+E (21503) task_wdt: esp_task_wdt_reset(705): task not found
+E (21514) task_wdt: esp_task_wdt_reset(705): task not found
+E (21525) task_wdt: esp_task_wdt_reset(705): task not found
+E (21536) task_wdt: esp_task_wdt_reset(705): task not found
+E (21547) task_wdt: esp_task_wdt_reset(705): task not found
+E (21558) task_wdt: esp_task_wdt_reset(705): task not found
+E (21569) task_wdt: esp_task_wdt_reset(705): task not found
+E (21580) task_wdt: esp_task_wdt_reset(705): task not found
+E (21591) task_wdt: esp_task_wdt_reset(705): task not found
+E (21602) task_wdt: esp_task_wdt_reset(705): task not found
+E (21613) task_wdt: esp_task_wdt_reset(705): task not found
+E (21624) task_wdt: esp_task_wdt_reset(705): task not found
+E (21635) task_wdt: esp_task_wdt_reset(705): task not found
+E (21646) task_wdt: esp_task_wdt_reset(705): task not found
+E (21657) task_wdt: esp_task_wdt_reset(705): task not found
+E (21668) task_wdt: esp_task_wdt_reset(705): task not found
+E (21679) task_wdt: esp_task_wdt_reset(705): task not found
+E (21690) task_wdt: esp_task_wdt_reset(705): task not found
+E (21701) task_wdt: esp_task_wdt_reset(705): task not found
+E (21712) task_wdt: esp_task_wdt_reset(705): task not found
+E (21723) task_wdt: esp_task_wdt_reset(705): task not found
+E (21734) task_wdt: esp_task_wdt_reset(705): task not found
+E (21745) task_wdt: esp_task_wdt_reset(705): task not found
+E (21756) task_wdt: esp_task_wdt_reset(705): task not found
+E (21767) task_wdt: esp_task_wdt_reset(705): task not found
+E (21778) task_wdt: esp_task_wdt_reset(705): task not found
+E (21789) task_wdt: esp_task_wdt_reset(705): task not found
+E (21800) task_wdt: esp_task_wdt_reset(705): task not found
+E (21811) task_wdt: esp_task_wdt_reset(705): task not found
+E (21822) task_wdt: esp_task_wdt_reset(705): task not found
+E (21833) task_wdt: esp_task_wdt_reset(705): task not found
+E (21844) task_wdt: esp_task_wdt_reset(705): task not found
+E (21855) task_wdt: esp_task_wdt_reset(705): task not found
+E (21866) task_wdt: esp_task_wdt_reset(705): task not found
+E (21877) task_wdt: esp_task_wdt_reset(705): task not found
+E (21888) task_wdt: esp_task_wdt_reset(705): task not found
+E (21899) task_wdt: esp_task_wdt_reset(705): task not found
+E (21910) task_wdt: esp_task_wdt_reset(705): task not found
+E (21921) task_wdt: esp_task_wdt_reset(705): task not found
+E (21932) task_wdt: esp_task_wdt_reset(705): task not found
+E (21943) task_wdt: esp_task_wdt_reset(705): task not found
+E (21954) task_wdt: esp_task_wdt_reset(705): task not found
+E (21965) task_wdt: esp_task_wdt_reset(705): task not found
+E (21976) task_wdt: esp_task_wdt_reset(705): task not found
+E (21987) task_wdt: esp_task_wdt_reset(705): task not found
+E (21998) task_wdt: esp_task_wdt_reset(705): task not found
+E (22009) task_wdt: esp_task_wdt_reset(705): task not found
+E (22020) task_wdt: esp_task_wdt_reset(705): task not found
+E (22031) task_wdt: esp_task_wdt_reset(705): task not found
+E (22042) task_wdt: esp_task_wdt_reset(705): task not found
+E (22053) task_wdt: esp_task_wdt_reset(705): task not found
+E (22064) task_wdt: esp_task_wdt_reset(705): task not found
+E (22075) task_wdt: esp_task_wdt_reset(705): task not found
+E (22086) task_wdt: esp_task_wdt_reset(705): task not found
+E (22097) task_wdt: esp_task_wdt_reset(705): task not found
+E (22108) task_wdt: esp_task_wdt_reset(705): task not found
+E (22119) task_wdt: esp_task_wdt_reset(705): task not found
+E (22130) task_wdt: esp_task_wdt_reset(705): task not found
+E (22141) task_wdt: esp_task_wdt_reset(705): task not found
+E (22152) task_wdt: esp_task_wdt_reset(705): task not found
+E (22163) task_wdt: esp_task_wdt_reset(705): task not found
+E (22174) task_wdt: esp_task_wdt_reset(705): task not found
+E (22185) task_wdt: esp_task_wdt_reset(705): task not found
+E (22196) task_wdt: esp_task_wdt_reset(705): task not found
+E (22207) task_wdt: esp_task_wdt_reset(705): task not found
+E (22218) task_wdt: esp_task_wdt_reset(705): task not found
+E (22229) task_wdt: esp_task_wdt_reset(705): task not found
+E (22240) task_wdt: esp_task_wdt_reset(705): task not found
+E (22251) task_wdt: esp_task_wdt_reset(705): task not found
+E (22262) task_wdt: esp_task_wdt_reset(705): task not found
+E (22273) task_wdt: esp_task_wdt_reset(705): task not found
+E (22284) task_wdt: esp_task_wdt_reset(705): task not found
+E (22295) task_wdt: esp_task_wdt_reset(705): task not found
+E (22306) task_wdt: esp_task_wdt_reset(705): task not found
+E (22317) task_wdt: esp_task_wdt_reset(705): task not found
+E (22328) task_wdt: esp_task_wdt_reset(705): task not found
+E (22339) task_wdt: esp_task_wdt_reset(705): task not found
+E (22350) task_wdt: esp_task_wdt_reset(705): task not found
+E (22361) task_wdt: esp_task_wdt_reset(705): task not found
+E (22372) task_wdt: esp_task_wdt_reset(705): task not found
+E (22383) task_wdt: esp_task_wdt_reset(705): task not found
+E (22394) task_wdt: esp_task_wdt_reset(705): task not found
+E (22405) task_wdt: esp_task_wdt_reset(705): task not found
+E (22416) task_wdt: esp_task_wdt_reset(705): task not found
+E (22427) task_wdt: esp_task_wdt_reset(705): task not found
+E (22438) task_wdt: esp_task_wdt_reset(705): task not found
+E (22449) task_wdt: esp_task_wdt_reset(705): task not found
+E (22460) task_wdt: esp_task_wdt_reset(705): task not found
+E (22471) task_wdt: esp_task_wdt_reset(705): task not found
+E (22482) task_wdt: esp_task_wdt_reset(705): task not found
+E (22493) task_wdt: esp_task_wdt_reset(705): task not found
+E (22504) task_wdt: esp_task_wdt_reset(705): task not found
+E (22515) task_wdt: esp_task_wdt_reset(705): task not found
+E (22526) task_wdt: esp_task_wdt_reset(705): task not found
+E (22537) task_wdt: esp_task_wdt_reset(705): task not found
+E (22548) task_wdt: esp_task_wdt_reset(705): task not found
+E (22559) task_wdt: esp_task_wdt_reset(705): task not found
+E (22570) task_wdt: esp_task_wdt_reset(705): task not found
+E (22581) task_wdt: esp_task_wdt_reset(705): task not found
+E (22592) task_wdt: esp_task_wdt_reset(705): task not found
+E (22603) task_wdt: esp_task_wdt_reset(705): task not found
+E (22614) task_wdt: esp_task_wdt_reset(705): task not found
+E (22625) task_wdt: esp_task_wdt_reset(705): task not found
+E (22636) task_wdt: esp_task_wdt_reset(705): task not found
+E (22647) task_wdt: esp_task_wdt_reset(705): task not found
+E (22658) task_wdt: esp_task_wdt_reset(705): task not found
+E (22669) task_wdt: esp_task_wdt_reset(705): task not found
+E (22680) task_wdt: esp_task_wdt_reset(705): task not found
+E (22691) task_wdt: esp_task_wdt_reset(705): task not found
+E (22702) task_wdt: esp_task_wdt_reset(705): task not found
+E (22713) task_wdt: esp_task_wdt_reset(705): task not found
+E (22724) task_wdt: esp_task_wdt_reset(705): task not found
+E (22735) task_wdt: esp_task_wdt_reset(705): task not found
+E (22746) task_wdt: esp_task_wdt_reset(705): task not found
+E (22757) task_wdt: esp_task_wdt_reset(705): task not found
+E (22768) task_wdt: esp_task_wdt_reset(705): task not found
+E (22779) task_wdt: esp_task_wdt_reset(705): task not found
+E (22790) task_wdt: esp_task_wdt_reset(705): task not found
+E (22801) task_wdt: esp_task_wdt_reset(705): task not found
+E (22812) task_wdt: esp_task_wdt_reset(705): task not found
+E (22823) task_wdt: esp_task_wdt_reset(705): task not found
+E (22834) task_wdt: esp_task_wdt_reset(705): task not found
+E (22845) task_wdt: esp_task_wdt_reset(705): task not found
+E (22856) task_wdt: esp_task_wdt_reset(705): task not found
+E (22867) task_wdt: esp_task_wdt_reset(705): task not found
+E (22878) task_wdt: esp_task_wdt_reset(705): task not found
+E (22889) task_wdt: esp_task_wdt_reset(705): task not found
+E (22900) task_wdt: esp_task_wdt_reset(705): task not found
+E (22911) task_wdt: esp_task_wdt_reset(705): task not found
+E (22922) task_wdt: esp_task_wdt_reset(705): task not found
+E (22933) task_wdt: esp_task_wdt_reset(705): task not found
+E (22944) task_wdt: esp_task_wdt_reset(705): task not found
+E (22955) task_wdt: esp_task_wdt_reset(705): task not found
+E (22966) task_wdt: esp_task_wdt_reset(705): task not found
+E (22977) task_wdt: esp_task_wdt_reset(705): task not found
+E (22988) task_wdt: esp_task_wdt_reset(705): task not found
+E (22999) task_wdt: esp_task_wdt_reset(705): task not found
+E (23010) task_wdt: esp_task_wdt_reset(705): task not found
+E (23021) task_wdt: esp_task_wdt_reset(705): task not found
+E (23032) task_wdt: esp_task_wdt_reset(705): task not found
+E (23043) task_wdt: esp_task_wdt_reset(705): task not found
+E (23054) task_wdt: esp_task_wdt_reset(705): task not found
+E (23065) task_wdt: esp_task_wdt_reset(705): task not found
+E (23076) task_wdt: esp_task_wdt_reset(705): task not found
+E (23087) task_wdt: esp_task_wdt_reset(705): task not found
+E (23098) task_wdt: esp_task_wdt_reset(705): task not found
+E (23109) task_wdt: esp_task_wdt_reset(705): task not found
+E (23120) task_wdt: esp_task_wdt_reset(705): task not found
+E (23131) task_wdt: esp_task_wdt_reset(705): task not found
+E (23142) task_wdt: esp_task_wdt_reset(705): task not found
+E (23153) task_wdt: esp_task_wdt_reset(705): task not found
+E (23164) task_wdt: esp_task_wdt_reset(705): task not found
+E (23175) task_wdt: esp_task_wdt_reset(705): task not found
+E (23186) task_wdt: esp_task_wdt_reset(705): task not found
+E (23197) task_wdt: esp_task_wdt_reset(705): task not found
+E (23208) task_wdt: esp_task_wdt_reset(705): task not found
+E (23219) task_wdt: esp_task_wdt_reset(705): task not found
+E (23230) task_wdt: esp_task_wdt_reset(705): task not found
+E (23241) task_wdt: esp_task_wdt_reset(705): task not found
+E (23252) task_wdt: esp_task_wdt_reset(705): task not found
+E (23263) task_wdt: esp_task_wdt_reset(705): task not found
+E (23274) task_wdt: esp_task_wdt_reset(705): task not found
+E (23285) task_wdt: esp_task_wdt_reset(705): task not found
+E (23296) task_wdt: esp_task_wdt_reset(705): task not found
+E (23307) task_wdt: esp_task_wdt_reset(705): task not found
+E (23318) task_wdt: esp_task_wdt_reset(705): task not found
+E (23329) task_wdt: esp_task_wdt_reset(705): task not found
+E (23340) task_wdt: esp_task_wdt_reset(705): task not found
+E (23351) task_wdt: esp_task_wdt_reset(705): task not found
+E (23362) task_wdt: esp_task_wdt_reset(705): task not found
+E (23373) task_wdt: esp_task_wdt_reset(705): task not found
+E (23384) task_wdt: esp_task_wdt_reset(705): task not found
+E (23395) task_wdt: esp_task_wdt_reset(705): task not found
+E (23406) task_wdt: esp_task_wdt_reset(705): task not found
+E (23417) task_wdt: esp_task_wdt_reset(705): task not found
+E (23428) task_wdt: esp_task_wdt_reset(705): task not found
+E (23439) task_wdt: esp_task_wdt_reset(705): task not found
+E (23450) task_wdt: esp_task_wdt_reset(705): task not found
+E (23461) task_wdt: esp_task_wdt_reset(705): task not found
+E (23472) task_wdt: esp_task_wdt_reset(705): task not found
+E (23483) task_wdt: esp_task_wdt_reset(705): task not found
+E (23494) task_wdt: esp_task_wdt_reset(705): task not found
+E (23505) task_wdt: esp_task_wdt_reset(705): task not found
+E (23516) task_wdt: esp_task_wdt_reset(705): task not found
+E (23527) task_wdt: esp_task_wdt_reset(705): task not found
+E (23538) task_wdt: esp_task_wdt_reset(705): task not found
+E (23549) task_wdt: esp_task_wdt_reset(705): task not found
+E (23560) task_wdt: esp_task_wdt_reset(705): task not found
+E (23571) task_wdt: esp_task_wdt_reset(705): task not found
+E (23582) task_wdt: esp_task_wdt_reset(705): task not found
+E (23593) task_wdt: esp_task_wdt_reset(705): task not found
+E (23604) task_wdt: esp_task_wdt_reset(705): task not found
+E (23615) task_wdt: esp_task_wdt_reset(705): task not found
+E (23626) task_wdt: esp_task_wdt_reset(705): task not found
+E (23637) task_wdt: esp_task_wdt_reset(705): task not found
+E (23648) task_wdt: esp_task_wdt_reset(705): task not found
+E (23659) task_wdt: esp_task_wdt_reset(705): task not found
+E (23670) task_wdt: esp_task_wdt_reset(705): task not found
+E (23681) task_wdt: esp_task_wdt_reset(705): task not found
+E (23692) task_wdt: esp_task_wdt_reset(705): task not found
+E (23703) task_wdt: esp_task_wdt_reset(705): task not found
+E (23714) task_wdt: esp_task_wdt_reset(705): task not found
+E (23725) task_wdt: esp_task_wdt_reset(705): task not found
+E (23736) task_wdt: esp_task_wdt_reset(705): task not found
+E (23747) task_wdt: esp_task_wdt_reset(705): task not found
+E (23758) task_wdt: esp_task_wdt_reset(705): task not found
+E (23769) task_wdt: esp_task_wdt_reset(705): task not found
+E (23780) task_wdt: esp_task_wdt_reset(705): task not found
+E (23791) task_wdt: esp_task_wdt_reset(705): task not found
+E (23802) task_wdt: esp_task_wdt_reset(705): task not found
+E (23813) task_wdt: esp_task_wdt_reset(705): task not found
+E (23824) task_wdt: esp_task_wdt_reset(705): task not found
+E (23835) task_wdt: esp_task_wdt_reset(705): task not found
+E (23846) task_wdt: esp_task_wdt_reset(705): task not found
+E (23857) task_wdt: esp_task_wdt_reset(705): task not found
+E (23868) task_wdt: esp_task_wdt_reset(705): task not found
+E (23879) task_wdt: esp_task_wdt_reset(705): task not found
+E (23890) task_wdt: esp_task_wdt_reset(705): task not found
+E (23901) task_wdt: esp_task_wdt_reset(705): task not found
+E (23912) task_wdt: esp_task_wdt_reset(705): task not found
+E (23923) task_wdt: esp_task_wdt_reset(705): task not found
+E (23934) task_wdt: esp_task_wdt_reset(705): task not found
+E (23945) task_wdt: esp_task_wdt_reset(705): task not found
+E (23956) task_wdt: esp_task_wdt_reset(705): task not found
+E (23967) task_wdt: esp_task_wdt_reset(705): task not found
+E (23978) task_wdt: esp_task_wdt_reset(705): task not found
+E (23989) task_wdt: esp_task_wdt_reset(705): task not found
+E (24000) task_wdt: esp_task_wdt_reset(705): task not found
+E (24011) task_wdt: esp_task_wdt_reset(705): task not found
+E (24022) task_wdt: esp_task_wdt_reset(705): task not found
+E (24033) task_wdt: esp_task_wdt_reset(705): task not found
+E (24044) task_wdt: esp_task_wdt_reset(705): task not found
+E (24055) task_wdt: esp_task_wdt_reset(705): task not found
+E (24066) task_wdt: esp_task_wdt_reset(705): task not found
+E (24077) task_wdt: esp_task_wdt_reset(705): task not found
+E (24088) task_wdt: esp_task_wdt_reset(705): task not found
+E (24099) task_wdt: esp_task_wdt_reset(705): task not found
+E (24110) task_wdt: esp_task_wdt_reset(705): task not found
+E (24121) task_wdt: esp_task_wdt_reset(705): task not found
+E (24132) task_wdt: esp_task_wdt_reset(705): task not found
+E (24143) task_wdt: esp_task_wdt_reset(705): task not found
+E (24154) task_wdt: esp_task_wdt_reset(705): task not found
+E (24165) task_wdt: esp_task_wdt_reset(705): task not found
+E (24176) task_wdt: esp_task_wdt_reset(705): task not found
+E (24187) task_wdt: esp_task_wdt_reset(705): task not found
+E (24198) task_wdt: esp_task_wdt_reset(705): task not found
+E (24209) task_wdt: esp_task_wdt_reset(705): task not found
+E (24220) task_wdt: esp_task_wdt_reset(705): task not found
+E (24231) task_wdt: esp_task_wdt_reset(705): task not found
+E (24242) task_wdt: esp_task_wdt_reset(705): task not found
+E (24253) task_wdt: esp_task_wdt_reset(705): task not found
+E (24264) task_wdt: esp_task_wdt_reset(705): task not found
+E (24275) task_wdt: esp_task_wdt_reset(705): task not found
+E (24286) task_wdt: esp_task_wdt_reset(705): task not found
+E (24297) task_wdt: esp_task_wdt_reset(705): task not found
+E (24308) task_wdt: esp_task_wdt_reset(705): task not found
+E (24319) task_wdt: esp_task_wdt_reset(705): task not found
+E (24330) task_wdt: esp_task_wdt_reset(705): task not found
+E (24341) task_wdt: esp_task_wdt_reset(705): task not found
+E (24352) task_wdt: esp_task_wdt_reset(705): task not found
+E (24363) task_wdt: esp_task_wdt_reset(705): task not found
+E (24374) task_wdt: esp_task_wdt_reset(705): task not found
+E (24385) task_wdt: esp_task_wdt_reset(705): task not found
+E (24396) task_wdt: esp_task_wdt_reset(705): task not found
+E (24407) task_wdt: esp_task_wdt_reset(705): task not found
+E (24418) task_wdt: esp_task_wdt_reset(705): task not found
+E (24429) task_wdt: esp_task_wdt_reset(705): task not found
+E (24440) task_wdt: esp_task_wdt_reset(705): task not found
+E (24451) task_wdt: esp_task_wdt_reset(705): task not found
+E (24462) task_wdt: esp_task_wdt_reset(705): task not found
+E (24473) task_wdt: esp_task_wdt_reset(705): task not found
+E (24484) task_wdt: esp_task_wdt_reset(705): task not found
+E (24495) task_wdt: esp_task_wdt_reset(705): task not found
+E (24506) task_wdt: esp_task_wdt_reset(705): task not found
+E (24517) task_wdt: esp_task_wdt_reset(705): task not found
+E (24528) task_wdt: esp_task_wdt_reset(705): task not found
+E (24539) task_wdt: esp_task_wdt_reset(705): task not found
+E (24550) task_wdt: esp_task_wdt_reset(705): task not found
+E (24561) task_wdt: esp_task_wdt_reset(705): task not found
+E (24572) task_wdt: esp_task_wdt_reset(705): task not found
+E (24583) task_wdt: esp_task_wdt_reset(705): task not found
+E (24594) task_wdt: esp_task_wdt_reset(705): task not found
+E (24605) task_wdt: esp_task_wdt_reset(705): task not found
+E (24616) task_wdt: esp_task_wdt_reset(705): task not found
+E (24627) task_wdt: esp_task_wdt_reset(705): task not found
+E (24638) task_wdt: esp_task_wdt_reset(705): task not found
+E (24649) task_wdt: esp_task_wdt_reset(705): task not found
+E (24660) task_wdt: esp_task_wdt_reset(705): task not found
+E (24671) task_wdt: esp_task_wdt_reset(705): task not found
+E (24682) task_wdt: esp_task_wdt_reset(705): task not found
+E (24693) task_wdt: esp_task_wdt_reset(705): task not found
+E (24704) task_wdt: esp_task_wdt_reset(705): task not found
+E (24715) task_wdt: esp_task_wdt_reset(705): task not found
+E (24726) task_wdt: esp_task_wdt_reset(705): task not found
+E (24737) task_wdt: esp_task_wdt_reset(705): task not found
+E (24748) task_wdt: esp_task_wdt_reset(705): task not found
+E (24759) task_wdt: esp_task_wdt_reset(705): task not found
+E (24770) task_wdt: esp_task_wdt_reset(705): task not found
+E (24781) task_wdt: esp_task_wdt_reset(705): task not found
+E (24792) task_wdt: esp_task_wdt_reset(705): task not found
+E (24803) task_wdt: esp_task_wdt_reset(705): task not found
+E (24814) task_wdt: esp_task_wdt_reset(705): task not found
+E (24825) task_wdt: esp_task_wdt_reset(705): task not found
+E (24836) task_wdt: esp_task_wdt_reset(705): task not found
+E (24847) task_wdt: esp_task_wdt_reset(705): task not found
+E (24858) task_wdt: esp_task_wdt_reset(705): task not found
+E (24869) task_wdt: esp_task_wdt_reset(705): task not found
+E (24880) task_wdt: esp_task_wdt_reset(705): task not found
+E (24891) task_wdt: esp_task_wdt_reset(705): task not found
+E (24902) task_wdt: esp_task_wdt_reset(705): task not found
+E (24913) task_wdt: esp_task_wdt_reset(705): task not found
+E (24924) task_wdt: esp_task_wdt_reset(705): task not found
+E (24935) task_wdt: esp_task_wdt_reset(705): task not found
+E (24946) task_wdt: esp_task_wdt_reset(705): task not found
+E (24957) task_wdt: esp_task_wdt_reset(705): task not found
+E (24968) task_wdt: esp_task_wdt_reset(705): task not found
+E (24979) task_wdt: esp_task_wdt_reset(705): task not found
+E (24990) task_wdt: esp_task_wdt_reset(705): task not found
+E (25001) task_wdt: esp_task_wdt_reset(705): task not found
+E (25012) task_wdt: esp_task_wdt_reset(705): task not found
+E (25023) task_wdt: esp_task_wdt_reset(705): task not found
+E (25034) task_wdt: esp_task_wdt_reset(705): task not found
+E (25045) task_wdt: esp_task_wdt_reset(705): task not found
+E (25056) task_wdt: esp_task_wdt_reset(705): task not found
+E (25067) task_wdt: esp_task_wdt_reset(705): task not found
+E (25078) task_wdt: esp_task_wdt_reset(705): task not found
+E (25089) task_wdt: esp_task_wdt_reset(705): task not found
+E (25100) task_wdt: esp_task_wdt_reset(705): task not found
+E (25111) task_wdt: esp_task_wdt_reset(705): task not found
+E (25122) task_wdt: esp_task_wdt_reset(705): task not found
+E (25133) task_wdt: esp_task_wdt_reset(705): task not found
+E (25144) task_wdt: esp_task_wdt_reset(705): task not found
+E (25155) task_wdt: esp_task_wdt_reset(705): task not found
+E (25166) task_wdt: esp_task_wdt_reset(705): task not found
+E (25177) task_wdt: esp_task_wdt_reset(705): task not found
+E (25188) task_wdt: esp_task_wdt_reset(705): task not found
+E (25199) task_wdt: esp_task_wdt_reset(705): task not found
+E (25210) task_wdt: esp_task_wdt_reset(705): task not found
+E (25221) task_wdt: esp_task_wdt_reset(705): task not found
+E (25232) task_wdt: esp_task_wdt_reset(705): task not found
+E (25243) task_wdt: esp_task_wdt_reset(705): task not found
+E (25254) task_wdt: esp_task_wdt_reset(705): task not found
+E (25265) task_wdt: esp_task_wdt_reset(705): task not found
+E (25276) task_wdt: esp_task_wdt_reset(705): task not found
+E (25287) task_wdt: esp_task_wdt_reset(705): task not found
+E (25298) task_wdt: esp_task_wdt_reset(705): task not found
+E (25309) task_wdt: esp_task_wdt_reset(705): task not found
+E (25320) task_wdt: esp_task_wdt_reset(705): task not found
+E (25331) task_wdt: esp_task_wdt_reset(705): task not found
+E (25342) task_wdt: esp_task_wdt_reset(705): task not found
+E (25353) task_wdt: esp_task_wdt_reset(705): task not found
+E (25364) task_wdt: esp_task_wdt_reset(705): task not found
+E (25375) task_wdt: esp_task_wdt_reset(705): task not found
+E (25386) task_wdt: esp_task_wdt_reset(705): task not found
+E (25397) task_wdt: esp_task_wdt_reset(705): task not found
+E (25408) task_wdt: esp_task_wdt_reset(705): task not found
+E (25419) task_wdt: esp_task_wdt_reset(705): task not found
+E (25430) task_wdt: esp_task_wdt_reset(705): task not found
+E (25441) task_wdt: esp_task_wdt_reset(705): task not found
+E (25452) task_wdt: esp_task_wdt_reset(705): task not found
+E (25463) task_wdt: esp_task_wdt_reset(705): task not found
+E (25474) task_wdt: esp_task_wdt_reset(705): task not found
+E (25485) task_wdt: esp_task_wdt_reset(705): task not found
+E (25496) task_wdt: esp_task_wdt_reset(705): task not found
+E (25507) task_wdt: esp_task_wdt_reset(705): task not found
+E (25518) task_wdt: esp_task_wdt_reset(705): task not found
+E (25529) task_wdt: esp_task_wdt_reset(705): task not found
+E (25540) task_wdt: esp_task_wdt_reset(705): task not found
+E (25551) task_wdt: esp_task_wdt_reset(705): task not found
+E (25562) task_wdt: esp_task_wdt_reset(705): task not found
+E (25573) task_wdt: esp_task_wdt_reset(705): task not found
+E (25584) task_wdt: esp_task_wdt_reset(705): task not found
+E (25595) task_wdt: esp_task_wdt_reset(705): task not found
+E (25606) task_wdt: esp_task_wdt_reset(705): task not found
+E (25617) task_wdt: esp_task_wdt_reset(705): task not found
+E (25628) task_wdt: esp_task_wdt_reset(705): task not found
+E (25639) task_wdt: esp_task_wdt_reset(705): task not found
+E (25650) task_wdt: esp_task_wdt_reset(705): task not found
+E (25661) task_wdt: esp_task_wdt_reset(705): task not found
+E (25672) task_wdt: esp_task_wdt_reset(705): task not found
+E (25683) task_wdt: esp_task_wdt_reset(705): task not found
+E (25694) task_wdt: esp_task_wdt_reset(705): task not found
+E (25705) task_wdt: esp_task_wdt_reset(705): task not found
+E (25716) task_wdt: esp_task_wdt_reset(705): task not found
+E (25727) task_wdt: esp_task_wdt_reset(705): task not found
+E (25738) task_wdt: esp_task_wdt_reset(705): task not found
+E (25749) task_wdt: esp_task_wdt_reset(705): task not found
+E (25760) task_wdt: esp_task_wdt_reset(705): task not found
+E (25771) task_wdt: esp_task_wdt_reset(705): task not found
+E (25782) task_wdt: esp_task_wdt_reset(705): task not found
+E (25793) task_wdt: esp_task_wdt_reset(705): task not found
+E (25804) task_wdt: esp_task_wdt_reset(705): task not found
+E (25815) task_wdt: esp_task_wdt_reset(705): task not found
+E (25826) task_wdt: esp_task_wdt_reset(705): task not found
+E (25837) task_wdt: esp_task_wdt_reset(705): task not found
+E (25848) task_wdt: esp_task_wdt_reset(705): task not found
+E (25859) task_wdt: esp_task_wdt_reset(705): task not found
+E (25870) task_wdt: esp_task_wdt_reset(705): task not found
+E (25881) task_wdt: esp_task_wdt_reset(705): task not found
+E (25892) task_wdt: esp_task_wdt_reset(705): task not found
+E (25903) task_wdt: esp_task_wdt_reset(705): task not found
+E (25914) task_wdt: esp_task_wdt_reset(705): task not found
+E (25925) task_wdt: esp_task_wdt_reset(705): task not found
+E (25936) task_wdt: esp_task_wdt_reset(705): task not found
+E (25947) task_wdt: esp_task_wdt_reset(705): task not found
+E (25958) task_wdt: esp_task_wdt_reset(705): task not found
+E (25969) task_wdt: esp_task_wdt_reset(705): task not found
+E (25980) task_wdt: esp_task_wdt_reset(705): task not found
+E (25991) task_wdt: esp_task_wdt_reset(705): task not found
+E (26002) task_wdt: esp_task_wdt_reset(705): task not found
+E (26013) task_wdt: esp_task_wdt_reset(705): task not found
+E (26024) task_wdt: esp_task_wdt_reset(705): task not found
+E (26035) task_wdt: esp_task_wdt_reset(705): task not found
+E (26046) task_wdt: esp_task_wdt_reset(705): task not found
+E (26057) task_wdt: esp_task_wdt_reset(705): task not found
+E (26068) task_wdt: esp_task_wdt_reset(705): task not found
+E (26079) task_wdt: esp_task_wdt_reset(705): task not found
+E (26090) task_wdt: esp_task_wdt_reset(705): task not found
+E (26101) task_wdt: esp_task_wdt_reset(705): task not found
+E (26112) task_wdt: esp_task_wdt_reset(705): task not found
+E (26123) task_wdt: esp_task_wdt_reset(705): task not found
+E (26134) task_wdt: esp_task_wdt_reset(705): task not found
+E (26145) task_wdt: esp_task_wdt_reset(705): task not found
+E (26156) task_wdt: esp_task_wdt_reset(705): task not found
+E (26167) task_wdt: esp_task_wdt_reset(705): task not found
+E (26178) task_wdt: esp_task_wdt_reset(705): task not found
+E (26189) task_wdt: esp_task_wdt_reset(705): task not found
+E (26200) task_wdt: esp_task_wdt_reset(705): task not found
+E (26211) task_wdt: esp_task_wdt_reset(705): task not found
+E (26222) task_wdt: esp_task_wdt_reset(705): task not found
+E (26233) task_wdt: esp_task_wdt_reset(705): task not found
+E (26244) task_wdt: esp_task_wdt_reset(705): task not found
+E (26255) task_wdt: esp_task_wdt_reset(705): task not found
+E (26266) task_wdt: esp_task_wdt_reset(705): task not found
+E (26277) task_wdt: esp_task_wdt_reset(705): task not found
+E (26288) task_wdt: esp_task_wdt_reset(705): task not found
+E (26299) task_wdt: esp_task_wdt_reset(705): task not found
+E (26310) task_wdt: esp_task_wdt_reset(705): task not found
+E (26321) task_wdt: esp_task_wdt_reset(705): task not found
+E (26332) task_wdt: esp_task_wdt_reset(705): task not found
+E (26343) task_wdt: esp_task_wdt_reset(705): task not found
+E (26354) task_wdt: esp_task_wdt_reset(705): task not found
+E (26365) task_wdt: esp_task_wdt_reset(705): task not found
+E (26376) task_wdt: esp_task_wdt_reset(705): task not found
+E (26387) task_wdt: esp_task_wdt_reset(705): task not found
+E (26398) task_wdt: esp_task_wdt_reset(705): task not found
+E (26409) task_wdt: esp_task_wdt_reset(705): task not found
+E (26420) task_wdt: esp_task_wdt_reset(705): task not found
+E (26431) task_wdt: esp_task_wdt_reset(705): task not found
+E (26442) task_wdt: esp_task_wdt_reset(705): task not found
+E (26453) task_wdt: esp_task_wdt_reset(705): task not found
+E (26464) task_wdt: esp_task_wdt_reset(705): task not found
+E (26475) task_wdt: esp_task_wdt_reset(705): task not found
+E (26486) task_wdt: esp_task_wdt_reset(705): task not found
+E (26497) task_wdt: esp_task_wdt_reset(705): task not found
+E (26508) task_wdt: esp_task_wdt_reset(705): task not found
+E (26519) task_wdt: esp_task_wdt_reset(705): task not found
+E (26530) task_wdt: esp_task_wdt_reset(705): task not found
+E (26541) task_wdt: esp_task_wdt_reset(705): task not found
+E (26552) task_wdt: esp_task_wdt_reset(705): task not found
+E (26563) task_wdt: esp_task_wdt_reset(705): task not found
+E (26574) task_wdt: esp_task_wdt_reset(705): task not found
+E (26585) task_wdt: esp_task_wdt_reset(705): task not found
+E (26596) task_wdt: esp_task_wdt_reset(705): task not found
+E (26607) task_wdt: esp_task_wdt_reset(705): task not found
+E (26618) task_wdt: esp_task_wdt_reset(705): task not found
+E (26629) task_wdt: esp_task_wdt_reset(705): task not found
+E (26640) task_wdt: esp_task_wdt_reset(705): task not found
+E (26651) task_wdt: esp_task_wdt_reset(705): task not found
+E (26662) task_wdt: esp_task_wdt_reset(705): task not found
+E (26673) task_wdt: esp_task_wdt_reset(705): task not found
+E (26684) task_wdt: esp_task_wdt_reset(705): task not found
+E (26695) task_wdt: esp_task_wdt_reset(705): task not found
+E (26706) task_wdt: esp_task_wdt_reset(705): task not found
+E (26717) task_wdt: esp_task_wdt_reset(705): task not found
+E (26728) task_wdt: esp_task_wdt_reset(705): task not found
+E (26739) task_wdt: esp_task_wdt_reset(705): task not found
+E (26750) task_wdt: esp_task_wdt_reset(705): task not found
+E (26761) task_wdt: esp_task_wdt_reset(705): task not found
+E (26772) task_wdt: esp_task_wdt_reset(705): task not found
+E (26783) task_wdt: esp_task_wdt_reset(705): task not found
+E (26794) task_wdt: esp_task_wdt_reset(705): task not found
+E (26805) task_wdt: esp_task_wdt_reset(705): task not found
+E (26816) task_wdt: esp_task_wdt_reset(705): task not found
+E (26827) task_wdt: esp_task_wdt_reset(705): task not found
+E (26838) task_wdt: esp_task_wdt_reset(705): task not found
+E (26849) task_wdt: esp_task_wdt_reset(705): task not found
+E (26860) task_wdt: esp_task_wdt_reset(705): task not found
+E (26871) task_wdt: esp_task_wdt_reset(705): task not found
+E (26882) task_wdt: esp_task_wdt_reset(705): task not found
+E (26893) task_wdt: esp_task_wdt_reset(705): task not found
+E (26904) task_wdt: esp_task_wdt_reset(705): task not found
+E (26915) task_wdt: esp_task_wdt_reset(705): task not found
+E (26926) task_wdt: esp_task_wdt_reset(705): task not found
+E (26937) task_wdt: esp_task_wdt_reset(705): task not found
+E (26948) task_wdt: esp_task_wdt_reset(705): task not found
+E (26959) task_wdt: esp_task_wdt_reset(705): task not found
+E (26970) task_wdt: esp_task_wdt_reset(705): task not found
+E (26981) task_wdt: esp_task_wdt_reset(705): task not found
+E (26992) task_wdt: esp_task_wdt_reset(705): task not found
+E (27003) task_wdt: esp_task_wdt_reset(705): task not found
+E (27014) task_wdt: esp_task_wdt_reset(705): task not found
+E (27025) task_wdt: esp_task_wdt_reset(705): task not found
+E (27036) task_wdt: esp_task_wdt_reset(705): task not found
+E (27047) task_wdt: esp_task_wdt_reset(705): task not found
+E (27058) task_wdt: esp_task_wdt_reset(705): task not found
+E (27069) task_wdt: esp_task_wdt_reset(705): task not found
+E (27080) task_wdt: esp_task_wdt_reset(705): task not found
+E (27091) task_wdt: esp_task_wdt_reset(705): task not found
+E (27102) task_wdt: esp_task_wdt_reset(705): task not found
+E (27113) task_wdt: esp_task_wdt_reset(705): task not found
+E (27124) task_wdt: esp_task_wdt_reset(705): task not found
+E (27135) task_wdt: esp_task_wdt_reset(705): task not found
+E (27146) task_wdt: esp_task_wdt_reset(705): task not found
+E (27157) task_wdt: esp_task_wdt_reset(705): task not found
+E (27168) task_wdt: esp_task_wdt_reset(705): task not found
+E (27179) task_wdt: esp_task_wdt_reset(705): task not found
+E (27190) task_wdt: esp_task_wdt_reset(705): task not found
+E (27201) task_wdt: esp_task_wdt_reset(705): task not found
+E (27212) task_wdt: esp_task_wdt_reset(705): task not found
+E (27223) task_wdt: esp_task_wdt_reset(705): task not found
+E (27234) task_wdt: esp_task_wdt_reset(705): task not found
+E (27245) task_wdt: esp_task_wdt_reset(705): task not found
+E (27256) task_wdt: esp_task_wdt_reset(705): task not found
+E (27267) task_wdt: esp_task_wdt_reset(705): task not found
+E (27278) task_wdt: esp_task_wdt_reset(705): task not found
+E (27289) task_wdt: esp_task_wdt_reset(705): task not found
+E (27300) task_wdt: esp_task_wdt_reset(705): task not found
+E (27311) task_wdt: esp_task_wdt_reset(705): task not found
+E (27322) task_wdt: esp_task_wdt_reset(705): task not found
+E (27333) task_wdt: esp_task_wdt_reset(705): task not found
+E (27344) task_wdt: esp_task_wdt_reset(705): task not found
+E (27355) task_wdt: esp_task_wdt_reset(705): task not found
+E (27366) task_wdt: esp_task_wdt_reset(705): task not found
+E (27377) task_wdt: esp_task_wdt_reset(705): task not found
+E (27388) task_wdt: esp_task_wdt_reset(705): task not found
+E (27399) task_wdt: esp_task_wdt_reset(705): task not found
+E (27410) task_wdt: esp_task_wdt_reset(705): task not found
+E (27421) task_wdt: esp_task_wdt_reset(705): task not found
+E (27432) task_wdt: esp_task_wdt_reset(705): task not found
+E (27443) task_wdt: esp_task_wdt_reset(705): task not found
+E (27454) task_wdt: esp_task_wdt_reset(705): task not found
+E (27465) task_wdt: esp_task_wdt_reset(705): task not found
+E (27476) task_wdt: esp_task_wdt_reset(705): task not found
+E (27487) task_wdt: esp_task_wdt_reset(705): task not found
+E (27498) task_wdt: esp_task_wdt_reset(705): task not found
+E (27509) task_wdt: esp_task_wdt_reset(705): task not found
+E (27520) task_wdt: esp_task_wdt_reset(705): task not found
+E (27531) task_wdt: esp_task_wdt_reset(705): task not found
+E (27542) task_wdt: esp_task_wdt_reset(705): task not found
+E (27553) task_wdt: esp_task_wdt_reset(705): task not found
+E (27564) task_wdt: esp_task_wdt_reset(705): task not found
+E (27575) task_wdt: esp_task_wdt_reset(705): task not found
+E (27586) task_wdt: esp_task_wdt_reset(705): task not found
+E (27597) task_wdt: esp_task_wdt_reset(705): task not found
+E (27608) task_wdt: esp_task_wdt_reset(705): task not found
+E (27619) task_wdt: esp_task_wdt_reset(705): task not found
+E (27630) task_wdt: esp_task_wdt_reset(705): task not found
+E (27641) task_wdt: esp_task_wdt_reset(705): task not found
+E (27652) task_wdt: esp_task_wdt_reset(705): task not found
+E (27663) task_wdt: esp_task_wdt_reset(705): task not found
+E (27674) task_wdt: esp_task_wdt_reset(705): task not found
+E (27685) task_wdt: esp_task_wdt_reset(705): task not found
+E (27696) task_wdt: esp_task_wdt_reset(705): task not found
+E (27707) task_wdt: esp_task_wdt_reset(705): task not found
+E (27718) task_wdt: esp_task_wdt_reset(705): task not found
+E (27729) task_wdt: esp_task_wdt_reset(705): task not found
+E (27740) task_wdt: esp_task_wdt_reset(705): task not found
+E (27751) task_wdt: esp_task_wdt_reset(705): task not found
+E (27762) task_wdt: esp_task_wdt_reset(705): task not found
+E (27773) task_wdt: esp_task_wdt_reset(705): task not found
+E (27784) task_wdt: esp_task_wdt_reset(705): task not found
+E (27795) task_wdt: esp_task_wdt_reset(705): task not found
+E (27806) task_wdt: esp_task_wdt_reset(705): task not found
+E (27817) task_wdt: esp_task_wdt_reset(705): task not found
+E (27828) task_wdt: esp_task_wdt_reset(705): task not found
+E (27839) task_wdt: esp_task_wdt_reset(705): task not found
+E (27850) task_wdt: esp_task_wdt_reset(705): task not found
+E (27861) task_wdt: esp_task_wdt_reset(705): task not found
+E (27872) task_wdt: esp_task_wdt_reset(705): task not found
+E (27883) task_wdt: esp_task_wdt_reset(705): task not found
+E (27894) task_wdt: esp_task_wdt_reset(705): task not found
+E (27905) task_wdt: esp_task_wdt_reset(705): task not found
+E (27916) task_wdt: esp_task_wdt_reset(705): task not found
+E (27927) task_wdt: esp_task_wdt_reset(705): task not found
+E (27938) task_wdt: esp_task_wdt_reset(705): task not found
+E (27949) task_wdt: esp_task_wdt_reset(705): task not found
+E (27960) task_wdt: esp_task_wdt_reset(705): task not found
+E (27971) task_wdt: esp_task_wdt_reset(705): task not found
+E (27982) task_wdt: esp_task_wdt_reset(705): task not found
+E (27993) task_wdt: esp_task_wdt_reset(705): task not found
+E (28004) task_wdt: esp_task_wdt_reset(705): task not found
+E (28015) task_wdt: esp_task_wdt_reset(705): task not found
+E (28026) task_wdt: esp_task_wdt_reset(705): task not found
+E (28037) task_wdt: esp_task_wdt_reset(705): task not found
+E (28048) task_wdt: esp_task_wdt_reset(705): task not found
+E (28059) task_wdt: esp_task_wdt_reset(705): task not found
+E (28070) task_wdt: esp_task_wdt_reset(705): task not found
+E (28081) task_wdt: esp_task_wdt_reset(705): task not found
+E (28092) task_wdt: esp_task_wdt_reset(705): task not found
+E (28103) task_wdt: esp_task_wdt_reset(705): task not found
+E (28114) task_wdt: esp_task_wdt_reset(705): task not found
+E (28125) task_wdt: esp_task_wdt_reset(705): task not found
+E (28136) task_wdt: esp_task_wdt_reset(705): task not found
+E (28147) task_wdt: esp_task_wdt_reset(705): task not found
+E (28158) task_wdt: esp_task_wdt_reset(705): task not found
+E (28169) task_wdt: esp_task_wdt_reset(705): task not found
+E (28180) task_wdt: esp_task_wdt_reset(705): task not found
+E (28191) task_wdt: esp_task_wdt_reset(705): task not found
+E (28202) task_wdt: esp_task_wdt_reset(705): task not found
+E (28213) task_wdt: esp_task_wdt_reset(705): task not found
+E (28224) task_wdt: esp_task_wdt_reset(705): task not found
+E (28235) task_wdt: esp_task_wdt_reset(705): task not found
+E (28246) task_wdt: esp_task_wdt_reset(705): task not found
+E (28257) task_wdt: esp_task_wdt_reset(705): task not found
+E (28268) task_wdt: esp_task_wdt_reset(705): task not found
+E (28279) task_wdt: esp_task_wdt_reset(705): task not found
+E (28290) task_wdt: esp_task_wdt_reset(705): task not found
+E (28301) task_wdt: esp_task_wdt_reset(705): task not found
+E (28312) task_wdt: esp_task_wdt_reset(705): task not found
+E (28323) task_wdt: esp_task_wdt_reset(705): task not found
+E (28334) task_wdt: esp_task_wdt_reset(705): task not found
+E (28345) task_wdt: esp_task_wdt_reset(705): task not found
+E (28356) task_wdt: esp_task_wdt_reset(705): task not found
+E (28367) task_wdt: esp_task_wdt_reset(705): task not found
+E (28378) task_wdt: esp_task_wdt_reset(705): task not found
+E (28389) task_wdt: esp_task_wdt_reset(705): task not found
+E (28400) task_wdt: esp_task_wdt_reset(705): task not found
+E (28411) task_wdt: esp_task_wdt_reset(705): task not found
+E (28422) task_wdt: esp_task_wdt_reset(705): task not found
+E (28434) task_wdt: esp_task_wdt_reset(705): task not found
+E (28449) task_wdt: esp_task_wdt_reset(705): task not found
+E (28460) task_wdt: esp_task_wdt_reset(705): task not found
+E (28471) task_wdt: esp_task_wdt_reset(705): task not found
+E (28482) task_wdt: esp_task_wdt_reset(705): task not found
+E (28493) task_wdt: esp_task_wdt_reset(705): task not found
+E (28504) task_wdt: esp_task_wdt_reset(705): task not found
+E (28515) task_wdt: esp_task_wdt_reset(705): task not found
+E (28526) task_wdt: esp_task_wdt_reset(705): task not found
+E (28537) task_wdt: esp_task_wdt_reset(705): task not found
+E (28548) task_wdt: esp_task_wdt_reset(705): task not found
+E (28559) task_wdt: esp_task_wdt_reset(705): task not found
+E (28570) task_wdt: esp_task_wdt_reset(705): task not found
+E (28581) task_wdt: esp_task_wdt_reset(705): task not found
+E (28592) task_wdt: esp_task_wdt_reset(705): task not found
+E (28603) task_wdt: esp_task_wdt_reset(705): task not found
+E (28614) task_wdt: esp_task_wdt_reset(705): task not found
+E (28625) task_wdt: esp_task_wdt_reset(705): task not found
+E (28636) task_wdt: esp_task_wdt_reset(705): task not found
+E (28647) task_wdt: esp_task_wdt_reset(705): task not found
+E (28658) task_wdt: esp_task_wdt_reset(705): task not found
+E (28669) task_wdt: esp_task_wdt_reset(705): task not found
+E (28680) task_wdt: esp_task_wdt_reset(705): task not found
+E (28691) task_wdt: esp_task_wdt_reset(705): task not found
+E (28702) task_wdt: esp_task_wdt_reset(705): task not found
+E (28713) task_wdt: esp_task_wdt_reset(705): task not found
+E (28724) task_wdt: esp_task_wdt_reset(705): task not found
+E (28735) task_wdt: esp_task_wdt_reset(705): task not found
+E (28746) task_wdt: esp_task_wdt_reset(705): task not found
+E (28757) task_wdt: esp_task_wdt_reset(705): task not found
+E (28768) task_wdt: esp_task_wdt_reset(705): task not found
+E (28779) task_wdt: esp_task_wdt_reset(705): task not found
+E (28790) task_wdt: esp_task_wdt_reset(705): task not found
+E (28801) task_wdt: esp_task_wdt_reset(705): task not found
+E (28812) task_wdt: esp_task_wdt_reset(705): task not found
+E (28823) task_wdt: esp_task_wdt_reset(705): task not found
+E (28834) task_wdt: esp_task_wdt_reset(705): task not found
+E (28845) task_wdt: esp_task_wdt_reset(705): task not found
+E (28856) task_wdt: esp_task_wdt_reset(705): task not found
+E (28867) task_wdt: esp_task_wdt_reset(705): task not found
+E (28878) task_wdt: esp_task_wdt_reset(705): task not found
+E (28889) task_wdt: esp_task_wdt_reset(705): task not found
+E (28900) task_wdt: esp_task_wdt_reset(705): task not found
+E (28911) task_wdt: esp_task_wdt_reset(705): task not found
+E (28922) task_wdt: esp_task_wdt_reset(705): task not found
+E (28933) task_wdt: esp_task_wdt_reset(705): task not found
+E (28944) task_wdt: esp_task_wdt_reset(705): task not found
+E (28955) task_wdt: esp_task_wdt_reset(705): task not found
+E (28966) task_wdt: esp_task_wdt_reset(705): task not found
+E (28977) task_wdt: esp_task_wdt_reset(705): task not found
+E (28988) task_wdt: esp_task_wdt_reset(705): task not found
+E (28999) task_wdt: esp_task_wdt_reset(705): task not found
+E (29010) task_wdt: esp_task_wdt_reset(705): task not found
+E (29021) task_wdt: esp_task_wdt_reset(705): task not found
+E (29032) task_wdt: esp_task_wdt_reset(705): task not found
+E (29043) task_wdt: esp_task_wdt_reset(705): task not found
+E (29054) task_wdt: esp_task_wdt_reset(705): task not found
+E (29065) task_wdt: esp_task_wdt_reset(705): task not found
+E (29076) task_wdt: esp_task_wdt_reset(705): task not found
+E (29087) task_wdt: esp_task_wdt_reset(705): task not found
+E (29098) task_wdt: esp_task_wdt_reset(705): task not found
+E (29109) task_wdt: esp_task_wdt_reset(705): task not found
+E (29120) task_wdt: esp_task_wdt_reset(705): task not found
+E (29131) task_wdt: esp_task_wdt_reset(705): task not found
+E (29142) task_wdt: esp_task_wdt_reset(705): task not found
+E (29153) task_wdt: esp_task_wdt_reset(705): task not found
+E (29164) task_wdt: esp_task_wdt_reset(705): task not found
+E (29175) task_wdt: esp_task_wdt_reset(705): task not found
+E (29186) task_wdt: esp_task_wdt_reset(705): task not found
+E (29197) task_wdt: esp_task_wdt_reset(705): task not found
+E (29208) task_wdt: esp_task_wdt_reset(705): task not found
+E (29219) task_wdt: esp_task_wdt_reset(705): task not found
+E (29230) task_wdt: esp_task_wdt_reset(705): task not found
+E (29241) task_wdt: esp_task_wdt_reset(705): task not found
+E (29252) task_wdt: esp_task_wdt_reset(705): task not found
+E (29263) task_wdt: esp_task_wdt_reset(705): task not found
+E (29274) task_wdt: esp_task_wdt_reset(705): task not found
+E (29285) task_wdt: esp_task_wdt_reset(705): task not found
+E (29296) task_wdt: esp_task_wdt_reset(705): task not found
+E (29307) task_wdt: esp_task_wdt_reset(705): task not found
+E (29318) task_wdt: esp_task_wdt_reset(705): task not found
+E (29329) task_wdt: esp_task_wdt_reset(705): task not found
+E (29340) task_wdt: esp_task_wdt_reset(705): task not found
+E (29351) task_wdt: esp_task_wdt_reset(705): task not found
+E (29362) task_wdt: esp_task_wdt_reset(705): task not found
+E (29373) task_wdt: esp_task_wdt_reset(705): task not found
+E (29384) task_wdt: esp_task_wdt_reset(705): task not found
+E (29395) task_wdt: esp_task_wdt_reset(705): task not found
+E (29406) task_wdt: esp_task_wdt_reset(705): task not found
+E (29417) task_wdt: esp_task_wdt_reset(705): task not found
+E (29428) task_wdt: esp_task_wdt_reset(705): task not found
+E (29439) task_wdt: esp_task_wdt_reset(705): task not found
+E (29450) task_wdt: esp_task_wdt_reset(705): task not found
+E (29461) task_wdt: esp_task_wdt_reset(705): task not found
+E (29472) task_wdt: esp_task_wdt_reset(705): task not found
+E (29483) task_wdt: esp_task_wdt_reset(705): task not found
+E (29494) task_wdt: esp_task_wdt_reset(705): task not found
+E (29505) task_wdt: esp_task_wdt_reset(705): task not found
+E (29516) task_wdt: esp_task_wdt_reset(705): task not found
+E (29527) task_wdt: esp_task_wdt_reset(705): task not found
+E (29538) task_wdt: esp_task_wdt_reset(705): task not found
+E (29549) task_wdt: esp_task_wdt_reset(705): task not found
+E (29560) task_wdt: esp_task_wdt_reset(705): task not found
+E (29571) task_wdt: esp_task_wdt_reset(705): task not found
+E (29582) task_wdt: esp_task_wdt_reset(705): task not found
+E (29593) task_wdt: esp_task_wdt_reset(705): task not found
+E (29604) task_wdt: esp_task_wdt_reset(705): task not found
+E (29615) task_wdt: esp_task_wdt_reset(705): task not found
+E (29626) task_wdt: esp_task_wdt_reset(705): task not found
+E (29637) task_wdt: esp_task_wdt_reset(705): task not found
+E (29648) task_wdt: esp_task_wdt_reset(705): task not found
+E (29659) task_wdt: esp_task_wdt_reset(705): task not found
+E (29670) task_wdt: esp_task_wdt_reset(705): task not found
+E (29681) task_wdt: esp_task_wdt_reset(705): task not found
+E (29692) task_wdt: esp_task_wdt_reset(705): task not found
+E (29703) task_wdt: esp_task_wdt_reset(705): task not found
+E (29714) task_wdt: esp_task_wdt_reset(705): task not found
+E (29725) task_wdt: esp_task_wdt_reset(705): task not found
+E (29736) task_wdt: esp_task_wdt_reset(705): task not found
+E (29747) task_wdt: esp_task_wdt_reset(705): task not found
+E (29758) task_wdt: esp_task_wdt_reset(705): task not found
+E (29769) task_wdt: esp_task_wdt_reset(705): task not found
+E (29780) task_wdt: esp_task_wdt_reset(705): task not found
+E (29791) task_wdt: esp_task_wdt_reset(705): task not found
+E (29802) task_wdt: esp_task_wdt_reset(705): task not found
+E (29813) task_wdt: esp_task_wdt_reset(705): task not found
+E (29824) task_wdt: esp_task_wdt_reset(705): task not found
+E (29835) task_wdt: esp_task_wdt_reset(705): task not found
+E (29846) task_wdt: esp_task_wdt_reset(705): task not found
+E (29857) task_wdt: esp_task_wdt_reset(705): task not found
+E (29868) task_wdt: esp_task_wdt_reset(705): task not found
+E (29879) task_wdt: esp_task_wdt_reset(705): task not found
+E (29890) task_wdt: esp_task_wdt_reset(705): task not found
+E (29901) task_wdt: esp_task_wdt_reset(705): task not found
+E (29912) task_wdt: esp_task_wdt_reset(705): task not found
+E (29923) task_wdt: esp_task_wdt_reset(705): task not found
+E (29934) task_wdt: esp_task_wdt_reset(705): task not found
+E (29945) task_wdt: esp_task_wdt_reset(705): task not found
+E (29956) task_wdt: esp_task_wdt_reset(705): task not found
+E (29967) task_wdt: esp_task_wdt_reset(705): task not found
+E (29978) task_wdt: esp_task_wdt_reset(705): task not found
+E (29989) task_wdt: esp_task_wdt_reset(705): task not found
+E (30000) task_wdt: esp_task_wdt_reset(705): task not found
+E (30011) task_wdt: esp_task_wdt_reset(705): task not found
+E (30022) task_wdt: esp_task_wdt_reset(705): task not found
+E (30033) task_wdt: esp_task_wdt_reset(705): task not found
+E (30044) task_wdt: esp_task_wdt_reset(705): task not found
+E (30055) task_wdt: esp_task_wdt_reset(705): task not found
+E (30066) task_wdt: esp_task_wdt_reset(705): task not found
+E (30077) task_wdt: esp_task_wdt_reset(705): task not found
+E (30088) task_wdt: esp_task_wdt_reset(705): task not found
+E (30099) task_wdt: esp_task_wdt_reset(705): task not found
+E (30110) task_wdt: esp_task_wdt_reset(705): task not found
+E (30121) task_wdt: esp_task_wdt_reset(705): task not found
+E (30132) task_wdt: esp_task_wdt_reset(705): task not found
+E (30143) task_wdt: esp_task_wdt_reset(705): task not found
+E (30154) task_wdt: esp_task_wdt_reset(705): task not found
+E (30165) task_wdt: esp_task_wdt_reset(705): task not found
+E (30176) task_wdt: esp_task_wdt_reset(705): task not found
+E (30187) task_wdt: esp_task_wdt_reset(705): task not found
+E (30198) task_wdt: esp_task_wdt_reset(705): task not found
+E (30209) task_wdt: esp_task_wdt_reset(705): task not found
+E (30220) task_wdt: esp_task_wdt_reset(705): task not found
+E (30231) task_wdt: esp_task_wdt_reset(705): task not found
+E (30242) task_wdt: esp_task_wdt_reset(705): task not found
+E (30253) task_wdt: esp_task_wdt_reset(705): task not found
+E (30264) task_wdt: esp_task_wdt_reset(705): task not found
+E (30275) task_wdt: esp_task_wdt_reset(705): task not found
+E (30286) task_wdt: esp_task_wdt_reset(705): task not found
+E (30297) task_wdt: esp_task_wdt_reset(705): task not found
+E (30308) task_wdt: esp_task_wdt_reset(705): task not found
+E (30319) task_wdt: esp_task_wdt_reset(705): task not found
+E (30330) task_wdt: esp_task_wdt_reset(705): task not found
+E (30341) task_wdt: esp_task_wdt_reset(705): task not found
+E (30352) task_wdt: esp_task_wdt_reset(705): task not found
+E (30363) task_wdt: esp_task_wdt_reset(705): task not found
+E (30374) task_wdt: esp_task_wdt_reset(705): task not found
+E (30385) task_wdt: esp_task_wdt_reset(705): task not found
+E (30396) task_wdt: esp_task_wdt_reset(705): task not found
+E (30407) task_wdt: esp_task_wdt_reset(705): task not found
+E (30418) task_wdt: esp_task_wdt_reset(705): task not found
+E (30429) task_wdt: esp_task_wdt_reset(705): task not found
+E (30440) task_wdt: esp_task_wdt_reset(705): task not found
+E (30451) task_wdt: esp_task_wdt_reset(705): task not found
+E (30462) task_wdt: esp_task_wdt_reset(705): task not found
+E (30473) task_wdt: esp_task_wdt_reset(705): task not found
+E (30484) task_wdt: esp_task_wdt_reset(705): task not found
+E (30495) task_wdt: esp_task_wdt_reset(705): task not found
+E (30506) task_wdt: esp_task_wdt_reset(705): task not found
+E (30517) task_wdt: esp_task_wdt_reset(705): task not found
+E (30528) task_wdt: esp_task_wdt_reset(705): task not found
+E (30539) task_wdt: esp_task_wdt_reset(705): task not found
+E (30550) task_wdt: esp_task_wdt_reset(705): task not found
+E (30561) task_wdt: esp_task_wdt_reset(705): task not found
+E (30572) task_wdt: esp_task_wdt_reset(705): task not found
+E (30583) task_wdt: esp_task_wdt_reset(705): task not found
+E (30594) task_wdt: esp_task_wdt_reset(705): task not found
+E (30605) task_wdt: esp_task_wdt_reset(705): task not found
+E (30616) task_wdt: esp_task_wdt_reset(705): task not found
+E (30627) task_wdt: esp_task_wdt_reset(705): task not found
+E (30638) task_wdt: esp_task_wdt_reset(705): task not found
+E (30649) task_wdt: esp_task_wdt_reset(705): task not found
+E (30660) task_wdt: esp_task_wdt_reset(705): task not found
+E (30671) task_wdt: esp_task_wdt_reset(705): task not found
+E (30682) task_wdt: esp_task_wdt_reset(705): task not found
+E (30693) task_wdt: esp_task_wdt_reset(705): task not found
+E (30704) task_wdt: esp_task_wdt_reset(705): task not found
+E (30715) task_wdt: esp_task_wdt_reset(705): task not found
+E (30726) task_wdt: esp_task_wdt_reset(705): task not found
+E (30737) task_wdt: esp_task_wdt_reset(705): task not found
+E (30748) task_wdt: esp_task_wdt_reset(705): task not found
+E (30759) task_wdt: esp_task_wdt_reset(705): task not found
+E (30770) task_wdt: esp_task_wdt_reset(705): task not found
+E (30781) task_wdt: esp_task_wdt_reset(705): task not found
+E (30792) task_wdt: esp_task_wdt_reset(705): task not found
+E (30803) task_wdt: esp_task_wdt_reset(705): task not found
+E (30814) task_wdt: esp_task_wdt_reset(705): task not found
+E (30825) task_wdt: esp_task_wdt_reset(705): task not found
+E (30836) task_wdt: esp_task_wdt_reset(705): task not found
+E (30847) task_wdt: esp_task_wdt_reset(705): task not found
+E (30858) task_wdt: esp_task_wdt_reset(705): task not found
+E (30869) task_wdt: esp_task_wdt_reset(705): task not found
+E (30880) task_wdt: esp_task_wdt_reset(705): task not found
+E (30891) task_wdt: esp_task_wdt_reset(705): task not found
+E (30902) task_wdt: esp_task_wdt_reset(705): task not found
+E (30913) task_wdt: esp_task_wdt_reset(705): task not found
+E (30924) task_wdt: esp_task_wdt_reset(705): task not found
+E (30935) task_wdt: esp_task_wdt_reset(705): task not found
+E (30946) task_wdt: esp_task_wdt_reset(705): task not found
+E (30957) task_wdt: esp_task_wdt_reset(705): task not found
+E (30968) task_wdt: esp_task_wdt_reset(705): task not found
+E (30979) task_wdt: esp_task_wdt_reset(705): task not found
+E (30990) task_wdt: esp_task_wdt_reset(705): task not found
+E (31001) task_wdt: esp_task_wdt_reset(705): task not found
+E (31012) task_wdt: esp_task_wdt_reset(705): task not found
+E (31023) task_wdt: esp_task_wdt_reset(705): task not found
+E (31034) task_wdt: esp_task_wdt_reset(705): task not found
+E (31045) task_wdt: esp_task_wdt_reset(705): task not found
+E (31056) task_wdt: esp_task_wdt_reset(705): task not found
+E (31067) task_wdt: esp_task_wdt_reset(705): task not found
+E (31078) task_wdt: esp_task_wdt_reset(705): task not found
+E (31089) task_wdt: esp_task_wdt_reset(705): task not found
+E (31100) task_wdt: esp_task_wdt_reset(705): task not found
+E (31111) task_wdt: esp_task_wdt_reset(705): task not found
+E (31122) task_wdt: esp_task_wdt_reset(705): task not found
+E (31133) task_wdt: esp_task_wdt_reset(705): task not found
+E (31144) task_wdt: esp_task_wdt_reset(705): task not found
+E (31155) task_wdt: esp_task_wdt_reset(705): task not found
+E (31166) task_wdt: esp_task_wdt_reset(705): task not found
+E (31177) task_wdt: esp_task_wdt_reset(705): task not found
+E (31188) task_wdt: esp_task_wdt_reset(705): task not found
+E (31199) task_wdt: esp_task_wdt_reset(705): task not found
+E (31210) task_wdt: esp_task_wdt_reset(705): task not found
+E (31221) task_wdt: esp_task_wdt_reset(705): task not found
+E (31232) task_wdt: esp_task_wdt_reset(705): task not found
+E (31243) task_wdt: esp_task_wdt_reset(705): task not found
+E (31254) task_wdt: esp_task_wdt_reset(705): task not found
+E (31265) task_wdt: esp_task_wdt_reset(705): task not found
+E (31276) task_wdt: esp_task_wdt_reset(705): task not found
+E (31287) task_wdt: esp_task_wdt_reset(705): task not found
+E (31298) task_wdt: esp_task_wdt_reset(705): task not found
+E (31309) task_wdt: esp_task_wdt_reset(705): task not found
+E (31320) task_wdt: esp_task_wdt_reset(705): task not found
+E (31331) task_wdt: esp_task_wdt_reset(705): task not found
+E (31342) task_wdt: esp_task_wdt_reset(705): task not found
+E (31353) task_wdt: esp_task_wdt_reset(705): task not found
+E (31364) task_wdt: esp_task_wdt_reset(705): task not found
+E (31375) task_wdt: esp_task_wdt_reset(705): task not found
+E (31386) task_wdt: esp_task_wdt_reset(705): task not found
+E (31397) task_wdt: esp_task_wdt_reset(705): task not found
+E (31408) task_wdt: esp_task_wdt_reset(705): task not found
+E (31419) task_wdt: esp_task_wdt_reset(705): task not found
+E (31430) task_wdt: esp_task_wdt_reset(705): task not found
+E (31441) task_wdt: esp_task_wdt_reset(705): task not found
+E (31452) task_wdt: esp_task_wdt_reset(705): task not found
+E (31463) task_wdt: esp_task_wdt_reset(705): task not found
+E (31474) task_wdt: esp_task_wdt_reset(705): task not found
+E (31485) task_wdt: esp_task_wdt_reset(705): task not found
+E (31496) task_wdt: esp_task_wdt_reset(705): task not found
+E (31507) task_wdt: esp_task_wdt_reset(705): task not found
+E (31518) task_wdt: esp_task_wdt_reset(705): task not found
+E (31529) task_wdt: esp_task_wdt_reset(705): task not found
+E (31540) task_wdt: esp_task_wdt_reset(705): task not found
+E (31551) task_wdt: esp_task_wdt_reset(705): task not found
+E (31562) task_wdt: esp_task_wdt_reset(705): task not found
+[   0:00:31.576] [DEBUG] #000062: Serving main page
+[ 31577][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Serving main page
+E (31723) task_wdt: esp_task_wdt_reset(705): task not found
+E (31736) task_wdt: esp_task_wdt_reset(705): task not found
+E (31747) task_wdt: esp_task_wdt_reset(705): task not found
+E (31758) task_wdt: esp_task_wdt_reset(705): task not found
+E (31769) task_wdt: esp_task_wdt_reset(705): task not found
+E (31780) task_wdt: esp_task_wdt_reset(705): task not found
+E (31791) task_wdt: esp_task_wdt_reset(705): task not found
+E (31802) task_wdt: esp_task_wdt_reset(705): task not found
+E (31813) task_wdt: esp_task_wdt_reset(705): task not found
+E (31824) task_wdt: esp_task_wdt_reset(705): task not found
+E (31835) task_wdt: esp_task_wdt_reset(705): task not found
+E (31848) task_wdt: esp_task_wdt_reset(705): task not found
+[   0:00:31.861] [DEBUG] #000063: Serving image list
+[ 31862][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Serving image list
+E (31882) task_wdt: esp_task_wdt_reset(705): task not found
+E (31893) task_wdt: esp_task_wdt_reset(705): task not found
+E (31904) task_wdt: esp_task_wdt_reset(705): task not found
+E (31915) task_wdt: esp_task_wdt_reset(705): task not found
+E (31926) task_wdt: esp_task_wdt_reset(705): task not found
+E (31937) task_wdt: esp_task_wdt_reset(705): task not found
+E (31948) task_wdt: esp_task_wdt_reset(705): task not found
+E (31959) task_wdt: esp_task_wdt_reset(705): task not found
+E (31970) task_wdt: esp_task_wdt_reset(705): task not found
+E (31981) task_wdt: esp_task_wdt_reset(705): task not found
+E (31992) task_wdt: esp_task_wdt_reset(705): task not found
+E (32003) task_wdt: esp_task_wdt_reset(705): task not found
+E (32014) task_wdt: esp_task_wdt_reset(705): task not found
+E (32025) task_wdt: esp_task_wdt_reset(705): task not found
+E (32036) task_wdt: esp_task_wdt_reset(705): task not found
+E (32047) task_wdt: esp_task_wdt_reset(705): task not found
+E (32058) task_wdt: esp_task_wdt_reset(705): task not found
+E (32069) task_wdt: esp_task_wdt_reset(705): task not found
+E (32080) task_wdt: esp_task_wdt_reset(705): task not found
+E (32091) task_wdt: esp_task_wdt_reset(705): task not found
+E (32102) task_wdt: esp_task_wdt_reset(705): task not found
+E (32113) task_wdt: esp_task_wdt_reset(705): task not found
+Guru Meditation Error: Core  1 panic'ed (Load access fault). Exception was unhandled.
+
+Core  1 register dump:
+MEPC    : 0x4fc1b1c2  RA      : 0x400ae6ea  SP      : 0x4ff309a0  GP      : 0x4ff11e00  
+TP      : 0x4ff314c0  T0      : 0x40046b40  T1      : 0x4ff30abc  T2      : 0xffffffff  
+S0/FP   : 0x00000000  S1      : 0x00000027  A0      : 0x00000027  A1      : 0xffffffff  
+A2      : 0x00000001  A3      : 0x4ff310fc  A4      : 0x00000003  A5      : 0x00000027  
+A6      : 0x00000007  A7      : 0x0000000a  S2      : 0x40103000  S3      : 0x00000000  
+S4      : 0xffffffff  S5      : 0x00000001  S6      : 0x4ff30ac4  S7      : 0x00000073  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4      : 0x75676e61  T5      : 0x4c2d7470  T6      : 0x65636341  
+MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000005  MTVAL   : 0x00000027  
+MHARTID : 0x00000001  
+
+Stack memory:
+4ff309a0: 0x00000000 0x4ff31754 0x4ff30e28 0x4ff31158 0x00000000 0x00000000 0x00000000 0x00000000
+4ff309c0: 0x00000014 0x00000001 0x00000028 0x4ff31048 0x00000000 0x400c4dd4 0x00000000 0x400c660a
+4ff309e0: 0x00000000 0x00000000 0x00000004 0x4ff30a7e 0x00000002 0x400c4dd4 0x00000000 0x400af43e
+4ff30a00: 0x4ff30a0c 0x00000000 0x00000000 0x4ff3107c 0x00000012 0x4ff311e5 0x4ff30f4c 0x4ff31098
+4ff30a20: 0x4ff30a2c 0x00000000 0x00000000 0x400c660a 0x00000000 0x00000000 0x00000004 0x4ff30ace
+4ff30a40: 0x00000002 0x400c660a 0x00000002 0x4ff30e98 0x4ff30a5c 0x00000000 0x00000000 0x4ff310cc
+4ff30a60: 0x00000003 0x00000000 0x4ff30f9c 0x4ff27000 0xffffffff 0x4ff3120c 0x0000003d 0x4ff310fc
+4ff30a80: 0x4ff30a8c 0x00000000 0x00000000 0x400c660a 0x00000001 0x00000000 0x00000004 0x4ff30b2e
+4ff30aa0: 0x00000002 0x00000001 0x4ff2d50c 0x00000001 0x4ff30abc 0x00000001 0x00000028 0x4ff3112c
+4ff30ac0: 0x00000028 0x00000000 0x4ff2d50c 0x4ff30b88 0x00000000 0x4ff2d4dc 0x000000e5 0x00000001
+4ff30ae0: 0x00000000 0x4ff2d6dc 0x00000000 0x4ff2d720 0x00000000 0x00000000 0x4ff316ec 0x4ff0c2d0
+4ff30b00: 0x00000000 0x00000000 0x4ff2d6cc 0x4ff087b0 0x00000000 0x00000000 0x4ff2d6cc 0x4ff08d04
+4ff30b20: 0x00000000 0x00000000 0x00000000 0x34363100 0xffffffff 0x4ff090c8 0x4ff30bb0 0x4ff11e00
+4ff30b40: 0x4ff314c0 0x4009c458 0x00002000 0x002e0039 0x4ff2d4b8 0x00000001 0x4ff2d50c 0x00000001
+4ff30b60: 0xffffffff 0x00000000 0x20800008 0x1f000000 0x00000004 0x00000000 0x4ff2d50c 0x4ff30c38
+4ff30b80: 0x00000000 0x4ff2d4dc 0x000000e5 0x00000001 0x00000000 0x4ff2d6dc 0x00000000 0x4ff2d720
+4ff30ba0: 0x00000000 0x00000000 0x4ff316ec 0x4ff0c2d0 0x4ff30ea4 0x00000000 0x4ff2d6cc 0x4ff087b0
+4ff30bc0: 0x400c65c0 0x00000000 0x4ff2d6cc 0x4ff08d04 0x00000040 0x00000000 0x00000000 0x00000000
+4ff30be0: 0x00000027 0x00000000 0x00000000 0x00000073 0x4ff30d3c 0x00000001 0x00000027 0x00000000
+4ff30c00: 0x00000000 0x4ff43ad0 0x00000000 0x400aef0c 0x00000000 0x4ff31754 0x4ff31098 0x400c0181
+4ff30c20: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000001 0x00000036 0x00000027
+4ff30c40: 0x00000000 0x400c4dd4 0x00000000 0x4ff3108c 0x00000000 0x00000000 0x0000000f 0x4820dd3c
+4ff30c60: 0x000000e5 0x4ff440c0 0x00000200 0x00000200 0x0004883f 0x4ff2d3cc 0x4ff30c94 0x4009bd46
+4ff30c80: 0x0000020c 0x00000040 0x4ff30cf0 0x4009c474 0x0004883f 0x0000000d 0x00000000 0x4009d7a8
+4ff30ca0: 0x00000000 0x00000000 0x00000000 0x00000900 0x00000000 0x00000000 0x00000000 0x4820dd3c
+4ff30cc0: 0x000000e5 0x4ff440c0 0x00000000 0x00000200 0x0004883f 0x4ff2d3cc 0x00000000 0x4009c978
+4ff30ce0: 0x00048840 0x00000200 0x00000000 0x4ff31348 0x00000900 0x00000011 0x0004883f 0x00000900
+4ff30d00: 0x00000001 0x00000000 0x00000000 0x4ff440c0 0x4ff440c0 0x00000200 0x4ff2d3cc 0x4820dd5c
+4ff30d20: 0x4ff30d2c 0x00000000 0x00000000 0x400c0170 0x0000000f 0x4ff43ad0 0x00000027 0x4ff0ead2
+4ff30d40: 0x0004883f 0x00048840 0x00000000 0x4009ca4e 0xffffffff 0x00000000 0x4ff316ec 0x00000200
+4ff30d60: 0x4ff440c0 0x00000200 0x00000008 0x00000004 0x000000e5 0x4820db24 0xffffffff 0x000000eb
+4ff30d80: 0x000000ff 0x0004883f 0x4820db24 0x4008bb88 0x400c5000 0x400c5000 0x400c5000 0x00000818
+
+
+
+ELF file SHA256: 0c5e8726e
+
+Rebooting...
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
+Core0 Saved PC:0x4ff046d6
+Core1 Saved PC:0x4ff022da
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11c8
+load:0x4ff2abd0,len:0xc1c
+load:0x4ff2cbd0,len:0x32fc
+entry 0x4ff2abd0
+[    19][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-P4
+  Package           : 0
+  Revision          : 1.00
+  Cores             : 2
+  CPU Frequency     : 360 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0000000000
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : No
+  Classic BT        : No
+  BT Low Energy     : No
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   531128 B ( 518.7 KB)
+  Free Bytes        :   492520 B ( 481.0 KB)
+  Allocated Bytes   :    32500 B (  31.7 KB)
+  Minimum Free Bytes:   488480 B ( 477.0 KB)
+  Largest Free Block:   385012 B ( 376.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        : 33554432 B (32768.0 KB)
+  Free Bytes        : 33551856 B (32765.5 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes: 33551856 B (32765.5 KB)
+  Largest Free Block: 33030132 B (32256.0 KB)
+  Bus Mode          : QSPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
+           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
+            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
+            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
+           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
+             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
+           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Jun 13 2025 17:11:43
+  Compile Host OS   : windows
+  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
+  Arduino Version   : 3.2.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : ESP32P4_DEV
+  Arduino Variant   : esp32p4
+  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
+============ Before Setup End ============
+[   140][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff236d0
+[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff236d0
+[INFO] Log partition initialized, write pos: 8
+[   0:00:00.642] [INFO ] #000000: Logger initialized at Fri Jun 13 17:27:36 2025
+[   645][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Logger initialized at Fri Jun 13 17:27:36 2025
+[   0:00:00.645] [INFO ] #000001: ====================================
+[   646][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
+[   0:00:00.646] [INFO ] #000002: ESP32P4 Image Gallery Starting
+[   647][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ESP32P4 Image Gallery Starting
+[   0:00:00.647] [INFO ] #000003: Date: 2025-06-13 11:03:17 UTC
+[   648][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Date: 2025-06-13 11:03:17 UTC
+[   0:00:00.648] [INFO ] #000004: User: Chamil1983
+[   648][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] User: Chamil1983
+[   0:00:00.649] [INFO ] #000005: ====================================
+[   649][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
+[   0:00:00.649] [INFO ] #000006: Watchdog warnings suppressed in application
+[   650][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Watchdog warnings suppressed in application
+[   0:00:00.650] [INFO ] #000007: JPEG buffer allocated: 32768 bytes
+[   651][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG buffer allocated: 32768 bytes
+[   0:00:00.651] [INFO ] #000008: Flash size: 16 MB
+[   652][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Flash size: 16 MB
+[   0:00:00.652] [INFO ] #000009: PSRAM size: 32 MB
+[   653][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] PSRAM size: 32 MB
+[   0:00:00.653] [INFO ] #000010: CPU Freq: 360 MHz
+[   653][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] CPU Freq: 360 MHz
+[   0:00:00.654] [INFO ] #000011: Free heap: 480 KB
+[   654][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free heap: 480 KB
+[   0:00:00.655] [INFO ] #000012: SDK version: v5.4.1-1-g2f7dcd862a-dirty
+[   657][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SDK version: v5.4.1-1-g2f7dcd862a-dirty
+E (639) task_wdt: esp_task_wdt_init(515): TWDT already initialized
+[   0:00:00.658] [ERROR] #000013: Failed to initialize watchdog timer: 259
+[   658][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] Failed to initialize watchdog timer: 259
+[   0:00:00.659] [INFO ] #000014: Initializing components in sequence:
+[   659][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initializing components in sequence:
+[   0:00:00.659] [INFO ] #000015: LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   660][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   0:00:00.660] [INFO ] #000016: Setting up LCD...
+[   661][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LCD...
+[   661][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
+[   663][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
+[   0:00:00.951] [INFO ] #000017: LCD initialized successfully with backlight ON
+[   951][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD initialized successfully with backlight ON
+[   0:00:00.952] [INFO ] #000018: Setting up Touch...
+[   952][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
+[   0:00:02.031] [INFO ] #000019: Touch initialized successfully
+[  2031][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Touch initialized successfully
+[   0:00:02.031] [INFO ] #000020: Setting up SD Card...
+[  2032][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up SD Card...
+[   0:00:02.132] [INFO ] #000021: SD init attempt 1: Default speed, 1-bit mode
+[  2133][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD init attempt 1: Default speed, 1-bit mode
+[   0:00:03.293] [INFO ] #000022: SD card initialized successfully in 1-bit mode
+[  3294][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card initialized successfully in 1-bit mode
+[   0:00:03.294] [INFO ] #000023: SD Card Type: SDHC
+[  3294][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Type: SDHC
+[   0:00:03.295] [INFO ] #000024: SD Card Size: 128000MB
+[  3295][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Size: 128000MB
+[   0:00:03.295] [INFO ] #000025: Total space: 127984MB
+[  3296][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Total space: 127984MB
+[   0:00:03.296] [INFO ] #000026: Used space: 7MB
+[  3297][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Used space: 7MB
+[   0:00:03.297] [INFO ] #000027: Free space: 127976MB
+[  3298][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free space: 127976MB
+[  3302][E][vfs_api.cpp:289] VFSFileImpl(): opendir(/sdcard/Buffere.d1) failed
+[   0:00:03.303] [WARN ] #000028: SD card root directory appears empty
+[  3303][W][debug_logger.cc:232] warn(): [ESP32P4_Gallery] SD card root directory appears empty
+[   0:00:03.312] [INFO ] #000029: SD card write test successful
+[  3313][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card write test successful
+[   0:00:03.313] [INFO ] #000030: Setting up WiFi in AP mode...
+[  3314][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WiFi in AP mode...
+[  3314][W][STA.cpp:543] disconnect(): STA already disconnected.
+sdio_mempool_create free:31855836 min-free:31853284 lfb-def:30932980 lfb-8bit:30932980
+
+Name: 
+Type: SDIO
+Speed: 40.00 MHz (limit: 40.00 MHz)
+Size: 0MB
+CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
+SCR: sd_spec=0, bus_width=0
+TUPLE: DEVICE, size: 3: D9 01 FF 
+TUPLE: MANFID, size: 4
+  MANF: 0092, CARD: 6666
+TUPLE: FUNCID, size: 2: 0C 00 
+TUPLE: FUNCE, size: 4: 00 00 02 32 
+TUPLE: CONFIG, size: 5: 01 01 00 02 07 
+TUPLE: CFTABLE_ENTRY, size: 8
+  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
+  IF: 41
+  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
+  IR: 30, mask: 1,   IRQ: FF FF
+  LEN: FFFF
+TUPLE: END
+[  6149][W][WiFiGeneric.cpp:739] setTxPower(): Neither AP or STA has been started
+[   0:00:06.211] [INFO ] #000031: WiFi AP Mode active
+[  6212][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WiFi AP Mode active
+[   0:00:06.212] [INFO ] #000032: AP SSID: ESP32P4-ImageViewer
+[  6213][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP SSID: ESP32P4-ImageViewer
+[   0:00:06.213] [INFO ] #000033: AP IP Address: 192.168.4.1
+[  6214][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP IP Address: 192.168.4.1
+[   0:00:06.214] [INFO ] #000034: AP Channel: 6
+[  6215][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP Channel: 6
+[   0:00:06.215] [INFO ] #000035: Setting up LVGL...
+[  6216][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LVGL...
+[   0:00:06.216] [DEBUG] #000036: Allocating LVGL buffers: 2048000 bytes each
+[  6217][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Allocating LVGL buffers: 2048000 bytes each
+[   0:00:06.218] [INFO ] #000037: LVGL initialized successfully
+[  6219][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LVGL initialized successfully
+[   0:00:06.219] [INFO ] #000038: Setting up UI...
+[  6220][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up UI...
+[   0:00:06.225] [INFO ] #000039: UI initialized successfully
+[  6226][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] UI initialized successfully
+[   0:00:06.226] [INFO ] #000040: Setting up WebServer...
+[  6227][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WebServer...
+[   0:00:06.228] [INFO ] #000041: WebServer started on port 80
+[  6228][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WebServer started on port 80
+[   0:00:06.229] [INFO ] #000042: Access URLs:
+[  6229][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Access URLs:
+[   0:00:06.230] [INFO ] #000043:   Main gallery: http://192.168.4.1/
+[  6230][I][debug_logger.cc:243] info(): [ESP32P4_Gallery]   Main gallery: http://192.168.4.1/
+[   0:00:06.230] [INFO ] #000044:   System info:  http://192.168.4.1/system
+[  6231][I][debug_logger.cc:243] info(): [ESP32P4_Gallery]   System info:  http://192.168.4.1/system
+[   0:00:06.231] [INFO ] #000045: Server initialization complete at 2025-06-13 11:09:55 UTC
+[  6232][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Server initialization complete at 2025-06-13 11:09:55 UTC
+[   0:00:06.232] [INFO ] #000046: Current user: Chamil1983
+[  6233][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Current user: Chamil1983
+[   0:00:06.233] [INFO ] #000047: Scanning for images...
+[  6234][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Scanning for images...
+[   0:00:06.238] [DEBUG] #000048: Found image 0: /images/img_39767.jpg
+[  6238][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 0: /images/img_39767.jpg
+[   0:00:06.240] [DEBUG] #000049: Found image 1: /images/img_79907.jpg
+[  6240][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 1: /images/img_79907.jpg
+[   0:00:06.242] [DEBUG] #000050: Found image 2: /images/img_32173_chicago skyline.jpg
+[  6243][D][debugGuru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
+
+Core  1 register dump:
+MEPC    : 0x40045534  RA      : 0x40045452  SP      : 0x4ff252c0  GP      : 0x4ff11e00  
+TP      : 0x4ff314c0  T0      : 0x00000fff  T1      : 0x00000000  T2      : 0x2020205b  
+S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2c958  A1      : 0x4ff2c958  
+A2      : 0x00000004  A3      : 0x00000014  A4      : 0x00000009  A5      : 0x00000002  
+A6      : 0x4ff2c958  A7      : 0x4ff2c86c  S2      : 0x4ff28000  S3      : 0x4ff28000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x4fc02d74  
+S8      : 0x4ff30fe0  S9      : 0x4ff43df0  S10     : 0x400c55a2  S11     : 0x4ff43e1e  
+T3      : 0x00000000  T4      : 0x45445b20  T5      : 0x5d323432  T6      : 0x2e36303a  
+MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
+MHARTID : 0x00000001  
+
+Stack memory:
+4ff252c0: 0x00011880 0x00000000 0x00000000 0x00000014 0x00000100 0x00000000 0x00000000 0x4ff43dac
+4ff252e0: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff355c8
+4ff25300: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff25370 0x4ff25370 0x4ff25410
+4ff25320: 0x4ff25400 0x00000000 0x4ff2532c 0xffffffff 0x4ff2532c 0x4ff2532c 0x00000001 0x4ff25340
+4ff25340: 0xffffffff 0x4ff2ee90 0x4ff2ee90 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
+4ff25360: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25380: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff253a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff253c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff253e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25400: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff25418 0xffffffff 0x4ff25418
+4ff25420: 0x4ff25418 0x00000000 0x4ff2542c 0xffffffff 0x4ff2542c 0x4ff2542c 0x00000000 0x4ff25438
+4ff25440: 0x00000000 0x00000000 0x00000000 0x4ff25450 0xffffffff 0x4ff25450 0x4ff25450 0x00000000
+4ff25460: 0x4ff25464 0xffffffff 0x4ff25464 0x4ff25464 0x00000001 0x00000001 0x00000000 0x00000001
+4ff25480: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff25494 0x00000000
+4ff254a0: 0x00000000 0x00000000 0x4ff254ac 0xffffffff 0x4ff254ac 0x4ff254ac 0x00000000 0x4ff254c0
+4ff254c0: 0xffffffff 0x4ff254c0 0x4ff254c0 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
+4ff254e0: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
+4ff25500: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25520: 0x00000000 0x00000000 0x4ff28490 0x4ff284c4 0x4ff284f8 0x4ff2852c 0x48214f2c 0x48214fd0
+4ff25540: 0x00000000 0x00000000 0x4ff4246c 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25560: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25580: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff255a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff255c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff255e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25600: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25620: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25640: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25660: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff25680: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff256a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+
+
+
+ELF file SHA256: 0c5e8726e
+
+Rebooting...
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
+Core0 Saved PC:0x4ff046d6
+Core1 Saved PC:0x4ff022da
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11c8
+load:0x4ff2abd0,len:0xc1c
+load:0x4ff2cbd0,len:0x32fc
+entry 0x4ff2abd0
+[    19][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-P4
+  Package           : 0
+  Revision          : 1.00
+  Cores             : 2
+  CPU Frequency     : 360 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0000000000
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : No
+  Classic BT        : No
+  BT Low Energy     : No
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   531128 B ( 518.7 KB)
+  Free Bytes        :   492520 B ( 481.0 KB)
+  Allocated Bytes   :    32500 B (  31.7 KB)
+  Minimum Free Bytes:   488480 B ( 477.0 KB)
+  Largest Free Block:   385012 B ( 376.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        : 33554432 B (32768.0 KB)
+  Free Bytes        : 33551856 B (32765.5 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes: 33551856 B (32765.5 KB)
+  Largest Free Block: 33030132 B (32256.0 KB)
+  Bus Mode          : QSPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
+           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
+            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
+            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
+           log_du
