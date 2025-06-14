@@ -1,376 +1,27 @@
-[     2][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added=========== Before Setup Start ===========
-Chip Info:
-------------------------------------------
-  Model             : ESP32-P4
-  Package           : 0
-  Revision          : 1.00
-  Cores             : 2
-  CPU Frequency     : 360 MHz
-  XTAL Frequency    : 40 MHz
-  Features Bitfield : 0000000000
-  Embedded Flash    : No
-  Embedded PSRAM    : No
-  2.4GHz WiFi       : No
-  Classic BT        : No
-  BT Low Energy     : No
-  IEEE 802.15.4     : No
-------------------------------------------
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   530856 B ( 518.4 KB)
-  Free Bytes        :   492248 B ( 480.7 KB)
-  Allocated Bytes   :    32500 B (  31.7 KB)
-  Minimum Free Bytes:   488208 B ( 476.8 KB)
-  Largest Free Block:   385012 B ( 376.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 33551856 B (32765.5 KB)
-  Allocated Bytes   :        0 B (   0.0 KB)
-  Minimum Free Bytes: 33551856 B (32765.5 KB)
-  Largest Free Block: 33030132 B (32256.0 KB)
-  Bus Mode          : QSPI
-------------------------------------------
-Flash Info:
-------------------------------------------
-  Chip Size         : 16777216 B (16 MB)
-  Block Size        :    65536 B (  64.0 KB)
-  Sector Size       :     4096 B (   4.0 KB)
-  Page Size         :      256 B (   0.2 KB)
-  Bus Speed         : 80 MHz
-  Bus Mode          : QIO
-------------------------------------------
-Partitions Info:
-------------------------------------------
-                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
-           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
-            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
-            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
-           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
-           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
-             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
-           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
-------------------------------------------
-Software Info:
-------------------------------------------
-  Compile Date/Time : Jun 13 2025 17:11:43
-  Compile Host OS   : windows
-  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
-  Arduino Version   : 3.2.0
-------------------------------------------
-Board Info:
-------------------------------------------
-  Arduino Board     : ESP32P4_DEV
-  Arduino Variant   : esp32p4
-  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
-============ Before Setup End ============
-[  1084][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff237d0
-[  1084][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff237d0
-[INFO] Log partition initialized, write pos: 4
-[   0:00:01.588] [INFO ] #000000: Logger initialized at Fri Jun 13 17:27:36 2025
-[  1588][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Logger initialized at Fri Jun 13 17:27:36 2025
-[   0:00:01.589] [INFO ] #000001: ====================================
-[  1589][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
-[   0:00:01.590] [INFO ] #000002: ESP32P4 Image Gallery Starting
-[  1590][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ESP32P4 Image Gallery Starting
-[   0:00:01.591] [INFO ] #000003: Date: 2025-06-13 11:35:44 UTC
-[  1591][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Date: 2025-06-13 11:35:44 UTC
-[   0:00:01.592] [INFO ] #000004: User: Chamil1983
-[  1592][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] User: Chamil1983
-[   0:00:01.592] [INFO ] #000005: ====================================
-[  1593][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
-E (1592) task_wdt: esp_task_wdt_init(515): TWDT already initialized
-[   0:00:01.594] [ERROR] #000006: WDT init failed, error: 259. Continuing without WDT.
-[  1595][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] WDT init failed, error: 259. Continuing without WDT.
-[   0:00:01.595] [INFO ] #000007: JPEG buffer allocated: 16384 bytes
-[  1596][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG buffer allocated: 16384 bytes
-[   0:00:01.596] [INFO ] #000008: Flash size: 16 MB
-[  1597][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Flash size: 16 MB
-[   0:00:01.597] [INFO ] #000009: PSRAM size: 32 MB
-[  1598][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] PSRAM size: 32 MB
-[   0:00:01.598] [INFO ] #000010: CPU Freq: 360 MHz
-[  1600][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] CPU Freq: 360 MHz
-[   0:00:01.600] [INFO ] #000011: Free heap: 479 KB
-[  1601][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free heap: 479 KB
-[   0:00:01.601] [INFO ] #000012: SDK version: v5.4.1-1-g2f7dcd862a-dirty
-[  1602][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SDK version: v5.4.1-1-g2f7dcd862a-dirty
-[   0:00:01.602] [INFO ] #000013: Initializing components in sequence:
-[  1603][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initializing components in sequence:
-[   0:00:01.603] [INFO ] #000014: LCD → Touch → SD → WiFi → LVGL → UI → WebServer
-[  1604][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
-[   0:00:01.604] [INFO ] #000015: Setting up LCD...
-[  1605][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LCD...
-[  1605][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  1607][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[   0:00:01.894] [INFO ] #000016: LCD initialized successfully with backlight ON
-[  1895][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD initialized successfully with backlight ON
-[   0:00:01.895] [INFO ] #000017: Setting up Touch...
-[  1896][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
-[   0:00:02.974] [INFO ] #000018: Touch initialized successfully
-[  2974]Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
-
-Core  1 register dump:
-MEPC    : 0x40044390  RA      : 0x400442ae  SP      : 0x4ff253c0  GP      : 0x4ff11f00  
-TP      : 0x4ff315d0  T0      : 0x00000fff  T1      : 0x00000000  T2      : 0x00000000  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2ca63  A1      : 0x4ff2ca63  
-A2      : 0x00000004  A3      : 0x00000009  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000009  A7      : 0x4ff2c97c  S2      : 0x4ff28000  S3      : 0x4ff28000  
-S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x4fc02d74  
-S8      : 0x4ff311b0  S9      : 0x4ff2d53d  S10     : 0x400c1d6a  S11     : 0x4ff2d58f  
-T3      : 0x00000000  T4      : 0x00000002  T5      : 0x00000000  T6      : 0x00000000  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
-
-Stack memory:
-4ff253c0: 0x00000000 0x00000000 0x00000000 0x00000009 0x00011880 0x00000000 0x00000000 0x4ff2d534
-4ff253e0: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff317fc
-4ff25400: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff25470 0x4ff25470 0x4ff25510
-4ff25420: 0x4ff25500 0x00000000 0x4ff2542c 0xffffffff 0x4ff2542c 0x4ff2542c 0x00000001 0x4ff25440
-4ff25440: 0xffffffff 0x4ff2efa0 0x4ff2efa0 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff25460: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25480: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25500: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff25518 0xffffffff 0x4ff25518
-4ff25520: 0x4ff25518 0x00000000 0x4ff2552c 0xffffffff 0x4ff2552c 0x4ff2552c 0x00000000 0x4ff25538
-4ff25540: 0x00000000 0x00000000 0x00000000 0x4ff25550 0xffffffff 0x4ff25550 0x4ff25550 0x00000000
-4ff25560: 0x4ff25564 0xffffffff 0x4ff25564 0x4ff25564 0x00000001 0x00000001 0x00000000 0x00000001
-4ff25580: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff25594 0x00000000
-4ff255a0: 0x00000000 0x00000000 0x4ff255ac 0xffffffff 0x4ff255ac 0x4ff255ac 0x00000000 0x4ff255c0
-4ff255c0: 0xffffffff 0x4ff255c0 0x4ff255c0 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff255e0: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff25600: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25620: 0x00000000 0x00000000 0x4ff285a0 0x4ff285d4 0x4ff28608 0x4ff2863c 0x00000000 0x00000000
-4ff25640: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25660: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25680: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25700: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25720: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25740: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25760: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25780: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff257a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-
-
-
-ELF file SHA256: a111a2bac
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    11][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
-Chip Info:
-------------------------------------------
-  Model             : ESP32-P4
-  Package           : 0
-  Revision          : 1.00
-  Cores Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
-
-Core  1 register dump:
-MEPC    : 0x40044390  RA      : 0x400442ae  SP      : 0x4ff253c0  GP      : 0x4ff11f00  
-TP      : 0x4ff315d0  T0      : 0x00000fff  T1      : 0x00000000  T2      : 0x00000200  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2ca2f  A1      : 0x4ff2ca2f  
-A2      : 0x00000004  A3      : 0x00000020  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000020  A7      : 0x4ff2c97c  S2      : 0x4ff28000  S3      : 0x4ff28000  
-S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x4fc02d74  
-S8      : 0x4ff313f0  S9      : 0x4ff23cc4  S10     : 0x400c1d6a  S11     : 0x4ff23cda  
-T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
-
-Stack memory:
-4ff253c0: 0x00000000 0x00000000 0x00000000 0x00000020 0x00000001 0x00000000 0x00000000 0x4ff23cbc
-4ff253e0: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff317fc
-4ff25400: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff25470 0x4ff25470 0x4ff25510
-4ff25420: 0x4ff25500 0x00000000 0x4ff2542c 0xffffffff 0x4ff2542c 0x4ff2542c 0x00000001 0x4ff25440
-4ff25440: 0xffffffff 0x4ff2efa0 0x4ff2efa0 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff25460: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25480: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff254e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25500: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff25518 0xffffffff 0x4ff25518
-4ff25520: 0x4ff25518 0x00000000 0x4ff2552c 0xffffffff 0x4ff2552c 0x4ff2552c 0x00000000 0x4ff25538
-4ff25540: 0x00000000 0x00000000 0x00000000 0x4ff25550 0xffffffff 0x4ff25550 0x4ff25550 0x00000000
-4ff25560: 0x4ff25564 0xffffffff 0x4ff25564 0x4ff25564 0x00000001 0x00000001 0x00000000 0x00000001
-4ff25580: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff25594 0x00000000
-4ff255a0: 0x00000000 0x00000000 0x4ff255ac 0xffffffff 0x4ff255ac 0x4ff255ac 0x00000000 0x4ff255c0
-4ff255c0: 0xffffffff 0x4ff255c0 0x4ff255c0 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff255e0: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff25600: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25620: 0x00000000 0x00000000 0x4ff285a0 0x4ff285d4 0x4ff28608 0x4ff2863c 0x00000000 0x00000000
-4ff25640: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25660: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25680: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff256e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25700: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25720: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25740: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25760: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff25780: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff257a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-
-
-
-ELF file SHA256: a111a2bac
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    10][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
-Chip Info:
-------------------------------------------
-  Model             : ESP32-P4
-  Package           : 0
-  Revision          : 1.00
-  Cores             : 2
-  CPU Frequency     : 360 MHz
-  XTAL Frequency    : 40 MHz
-  Features Bitfield : 0000000000
-  Embedded Flash    : No
-  Embedded PSRAM    : No
-  2.4GHz WiFi       : No
-  Classic BT        : No
-  BT Low Energy     : No
-  IEEE 802.15.4     : No
-------------------------------------------
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   530856 B ( 518.4 KB)
-  Free Bytes        :   492248 B ( 480.7 KB)
-  Allocated Bytes   :    32500 B (  31.7 KB)
-  Minimum Free Bytes:   488208 B ( 476.8 KB)
-  Largest Free Block:   385012 B ( 376.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 33551856 B (32765.5 KB)
-  Allocated Bytes   :        0 B (   0.0 KB)
-  Minimum Free Bytes: 33551856 B (32765.5 KB)
-  Largest Free Block: 33030132 B (32256.0 KB)
-  Bus Mode          : QSPI
-------------------------------------------
-Flash Info:
-------------------------------------------
-  Chip Size         : 16777216 B (16 MB)
-  Block Size        :    65536 B (  64.0 KB)
-  Sector Size       :     4096 B (   4.0 KB)
-  Page Size         :      256 B (   0.2 KB)
-  Bus Speed         : 80 MHz
-  Bus Mode          : QIO
-------------------------------------------
-Partitions Info:
-------------------------------------------
-                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
-           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
-            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
-            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
-           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
-           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
-             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
-           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
-------------------------------------------
-Software Info:
-------------------------------------------
-  Compile Date/Time : Jun 13 2025 17:11:43
-  Compile Host OS   : windows
-  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
-  Arduino Version   : 3.2.0
-------------------------------------------
-Board Info:
-------------------------------------------
-  Arduino Board     : ESP32P4_DEV
-  Arduino Variant   : esp32p4
-  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
-============ Before Setup End ============
-[   132][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff237d0
-[   132][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff237d0
-[INFO] Log partition initialized, write pos: 8
-[   0:00:00.634] [INFO ] #000000: Logger initialized at Fri Jun 13 17:27:36 2025
-[   636][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Logger initialized at Fri Jun 13 17:27:36 2025
-[   0:00:00.637] [INFO ] #000001: ====================================
-[   637][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
-[   0:00:00.638] [INFO ] #000002: ESP32P4 Image Gallery Starting
-[   638][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ESP32P4 Image Gallery Starting
-[   0:00:00.638] [INFO ] #000003: Date: 2025-06-13 11:35:44 UTC
-[   639][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Date: 2025-06-13 11:35:44 UTC
-[   0:00:00.639] [INFO ] #000004: User: Chamil1983
-[   640][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] User: Chamil1983
-[   0:00:00.640] [INFO ] #000005: ====================================
-[   641][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
-E (631) task_wdt: esp_task_wdt_init(515): TWDT already initialized
-[   0:00:00.641] [ERROR] #000006: WDT init failed, error: 259. Continuing without WDT.
-[   642][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] WDT init failed, error: 259. Continuing without WDT.
-[   0:00:00.643] [INFO ] #000007: JPEG buffer allocated: 16384 bytes
-[   643][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG buffer allocated: 16384 bytes
-[   0:00:00.644] [INFO ] #000008: Flash size: 16 MB
-[   644][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Flash size: 16 MB
-[   0:00:00.644] [INFO ] #000009: PSRAM size: 32 MB
-[   645][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] PSRAM size: 32 MB
-[   0:00:00.645] [INFO ] #000010: CPU Freq: 360 MHz
-[   646][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] CPU Freq: 360 MHz
-[   0:00:00.646] [INFO ] #000011: Free heap: 479 KB
-[   648][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free heap: 479 KB
-[   0:00:00.649] [INFO ] #000012: SDK version: v5.4.1-1-g2f7dcd862a-dirty
-[   649][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SDK version: v5.4.1-1-g2f7dcd862a-dirty
-[   0:00:00.650] [INFO ] #000013: Initializing components in sequence:
-[   650][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initializing components in sequence:
-[   0:00:00.650] [INFO ] #000014: LCD → Touch → SD → WiFi → LVGL → UI → WebServer
-[   651][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
-[   0:00:00.651] [INFO ] #000015: Setting up LCD...
-[   652][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LCD...
-[   652][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[   654][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[   0:00:00.941] [INFO ] #000016: LCD initialized successfully with backlight ON
-[   942][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD initialized successfully with backlight ON
-[   0:00:00.942] [INFO ] #000017: Setting up Touch...
-[   943][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
-[   0:00:02.021] [INFO ] #000018: Touch initialized successfully
-[  2022][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Touch initialized successfully
-[   0:00:02.022] [INFO ] #000019: Setting up SD Card...
-[  2023][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up SD Card...
-[   0:00:02.423] [INFO ] #000020: SD init: 1-bit mode at default speed
-[  2424][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD init: 1-bit mode at default speed
-[   0:00:03.083] [INFO ] #000021: SD card initialized successfully
-[  3084][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card initialized successfully
-[   0:00:03.084] [INFO ] #000022: SD Card Type: SDHC
-[  3085][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Type: SDHC
-[   0:00:03.085] [INFO ] #000023: SD Card Size: 128000MB
-[  3086][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Size: 128000MB
-[   0:00:03.109] [INFO ] #000024: Test file written: 19 bytes
-[  3110][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file written: 19 bytes
-[   0:00:03.314] [INFO ] #000025: Test file read: "SD Card Test String" (19 bytes)
-[  3314][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file read: "SD Card Test String" (19 bytes)
-[   0:00:03.316] [INFO ] #000026: Setting up WiFi in AP mode...
-[  3316][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WiFi in AP mode...
-[  3317][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31872364 min-free:31870732 lfb-def:30932980 lfb-8bit:30932980
+[    11][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added
+[  2543][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   0:00:02.544] [INFO ] #000016: Setting up Touch...
+[  2544][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
+[   0:00:03.773] [INFO ] #000017: Touch initialized successfully
+[  3773][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Touch initialized successfully
+[   0:00:03.773] [INFO ] #000018: Setting up SD Card...
+[  3773][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up SD Card...
+[   0:00:04.174] [INFO ] #000019: SD init: 1-bit mode at default speed
+[  4174][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD init: 1-bit mode at default speed
+[   0:00:04.833] [INFO ] #000020: SD card initialized successfully
+[  4833][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card initialized successfully
+[   0:00:04.834] [INFO ] #000021: SD Card Type: SDHC
+[  4834][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Type: SDHC
+[   0:00:04.834] [INFO ] #000022: SD Card Size: 128000MB
+[  4834][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Size: 128000MB
+[   0:00:04.958] [INFO ] #000023: Test file written: 19 bytes
+[  4958][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file written: 19 bytes
+[   0:00:05.162] [INFO ] #000024: Test file read: "SD Card Test String" (19 bytes)
+[  5163][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file read: "SD Card Test String" (19 bytes)
+[   0:00:05.164] [INFO ] #000025: Setting up WiFi in AP mode...
+[  5164][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WiFi in AP mode...
+[  5164][W][STA.cpp:543] disconnect(): STA already disconnected.
+sdio_mempool_create free:31872336 min-free:31870688 lfb-def:30932980 lfb-8bit:30932980
 
 Name: 
 Type: SDIO
@@ -391,234 +42,973 @@ TUPLE: CFTABLE_ENTRY, size: 8
   IR: 30, mask: 1,   IRQ: FF FF
   LEN: FFFF
 TUPLE: END
-[   0:00:06.214] [INFO ] #000027: WiFi AP Mode active
-[  6215][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WiFi AP Mode active
-[   0:00:06.215] [INFO ] #000028: AP SSID: ESP32P4-ImageViewer
-[  6216][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP SSID: ESP32P4-ImageViewer
-[   0:00:06.216] [INFO ] #000029: AP IP Address: 192.168.4.1
-[  6217][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP IP Address: 192.168.4.1
-[   0:00:06.217] [INFO ] #000030: AP Channel: 6
-[  6218][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP Channel: 6
-[   0:00:06.218] [INFO ] #000031: AP Max Clients: 2
-[  6218][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] AP Max Clients: 2
-[   0:00:06.219] [INFO ] #000032: Setting up LVGL...
-[  6219][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up LVGL...
-[   0:00:06.220] [DEBUG] #000033: Allocating LVGL buffers: 512000 bytes each
-[  6220][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Allocating LVGL buffers: 512000 bytes each
-[   0:00:06.238] [INFO ] #000034: LVGL initialized successfully
-[  6238][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LVGL initialized successfully
-[   0:00:06.239] [INFO ] #000035: Setting up UI...
-[  6239][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up UI...
-[   0:00:06.245] [INFO ] #000036: UI initialized successfully
-[  6245][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] UI initialized successfully
-[   0:00:06.245] [INFO ] #000037: Setting up WebServer...
-[  6246][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WebServer...
-[   0:00:06.247] [INFO ] #000038: WebServer started on port 80
-[  6248][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] WebServer started on port 80
-[   0:00:06.248] [INFO ] #000039: Scanning for images...
-[  6249][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Scanning for images...
-[   0:00:06.256] [DEBUG] #000040: Found image 0: /images/img_39767.jpg
-[  6257][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 0: /images/img_39767.jpg
-[   0:00:06.263] [DEBUG] #000041: Found image 1: /images/img_79907.jpg
-[  6264][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 1: /images/img_79907.jpg
-[   0:00:06.268] [DEBUG] #000042: Found image 2: /images/img_32173_chicago skyline.jpg
-[  6270][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 2: /images/img_32173_chicago skyline.jpg
-[   0:00:06.276] [WARN ] #000043: Skipping too small image file: /images/img_54221.jpg (0 bytes)
-[  6278][W][debug_logger.cc:232] warn(): [ESP32P4_Gallery] Skipping too small image file: /images/img_54221.jpg (0 bytes)
-[   0:00:06.285] [DEBUG] #000044: Found image 3: /images/img_11892.jpg
-[  6286][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 3: /images/img_11892.jpg
-[   0:00:06.291] [DEBUG] #000045: Found image 4: /images/img_11059.jpg
-[  6293][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Found image 4: /images/img_11059.jpg
-[   0:00:06.300] [WARN ] #000046: Skipping too small image file: /images/img_37892.jpg (0 bytes)
-[  6301][W][debug_logger.cc:232] warn(): [ESP32P4_Gallery] Skipping too small image file: /images/img_37892.jpg (0 bytes)
-[   0:00:06.305] [INFO ] #000047: Found 5 images
-[  6307][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Found 5 images
-[   0:00:06.425] [INFO ] #000048: Displaying image 0: /images/img_39767.jpg
-[  6426][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Displaying image 0: /images/img_39767.jpg
-[  6429][E][vfs_api.cpp:23] open(): File system is not mounted
-[   0:00:06.429] [ERROR] #000049: Invalid JPEG dimensions: 0x0
-[  6429][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] Invalid JPEG dimensions: 0x0
-[   0:00:06.430] [INFO ] #000050: Initialization complete!
-[  6431][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initialization complete!
-[   0:00:06.431] [INFO ] #000051: Status: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
-[  6432][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Status: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
-=========== After Setup Start ============
+
+
+Core  1 register dump:
+MEPC    : 0x4ff046e8  RA      : 0x4ff0b16c  SP      : 0x4ff2e4d0  GP      : 0x4ff11f00  
+TP      : 0x4ff2e520  T0      : 0x00000000  T1      : 0x4ff045b2  T2      : 0x00000000  
+S0/FP   : 0x00000000  S1      : 0x4ff28000  A0      : 0x00000001  A1      : 0x00000000  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000000  A7      : 0x00000000  S2      : 0x00000000  S3      : 0x4ff24000  
+S4      : 0x4ff28000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+MSTATUS : 0x00000000  MTVEC   : 0x00000000  MCAUSE  : 0x00000000  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+Stack memory:
+4ff2e4d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff09802
+4ff2e4f0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e510: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0x4ff2e14c 0x4ff2e14c 0x00000000
+4ff2e530: 0x00000000 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xbaad5678
+4ff2e550: 0x80e7ffcd 0x57f9d1a0 0x04f40963 0x59fd8922 0x07395e63 0x0984a783 0x4e630405 0x002c08f4
+4ff2e570: 0x01048513 0x9e7ff0ef 0xf0efed1d 0x85aa858f 0x4ff2e13c 0x00000170 0xabba1234 0x00000160
+4ff2e590: 0x4ff2e450 0x00000000 0x4ff2419c 0x4ff2dfdc 0x4ff2e590 0x4ff24194 0x00000019 0x00000000
+4ff2e5b0: 0x00000000 0x4ff2e590 0x00000000 0x00000000 0x4ff2e14c 0x454c4449 0x00000031 0x00000000
+4ff2e5d0: 0x00000000 0x00000001 0x4ff2e540 0x00000006 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e5f0: 0x00000000 0x006db190 0x00000000 0x4ff287c0 0x4ff28828 0x4ff28890 0x00000000 0x00000000
+4ff2e610: 0x00000001 0x00000000 0x00000000 0x00000000 0x4005710a 0x00000000 0x00000000 0x00000000
+4ff2e630: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e650: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e670: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e690: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e6b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e6d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000200
+4ff2e6f0: 0xbaad5678 0x4ff2e580 0x00000880 0xabba1234 0x00000800 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e710: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e730: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e750: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e770: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e790: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7b0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7d0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7f0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e810: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e830: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e850: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e870: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e890: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e8b0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+
+
+
+ELF file SHA256: 23f3fd70d
+
+Rebooting...
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0xc (SW_CPU_RESET),boot:0xe (SPI_FAST_FLASH_BOOT)
+Core0 Saved PC:0x400501b2
+Core1 Saved PC:0x4ff022da
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11c8
+load:0x4ff2abd0,len:0xc1c
+load:0x4ff2cbd0,len:0x32fc
+entry 0x4ff2abd0
+[    17][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-P4
+  Package           : 0
+  Revision          : 1.00
+  Cores             : 2
+  CPU Frequency     : 360 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0000000000
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : No
+  Classic BT        : No
+  BT Low Energy     : No
+  IEEE 802.15.4     : No
+------------------------------------------
 INTERNAL Memory Info:
 ------------------------------------------
   Total Size        :   530856 B ( 518.4 KB)
-  Free Bytes        :   414284 B ( 404.6 KB)
-  Allocated Bytes   :   106864 B ( 104.4 KB)
-  Minimum Free Bytes:   404512 B ( 395.0 KB)
-  Largest Free Block:   368628 B ( 360.0 KB)
+  Free Bytes        :   492248 B ( 480.7 KB)
+  Allocated Bytes   :    32500 B (  31.7 KB)
+  Minimum Free Bytes:   488208 B ( 476.8 KB)
+  Largest Free Block:   385012 B ( 376.0 KB)
 ------------------------------------------
 SPIRAM Memory Info:
 ------------------------------------------
   Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 30355740 B (29644.3 KB)
-  Allocated Bytes   :  3195604 B (3120.7 KB)
-  Minimum Free Bytes: 30353812 B (29642.4 KB)
-  Largest Free Block: 29884404 B (29184.0 KB)
+  Free Bytes        : 33551856 B (32765.5 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes: 33551856 B (32765.5 KB)
+  Largest Free Block: 33030132 B (32256.0 KB)
+  Bus Mode          : QSPI
 ------------------------------------------
-GPIO Info:
+Flash Info:
 ------------------------------------------
-  GPIO : BUS_TYPE[bus/unit][chan]
-  --------------------------------------  
-    23 : GPIO
-    24 : USB_DM
-    25 : USB_DP
-    37 : UART_TX[0]
-    38 : UART_RX[0]
-    39 : SDMMC_D0
-    40 : SDMMC_D1
-    41 : SDMMC_D2
-    42 : SDMMC_D3
-    43 : SDMMC_CLK
-    44 : SDMMC_CMD
-    45 : SDMMC_POWER
-============ After Setup End =============
-[   0:02:07.764] [DEBUG] #000052: Serving main page
-[127764][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Serving main page
-[   0:02:25.043] [DEBUG] #000053: Serving main page
-[145044][D][debug_logger.cc:254] debug(): [ESP32P4_Gallery] Serving main page
-[   0:02:32.732] [INFO ] #000054: Upload start: /images/img_152732.jpg
-[152769][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Upload start: /images/img_152732.jpg
-E (152822) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x109
-E (152822) H_SDIO_DRV: sdio_read_task: Failed to read data - 265 4506 4506
-E (157824) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
-E (159824) sdmmc_common: sdmmc_wait_for_idle: sdmmc_send_cmd_send_status returned 0x107
-E (159824) sdmmc_cmd: sdmmc_write_sectors_dma: sdmmc_wait_for_idle timeout
-E (159828) diskio_sdmmc: sdmmc_write_blocks failed (0x107)
-[   0:02:39.843] [ERROR] #000055: Write error: 76 of 1436 bytes written
-[159843][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] Write error: 76 of 1436 bytes written
-E (167501) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (167501) H_SDIO_DRV: sdio_write_task: 0: Failed to send data: 263 66 66
-E (167503) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (167510) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (168517) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (168517) H_SDIO_DRV: sdio_write_task: 1: Failed to send data: 263 66 66
-E (168519) H_SDIO_DRV: abort sending of data
-E (168522) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (169529) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (169529) H_SDIO_DRV: failed to read registers
-E (169530) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (169536) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (170542) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (170543) H_SDIO_DRV: failed to read registers
-E (170543) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (170549) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-[   0:02:44.845] [ERROR] #000056: Upload aborted
-[164845][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] Upload aborted
-E (171555) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (171556) H_SDIO_DRV: failed to read registers
-E (171556) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (171562) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (172569) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (172569) H_SDIO_DRV: failed to read registers
-E (172569) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (172575) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (173582) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (173582) H_SDIO_DRV: failed to read registers
-E (173582) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (173588) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (174595) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (174595) H_SDIO_DRV: failed to read registers
-E (174595) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (174601) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (175608) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (175608) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (175610) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (176617) sdmmc_cmd: sdmmc_write_sectors_dma: sdmmc_send_cmd returned 0x107, failed to get status (0x107)
-E (176618) diskio_sdmmc: sdmmc_write_blocks failed (0x107)
-E (177617) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (177617) H_SDIO_DRV: failed to read registers
-E (177617) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (177623) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (177630) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (178637) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (178637) H_SDIO_DRV: failed to read registers
-E (178637) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (178643) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (179650) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (179650) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (179652) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (180659) sdmmc_cmd: sdmmc_write_sectors_dma: sdmmc_send_cmd returned 0x107, failed to get status (0x107)
-E (180659) diskio_sdmmc: sdmmc_write_blocks failed (0x107)
-E (181660) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (181660) H_SDIO_DRV: failed to read registers
-E (181660) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (181666) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (181673) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (182680) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (182680) H_SDIO_DRV: failed to read registers
-E (182680) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (182686) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (183693) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (183693) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (183695) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (184702) sdmmc_cmd: sdmmc_write_sectors_dma: sdmmc_send_cmd returned 0x107, failed to get status (0x107)
-E (184702) diskio_sdmmc: sdmmc_write_blocks failed (0x107)
-[178039][E][vfs_api.cpp:173] remove(): /images/img_152732.jpg does not exists or is directory
-E (185703) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (185703) H_SDIO_DRV: failed to read registers
-E (185703) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (185709) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (185716) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (186723) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (186723) H_SDIO_DRV: sdio_write_task: 0: Failed to send data: 263 66 66
-E (186725) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (187732) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (187732) H_SDIO_DRV: sdio_write_task: 1: Failed to send data: 263 66 66
-E (187733) H_SDIO_DRV: abort sending of data
-E (187737) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (188744) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (188744) H_SDIO_DRV: failed to read registers
-E (188744) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (188751) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (189757) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (189757) H_SDIO_DRV: failed to read registers
-E (189758) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (189764) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (190770) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (190771) H_SDIO_DRV: failed to read registers
-E (190771) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (190777) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (191783) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (191784) H_SDIO_DRV: failed to read registers
-E (191784) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (191790) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (192797) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (192797) H_SDIO_DRV: failed to read registers
-E (192797) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (192803) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (193810) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (193810) H_SDIO_DRV: failed to read registers
-E (193810) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (193816) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (194823) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (194823) H_SDIO_DRV: failed to read registers
-E (194823) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (194829) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (195836) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (195836) H_SDIO_DRV: failed to read registers
-E (195836) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (195842) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (196849) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (196849) H_SDIO_DRV: failed to read registers
-E (196849) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (196855) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (197862) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (197862) H_SDIO_DRV: failed to read registers
-E (197862) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (197868) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (198875) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (198875) H_SDIO_DRV: failed to read registers
-E (198876) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (198882) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (199888) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (199889) H_SDIO_DRV: failed to read registers
-E (199889) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (199895) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (200901) sdmmc_io: sdmmc_io_rw_extended: sdmmc_send_cmd returned 0x107
-E (200902) H_SDIO_DRV: failed to read registers
-E (200902) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
-E (200908) sdmmc_req: handle_idle_state_events unhandled: 00001000 00000000
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
+           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
+            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
+            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
+           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
+             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
+           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Jun 13 2025 17:11:43
+  Compile Host OS   : windows
+  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
+  Arduino Version   : 3.2.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : ESP32P4_DEV
+  Arduino Variant   : esp32p4
+  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
+============ Before Setup End ============
+[   138][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff237d0
+[   139][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff237d0
+[   239][E][esp32-hal-misc.c:179] disableCore1WDT(): Failed to remove Core 1 IDLE task from WDT
+E (1403) task_wdt: esp_task_wdt_reset(705): task not found
+[   0:00:00.240] [INFO ] #000000: Logger initialized at Fri Jun 13 17:27:36 2025
+[   240][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Logger initialized at Fri Jun 13 17:27:36 2025
+[   0:00:00.241] [INFO ] #000001: ====================================
+[   2E4 1(][1I4]0[4d)e btuags_kl_owdgtg:e re.scpc_:t2a4s3k]_ widntf_ore(s)e:t ([E7S0P53)2:P 4t_aGsakl lneorty ]f o=u=n=d=
+================================
+[   0:00:00.241] [INFO ] #000002: ESP32P4 Image Gallery Starting
+[   241][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ESP32P4 Image Gallery Starting
+[   0:00:00.241] [INFO ] #000003: Date: 2025-06-13 12:57:10 UTC
+[   241][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Date: 2025-06-13 12:57:10 UTC
+[   0:00:00.242] [INFO ] #000004: User: Chamil1983
+[   242][I][debug_lo_rPe4s_eGta(ll7e0r5y)]:  Utsaesrk:  nCoht afmoiuln1d9
+83
+[   0:00:00.242] [INFO ] #000005: ====================================
+[   242][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
+[   0:00:00.242] [INFO ] #000006: Free heap: 480 KB
+[   242][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free heap: 480 KB
+[   0:00:00.243] [INFO ] #000007: Setting up LCD...
+[   243][I][debug_logger.cc:243] info(): [ESP3p_.t.a
+s
+k_wdt_reset(705): task not found
+[   243][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
+ask not found
+[   244][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
+nd
+05): task not found
+E (t(705): task not found
+E (set(705): task not found
+E ( found
+ask_wdt: esp_task_wdt_reset(705): task not found
+eset(705): task not found
+E (1415) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+und
+E (und
+task not found
+E ( task not found
+E (ound
+E (15): task not found
+ found
+E (t: esp_task_wdt_reset(705): task not found
+
+E (1426 found
+Esk_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+1429) task_wdt: esp_task_wdt_reset(705): task not found
+ound
+p_task_wdt_reset(705): task not found
+E (1432) task_wdt: esp_task_wdt_reset(705): task not found
+_wdt_reset(705): task not found
+task not found
+): task not found
+wdt_reset(705): task not found
+: task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+wdt_reset(705): task not found
+ task not found
+ found
+sk_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+_task_wdt_reset(705): task not found
+): task not found
+task_wdt_reset(705): task not found
+ask not found
+sk_wd705): task not found
+k not found
+set(705): task not found
+ task not found
+ask not found
+
+k not found
+ask not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+task_wdt_reset(705): task not found
+ask not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+k not found
+ task not found
+ask not found
+ot found
+ot found
+sk_wdt: esp_task_wdt_reset(705): task not found
+found
+ task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+ound
+task not found
+task not found
+task not found
+705): task not found
+sp_task_wdt_reset(705): task not found
+dt_reset(705): task not found
+79) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+task not found
+_task_wdt_reset(705): task not found
+ task not found
+task not found
+ask not found
+task not found
+task not found
+k_wdt_reset(705): task not found
+k not found
+ask_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (1495) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+E (1497) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+task not found
+_task_wdt_reset(705): task not found
+E (1501) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+ound
+dt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+ask not found
+ask not found
+_wdt_reset(705): task not found
+_task_wdt_reset(705): task not found
+_task_wdt_reset(705): task not found
+task not found
+E (15705): task not found
+): task not found
+ot found
+5): task not found
+E (1517) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+E (1520) task_wdt: esp_task_wdt_reset(705): task not found
+found
+wdt_reset(705): task not found
+ found
+et(705): task not found
+E (1525) task_wdt: esp_task_wdt_reset(705): task not found
+dt_reset(705): task not found
+task not found
+task not found
+task not found
+task not found
+E (1531) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+task not found
+dt_reset(705): task not found
+task not found
+task not found
+task not found
+E (1538) task_wdt: esp_task_wdt_reset(705): task not found
+E (1539) task_wdt: esp_task_wdt_reset(705): task not found
+E (1540) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+task not found
+task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+task not found
+t_reset(705): task not found
+ask not found
+task not found
+E (1549) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+found
+E (1k not found
+E (1553) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+not found
+k not found
+k not found
+t found
+k_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+_reset(705): task not found
+ask not found
+task_wdt_reset(705): task not found
+sk not found
+ask not found
+p_task_wdt_reset(705): task not found
+sk not found
+E (1568) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+ask_wdt_reset(705): task not found
+reset(705): task not found
+sk not found
+k_wdt: esp_task_wdt_reset(705): task not found
+k not found
+sk not found
+task_wdt_reset(705): task not found
+wdt_reset(705): task not found
+sk not found
+sk not found
+k_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+ask not found
+k_wdt: esp_task_wdt_reset(705): task not found
+eset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (1590) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+sk not found
+sk not found
+sk not found
+sk not found
+wdt: esp_task_wdt_reset(705): task not found
+sk not found
+sk not found
+sk not found
+set(705): task not found
+sk not found
+sk not found
+k_wdt: esp_task_wdt_reset(705): task not found
+not found
+k not found
+sk not found
+sk not found
+_task_wdt_reset(705): task not found
+sk not found
+sk not found
+sk not found
+sk not found
+task_wdt_reset(705): task not found
+task_wdt_reset(705): task not found
+task_wdt_reset(705): task not found
+k not found
+task_wdt_reset(705): task not found
+k not found
+E (1619) task_wdt: esp_task_wdt_reset(705): task not found
+E (1620) task_wdt: esp_task_wdt_reset(705): task not found
+ot found
+t: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+not found
+t(705): task not found
+eset(705): task not found
+found
+k not found
+eset(705): task not found
+k_wd705): task not found
+not found
+sk not found
+k_wdt_reset(705): task not found
+ask not found
+705): task not found
+t found
+ task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+ found
+ask not found
+t_reset(705): task not found
+sk not found
+_reset(705): task not found
+k not found
+sk not found
+ask not found
+k_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+ask not found
+ask not found
+E (1652) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+E (1654) task_wdt: esp_task_wdt_reset(705): task not found
+E (1655) task_wdt: esp_task_wdt_reset(705): task not found
+ found
+sk not found
+E (705): task not found
+ask not found
+t(705): task not found
+E (1esp_task_wdt_reset(705): task not found
+ask not found
+t(705): task not found
+ not found
+05): task not found
+ound
+ not found
+ot found
+E (1669) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+E (1671) task_wdt: esp_task_wdt_reset(705): task not found
+E (1672) task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+E (1675) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+k not found
+E (1678) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+_task_wdt_reset(705): task not found
+ask not found
+ask not found
+ask not found
+ask not found
+ask not found
+_wdt: esp_task_wdt_reset(705): task not found
+p_task_wdt_reset(705): task not found
+ not found
+sk not found
+ask not found
+E (1691) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+E (1693) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+[   0:00:00.532] [INFO ] #000008: LCD initialized successfully with backlight ON
+E (1695) task_wdt: esp_t[a s k _5w3d2t]_[reIs]e[td(eb7u0g5_)l:o gtgaesrk. cnco:t2 4f3o]u nidn
+fo(): [ESP32P4_Gallery] LCD initialized successfully with backlight ON
+E (1695) task_wdt: esp_task_wdt_init(515): TWDT already initialized
+[   0:00:00.533] [ERROR] #000009: WDT init failed, error: 259. Continuing without WDT.
+[   533][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] WDT init failed, error: 259. Continuing without WDT.
+[   0:00:00.533] [INFO ] #000010: JPEG buffer allocated: 16384 bytes
+[   533][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG buffer allocated: 16384 bytes
+[   0:00:00.534] [INFO ] #000011: Flash size: 16 MB
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Flash size: 16 MB
+[   0:00:00.534] [INFO ] #000012: PSRAM size: 32 MB
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] PSRAM size: 32 MB
+[   0:00:00.534] [INFO ] #000013: CPU Freq: 360 MHz
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] CPU Freq: 360 MHz
+[   0:00:00.535] [INFO ] #000014: Initializing components in sequence:
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initializing components in sequence:
+[   0:00:00.535] [INFO ] #000015: LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   0:00:00.535] [INFO ] #000016: Setting up Touch...
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
+[   0:00:01.763] [INFO ] #000017: Touch initialized successfully
+[  1763][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Touch initialized successfully
+[   0:00:01.764] [INFO ] #000018: Setting up SD Card...
+[  1764][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up SD Card...
+[   0:00:02.164] [INFO ] #000019: SD init: 1-bit mode at default speed
+[  2164][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD init: 1-bit mode at default speed
+[   0:00:02.824] [INFO ] #000020: SD card initialized successfully
+[  2824][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD card initialized successfully
+[   0:00:02.824] [INFO ] #000021: SD Card Type: SDHC
+[  2824][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Type: SDHC
+[   0:00:02.825] [INFO ] #000022: SD Card Size: 128000MB
+[  2825][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD Card Size: 128000MB
+[   0:00:02.949] [INFO ] #000023: Test file written: 19 bytes
+[  2949][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file written: 19 bytes
+[   0:00:03.153] [INFO ] #000024: Test file read: "SD Card Test String" (19 bytes)
+[  3153][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Test file read: "SD Card Test String" (19 bytes)
+[   0:00:03.155] [INFO ] #000025: Setting up WiFi in AP mode...
+[  3155][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up WiFi in AP mode...
+[  3155][W][STA.cpp:543] disconnect(): STA already disconnected.
+sdio_mempool_create free:31872336 min-free:31870688 lfb-def:30932980 lfb-8bit:30932980
+
+Name: 
+Type: SDIO
+Speed: 40.00 MHz (limit: 40.00 MHz)
+Size: 0MB
+CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
+SCR: sd_spec=0, bus_width=0
+TUPLE: DEVICE, size: 3: D9 01 FF 
+TUPLE: MANFID, size: 4
+  MANF: 0092, CARD: 6666
+TUPLE: FUNCID, size: 2: 0C 00 
+TUPLE: FUNCE, size: 4: 00 00 02 32 
+TUPLE: CONFIG, size: 5: 01 01 00 02 07 
+TUPLE: CFTABLE_ENTRY, size: 8
+  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
+  IF: 41
+  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
+  IR: 30, mask: 1,   IRQ: FF FF
+  LEN: FFFF
+TUPLE: END
+  - IDL
+
+Core  1 register dump:
+MEPC    : 0x4ff046e8  RA      : 0x4ff0b16c  SP      : 0x4ff2e4d0  GP      : 0x4ff11f00  
+TP      : 0x4ff2e520  T0      : 0x00000000  T1      : 0x4ff045b2  T2      : 0x00000000  
+S0/FP   : 0x00000000  S1      : 0x4ff28000  A0      : 0x00000001  A1      : 0x00000000  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000000  A7      : 0x00000000  S2      : 0x00000000  S3      : 0x4ff24000  
+S4      : 0x4ff28000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+MSTATUS : 0x00000000  MTVEC   : 0x00000000  MCAUSE  : 0x00000000  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+Stack memory:
+4ff2e4d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff09802
+4ff2e4f0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e510: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0x4ff2e14c 0x4ff2e14c 0x00000000
+4ff2e530: 0x00000000 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xbaad5678
+4ff2e550: 0x80e7ffcd 0x57f9d1a0 0x04f40963 0x59fd8922 0x07395e63 0x0984a783 0x4e630405 0x002c08f4
+4ff2e570: 0x01048513 0x9e7ff0ef 0xf0efed1d 0x85aa858f 0x4ff2e13c 0x00000170 0xabba1234 0x00000160
+4ff2e590: 0x4ff2e450 0x00000000 0x4ff2419c 0x4ff2dfdc 0x4ff2e590 0x4ff24194 0x00000019 0x00000000
+4ff2e5b0: 0x00000000 0x4ff2e590 0x00000000 0x00000000 0x4ff2e14c 0x454c4449 0x00000031 0x00000000
+4ff2e5d0: 0x00000000 0x00000001 0x4ff2e540 0x00000006 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e5f0: 0x00000000 0x004f3cd8 0x00000000 0x4ff287c0 0x4ff28828 0x4ff28890 0x00000000 0x00000000
+4ff2e610: 0x00000001 0x00000000 0x00000000 0x00000000 0x4005710a 0x00000000 0x00000000 0x00000000
+4ff2e630: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e650: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e670: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e690: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e6b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+4ff2e6d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000200
+4ff2e6f0: 0xbaad5678 0x4ff2e580 0x00000880 0xabba1234 0x00000800 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e710: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e730: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e750: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e770: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e790: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7b0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7d0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e7f0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e810: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e830: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e850: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e870: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e890: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4ff2e8b0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+
+
+
+ELF file SHA256: 23f3fd70d
+
+Rebooting...
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0xc (SW_CPU_RESET),boot:0xe (SPI_FAST_FLASH_BOOT)
+Core0 Saved PC:0x400501b2
+Core1 Saved PC:0x4ff022da
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11c8
+load:0x4ff2abd0,len:0xc1c
+load:0x4ff2cbd0,len:0x32fc
+entry 0x4ff2abd0
+[    17][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
+=========== Before Setup Start ===========
+Chip Info:
+------------------------------------------
+  Model             : ESP32-P4
+  Package           : 0
+  Revision          : 1.00
+  Cores             : 2
+  CPU Frequency     : 360 MHz
+  XTAL Frequency    : 40 MHz
+  Features Bitfield : 0000000000
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : No
+  Classic BT        : No
+  BT Low Energy     : No
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   530856 B ( 518.4 KB)
+  Free Bytes        :   492248 B ( 480.7 KB)
+  Allocated Bytes   :    32500 B (  31.7 KB)
+  Minimum Free Bytes:   488208 B ( 476.8 KB)
+  Largest Free Block:   385012 B ( 376.0 KB)
+------------------------------------------
+SPIRAM Memory Info:
+------------------------------------------
+  Total Size        : 33554432 B (32768.0 KB)
+  Free Bytes        : 33551856 B (32765.5 KB)
+  Allocated Bytes   :        0 B (   0.0 KB)
+  Minimum Free Bytes: 33551856 B (32765.5 KB)
+  Largest Free Block: 33030132 B (32256.0 KB)
+  Bus Mode          : QSPI
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         : 16777216 B (16 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
+           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
+            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
+            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
+           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
+             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
+           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
+------------------------------------------
+Software Info:
+------------------------------------------
+  Compile Date/Time : Jun 13 2025 17:11:43
+  Compile Host OS   : windows
+  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
+  Arduino Version   : 3.2.0
+------------------------------------------
+Board Info:
+------------------------------------------
+  Arduino Board     : ESP32P4_DEV
+  Arduino Variant   : esp32p4
+  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
+============ Before Setup End ============
+[   138][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff237d0
+[   139][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff237d0
+[   239][E][esp32-hal-misc.c:179] disableCore1WDT(): Failed to remove Core 1 IDLE task from WDT
+task_wdt: esp_task_wdt_reset(705): task not found
+[   0:00:00.240] [INFO ] #000000: Logger initialized at Fri Jun 13 17:27:36 2025
+[   240][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Logger initialized at Fri Jun 13 17:27:36 2025
+[   0:00:00.241] [INtP_4r_eGsaeltl(er7y0]5 )=:= =t=a=s=k= =not= =f=o=u=n=d=
+=====================
+[   0:00:00.241] [INFO ] #000002: ESP32P4 Image Gallery Starting
+[   241][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ESP32P4 Image Gallery Starting
+[   0:00:00.241] [INFO ] #000003: Date: 2025-06-13 12:57:10 UTC
+[   241][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Date: 2025-06-13 12:57:10 UTC
+[   0:00:00.242] [INFO ] #000004: User: Chamil1983
+[   242]t:G aelslpe_rtya]s kU_swedrt:_ rCehsaemti(l179058)3:
+ 
+task not found
+[   0:00:00.242] [INFO ] #000005: ====================================
+[   242][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] ====================================
+[   0:00:00.242] [INFO ] #000006: Free heap: 480 KB
+[   242][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Free heap: 480 KB
+[   0:00:00.243] [INFO ] #000007: Setting up LCD...
+[   243][I][debug_logger.cc:243] info(): [ESP32P4_Gallery05): task not found
+[   243][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
+05): task not found
+[   244][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
+d
+05): task not found
+found
+set(705): task not found
+t(705): task not found
+ound
+(705): task not found
+_wdt_reset(705): task not found
+t found
+ found
+): task not found
+E (1420) task_wdt: esp_task_wdt_reset(705): task not found
+ound
+5): task not found
+k not found
+ found
+142found
+Ereset(705): task not found
+t found
+sk_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+und
+05): task not found
+05): task not found
+05): task not found
+05): task not found
+05): task not found
+dt_r705): task not found
+ask_wdt_reset(705): task not found
+5): task not found
+ask_wdt_reset(705): task not found
+05): task not found
+05): task not found
+05): task not found
+E (1444) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+sk_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+E (1449) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+05): task not found
+05): task not found
+05): task not found
+05): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+) task705): task not found
+05): task not found
+eset(705): task not found
+task not found
+5): task not found
+task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+5): task not found
+05): task not found
+05): task not found
+5): task not found
+705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+05): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+05): task not found
+5): task not found
+sk_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+t: esp_task_wdt_reset(705): task not found
+05): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+ask not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+set(705): task not found
+05): task not found
+5): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+_task_wdt_reset(705): task not found
+: task not found
+task not found
+ask_wdt_reset(705): task not found
+): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+ task not found
+5): task not found
+ot found
+task not found
+5): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+ot found
+und
+5): task not found
+: task not found
+5): task not found
+esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+5): task not found
+ask_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+ask_wdt_reset(705): task not found
+reset(705): task not found
+E (1524) task_wdt: esp_task_wdt_reset(705): task not found
+E (1525) task_wdt: esp_task_wdt_reset(705): task not found
+ not found
+p_task_wdt_reset(705): task not found
+05): task not found
+E (1529) task_wdt: esp_task_wdt_reset(705): task not found
+E (1530) task_wdt: esp_task_wdt_reset(705): task not found
+E (1531) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+05): task not found
+05): task not found
+dt_reset(705): task not found
+5): task not found
+05): task not found
+E (1538) task_wdt: esp_task_wdt_reset(705): task not found
+E (1539) task_wdt: esp_task_wdt_reset(705): task not found
+und
+und
+5): task not found
+E (1543) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+E (1545) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+E (1): task not found
+E (1548) task_wdt: esp_task_wdt_reset(705): task not found
+E (1549) task_wdt: esp_task_wdt_reset(705): task not found
+eset(705): task not found
+E (1551) task_wdt: esp_task_wdt_reset(705): task not found
+ot found
+task not found
+ task not found
+reset(705): task not found
+d
+E (1557) task_wdt: esp_task_wdt_reset(705): task not found
+not found
+E (1559) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+sk_wdt_reset(705): task not found
+5): task not found
+5): task not found
+5): task not found
+E (1565) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+E (1567) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+task705): task not found
+05): task not found
+5): task not found
+5): task not found
+5): task not found
+reset(705): task not found
+05): task not found
+5): task not found
+): task not found
+): task not found
+5): task not found
+05): task not found
+5): task not found
+5): task not found
+5): task not found
+5): task not found
+): task not found
+esp_task_wdt_reset(705): task not found
+eset(705): task not found
+: task not found
+: task not found
+: task not found
+ask not found
+k_wdt_reset(705): task not found
+): task not found
+ task not found
+): task not found
+wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+ task not found
+5): task not found
+ound
+t found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ not found
+: task not found
+ot found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+esp_task_wdt_reset(705): task not found
+t(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+et(705): task not found
+t(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+705): task not found
+): task not found
+5): task not found
+ask not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+t(705): task not found
+5): task not found
+sk_wdt_reset(705): task not found
+5): task not found
+sk_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+): task not found
+): task not found
+5): task not found
+: esp_task_wdt_reset(705): task not found
+: task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+et(705): task not found
+sk not found
+eset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+: task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+task not found
+): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+705): task not found
+sk_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+): task not found
+): task not found
+nd
+ task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+esp_task_wdt_reset(705): task not found
+esp_task_wdt_reset(705): task not found
+5): task not found
+): task not found
+): task not found
+05): task not found
+5): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+sk_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+): task not found
+): task not found
+5): task not found
+sp_task_wdt_reset(705): task not found
+5): task not found
+: esp_task_wdt_reset(705): task not found
+): task not found
+5): task not found
+sk_wdt_reset(705): task not found
+ found
+t_reset(705): task not found
+_task_wdt_reset(705): task not found
+ task not found
+: task not found
+k_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+E (1687) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+: task not found
+: task not found
+E (1691) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+ task not found
+ask not found
+[   0:00:00.532] [INFO ] #000008: LCD initialized successfulleIt]([d7e0b5u)g:_ ltoagsgke rnot .fcocu:n2d4
+3] info(): [ESP32P4_Gallery] LCD initialized successfully with backlight ON
+E (1695) task_wdt: esp_task_wdt_init(515): TWDT already initialized
+[   0:00:00.533] [ERROR] #000009: WDT init failed, error: 259. Continuing without WDT.
+[   533][E][debug_logger.cc:221] error(): [ESP32P4_Gallery] WDT init failed, error: 259. Continuing without WDT.
+[   0:00:00.533] [INFO ] #000010: JPEG buffer allocated: 16384 bytes
+[   533][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] JPEG buffer allocated: 16384 bytes
+[   0:00:00.534] [INFO ] #000011: Flash size: 16 MB
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Flash size: 16 MB
+[   0:00:00.534] [INFO ] #000012: PSRAM size: 32 MB
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] PSRAM size: 32 MB
+[   0:00:00.534] [INFO ] #000013: CPU Freq: 360 MHz
+[   534][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] CPU Freq: 360 MHz
+[   0:00:00.535] [INFO ] #000014: Initializing components in sequence:
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Initializing components in sequence:
+[   0:00:00.535] [INFO ] #000015: LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] LCD → Touch → SD → WiFi → LVGL → UI → WebServer
+[   0:00:00.535] [INFO ] #000016: Setting up Touch...
+[   535][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up Touch...
+[   0:00:01.763] [INFO ] #000017: Touch initialized successfully
+[  1763][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Touch initialized successfully
+[   0:00:01.764] [INFO ] #000018: Setting up SD Card...
+[  1764][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] Setting up SD Card...
+[   0:00:02.164] [INFO ] #000019: SD init: 1-bit mode at default speed
+[  2164][I][debug_logger.cc:243] info(): [ESP32P4_Gallery] SD init: 1-bit mode at default speed
