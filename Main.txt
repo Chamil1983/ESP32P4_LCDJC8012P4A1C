@@ -1,171 +1,4 @@
-[    19][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added[  0:00:04.989][  INFO][#000012] Watchdog reconfigured with 30 second timeout and panic enabled
-[  0:00:05.131][  INFO][#000013] Main task added to watchdog with crash detection
-[DEBUG][Watchdog] Initialization successful
-Starting component initialization sequence:
-1. LCD initialization
-[DEBUG][LCD] Initializing...
-[  0:00:05.276][  INFO][#000014] Setting up LCD...
-[  5418][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  5419][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[  0:00:05.705][  INFO][#000015] LCD initialized successfully with backlight ON
-[DEBUG][LCD] Initialization successful
-LCD ready
-2. Touch initialization
-[DEBUG][Touch] Initializing...
-[  0:00:05.854][  INFO][#000016] Setting up Touch...
-[  0:00:07.075][  INFO][#000017] Touch initialized successfully
-[DEBUG][Touch] Initialization successful
-Touch ready
-3. SD Card initialization
-[DEBUG][SD Card] Initializing...
-[  0:00:07.222][  INFO][#000018] Setting up SD Card with robust initialization...
-[  0:00:07.365][  INFO][#000019] Waiting for power stabilization...
-[  0:00:09.508][  INFO][#000020] Resetting SD pins...
-[  0:00:10.453][  INFO][#000021] Ensuring SD_MMC is deinitialized...
-[  0:00:11.098][  INFO][#000022] Configuring SD pins...
-[  0:00:11.243][  INFO][#000023] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:12.040][  INFO][#000024] SD card initialized successfully in ultra-conservative mode
-[  0:00:12.185][  INFO][#000025] Validating SD card...
-[  0:00:12.328][  INFO][#000026] SD Card Type: SDHC
-[  0:00:12.471][  INFO][#000027] SD Card Size: 128000MB
-[DEBUG][SD Card] Initialization successful
-SD ready
-[  0:00:12.615][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:12.758][  INFO][#000029] System configured to handle crashes via watchdog
-4. WiFi initialization
-[DEBUG][WiFi] Initializing...
-[  0:00:12.903][  INFO][#000030] Setting up WiFi in AP mode...
-[ 13046][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31934108 min-free:31933032 lfb-def:31457268 lfb-8bit:31457268
-
-Name: 
-Type: SDIO
-Speed: 40.00 MHz (limit: 40.00 MHz)
-Size: 0MB
-CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
-SCR: sd_spec=0, bus_width=0
-TUPLE: DEVICE, size: 3: D9 01 FF 
-TUPLE: MANFID, size: 4
-  MANF: 0092, CARD: 6666
-TUPLE: FUNCID, size: 2: 0C 00 
-TUPLE: FUNCE, size: 4: 00 00 02 32 
-TUPLE: CONFIG, size: 5: 01 01 00 02 07 
-TUPLE: CFTABLE_ENTRY, size: 8
-  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
-  IF: 41
-  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
-  IR: 30, mask: 1,   IRQ: FF FF
-  LEN: FFFF
-TUPLE: END
-[  0:00:15.943][  INFO][#000031] WiFi AP Mode active
-[  0:00:16.089][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:16.231][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:16.374][  INFO][#000034] AP Channel: 6
-[  0:00:16.517][  INFO][#000035] AP Max Clients: 2
-[DEBUG][WiFi] Initialization successful
-WiFi ready
-5. LVGL initialization
-[DEBUG][LVGL] Initializing...
-[  0:00:16.662][  INFO][#000036] Setting up LVGL...
-[  0:00:16.805][ DEBUG][#000037] Allocating LVGL buffers: 512000 bytes each
-[  0:00:16.966][  INFO][#000038] LVGL initialized successfully
-[DEBUG][LVGL] Initialization successful
-LVGL ready
-6. UI initialization
-[DEBUG][UI] Initializing...
-[  0:00:17.115][  INFO][#000039] Setting up UI...
-[  0:00:17.263][  INFO][#000040] UI initialized successfully
-[DEBUG][UI] Initialization successful
-UI ready
-7. Web Server initialization
-[DEBUG][WebServer] Initializing...
-[  0:00:17.410][  INFO][#000041] Setting up WebServer...
-[  0:00:17.553][  INFO][#000042] WebServer started on port 80
-[DEBUG][WebServer] Initialization successful
-WebServer ready
-8. Starting LVGL task
-[  0:00:17.699][  INFO][#000043] LVGL task started on Core 1
-LVGL task started successfully
-9. Scanning for images
-[  0:00:17.839][  INFO][#000044] Scanning for images...
-[  0:00:18.061][ DEBUG][#000045] Found image 0: /images/img_39767.jpg
-[  0:00:18.207][ DEBUG][#000046] Found image 1: /images/img_79907.jpg
-[  0:00:18.352][ DEBUG][#000047] Found image 2: /images/img_32173_chicago skyline.jpg
-[  0:00:18.498][ DEBUG][#000048] Found image 3: /images/img_54221.jpg
-[  0:00:18.643][ DEBUG][#000049] Found image 4: /images/img_11892.jpg
-[  0:00:18.788][ DEBUG][#000050] Found image 5: /images/img_11059.jpg
-[  0:00:18.934][ DEBUG][#000051] Found image 6: /images/img_37892.jpg
-[  0:00:19.080][ DEBUG][#000052] Found image 7: /images/img_152732.jpg
-[  0:00:19.225][ DEBUG][#000053] Found image 8: /images/img_86865.jpg
-[  0:00:19.371][ DEBUG][#000054] Found image 9: /images/img_42344.jpg
-[  0:00:19.516][ DEBUG][#000055] Found image 10: /images/img_69512_Eagles_Birds.jpg
-[  0:00:19.661][ DEBUG][#000056] Found image 11: /images/img_69100_Eagles_Birds.jpg
-[  0:00:19.806][  INFO][#000057] Found 12 images
-Found 12Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
-
-Core  1 register dump:
-MEPC    : 0x40049fb2  RA      : 0x40049ed0  SP      : 0x4ff29070  GP      : 0x4ff11f00  
-TP      : 0x4ff34a00  T0      : 0x00000fff  T1      : 0x10000000  T2      : 0xb202aa02  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2fe6a  A1      : 0x4ff2fe6a  
-A2      : 0x00000004  A3      : 0x00000029  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000029  A7      : 0x4ff2fda8  S2      : 0x4ff40000  S3      : 0x4ff40000  
-S4      : 0x00000000  S5      : 0x4ff2b000  S6      : 0x4ff40000  S7      : 0x4ff2b000  
-S8      : 0x4ff2b000  S9      : 0x4ff40000  S10     : 0x4ff40000  S11     : 0x00000000  
-T3      : 0x00000000  T4      : 0xff02f602  T5      : 0xee02e502  T6      : 0xdb02d202  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
-
-Stack memory:
-4ff29070: 0x00000001 0x00000000 0x00000000 0x00000029 0x400e3000 0x4ff2b000 0x00000000 0x500d2000
-4ff29090: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff3aa0c
-4ff290b0: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff29120 0x4ff29120 0x4ff291c0
-4ff290d0: 0x4ff291b0 0x00000000 0x4ff290dc 0xffffffff 0x4ff290dc 0x4ff290dc 0x00000001 0x4ff290f0
-4ff290f0: 0xffffffff 0x4ff323cc 0x4ff323cc 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff29110: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29130: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29150: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29170: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29190: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff291b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff291c8 0xffffffff 0x4ff291c8
-4ff291d0: 0x4ff291c8 0x00000000 0x4ff291dc 0xffffffff 0x4ff291dc 0x4ff291dc 0x00000000 0x4ff291e8
-4ff291f0: 0x00000000 0x00000000 0x00000000 0x4ff29200 0xffffffff 0x4ff29200 0x4ff29200 0x00000000
-4ff29210: 0x4ff29214 0xffffffff 0x4ff29214 0x4ff29214 0x00000001 0x00000001 0x00000000 0x00000001
-4ff29230: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff29244 0x00000000
-4ff29250: 0x00000000 0x00000000 0x4ff2925c 0xffffffff 0x4ff2925c 0x4ff2925c 0x00000000 0x4ff29270
-4ff29270: 0xffffffff 0x4ff29270 0x4ff29270 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff29290: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff292b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff292d0: 0x00000000 0x00000000 0x4ff2ba8c 0x4ff2bac0 0x4ff2baf4 0x4ff2bb28 0x48000a10 0x481fc368
-4ff292f0: 0x481fc40c 0x00000000 0x4ff48110 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29310: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29330: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29350: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29370: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29390: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293f0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29410: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29430: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29450: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-
-
-
-ELF file SHA256: d9e92d9ed
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    19][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
+[    20][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added=========== Before Setup Start ===========
 Chip Info:
 ------------------------------------------
   Model             : ESP32-P4
@@ -184,10 +17,10 @@ Chip Info:
 ------------------------------------------
 INTERNAL Memory Info:
 ------------------------------------------
-  Total Size        :   515400 B ( 503.3 KB)
-  Free Bytes        :   477052 B ( 465.9 KB)
+  Total Size        :   514728 B ( 502.7 KB)
+  Free Bytes        :   476380 B ( 465.2 KB)
   Allocated Bytes   :    32372 B (  31.6 KB)
-  Minimum Free Bytes:   473012 B ( 461.9 KB)
+  Minimum Free Bytes:   472340 B ( 461.3 KB)
   Largest Free Block:   385012 B ( 376.0 KB)
 ------------------------------------------
 SPIRAM Memory Info:
@@ -232,20 +65,20 @@ Board Info:
   Arduino Variant   : esp32p4
   Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=none,JTAGAdapter=default
 ============ Before Setup End ============
-[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff27480
-[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff27480
+[  1011][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff27738
+[  1012][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff27738
 
 === ESP32P4 Gallery Debug Output ===
 Initializing SPIFFS...
 SPIFFS mounted successfully
-SPIFFS: 7703441 total, 64507 used, 7638934 free
+SPIFFS: 7703441 total, 60491 used, 7642950 free
 
 ------- Logger Initialized -------
-[   554][W][SPIFFS.cpp:62] begin(): SPIFFS Already Mounted!
-[  0:00:01.144][  INFO][#000000] Logger initialized: level=1, serial=ON, flash=ON
+[  1428][W][SPIFFS.cpp:62] begin(): SPIFFS Already Mounted!
+[  0:00:02.041][  INFO][#000000] Logger initialized: level=1, serial=ON, flash=ON
 [DEBUG] Log level set to 1
 [DEBUG] Serial debug output enabled
-[  0:00:01.429][  INFO][#000001] SPIFFS is available for logging
+[  0:00:02.329][  INFO][#000001] SPIFFS is available for logging
 Checking partition information:
 Flash size: 16777216 bytes
 
@@ -263,59 +96,59 @@ Type | Subtype | Address | Size | Label
 
 SPIFFS partition found: storage at 0x410000, size 8192K
 
-[  0:00:01.573][ DEBUG][#000002] Debug test - showing debug level messages
-[  0:00:01.715][  INFO][#000003] Info test - showing info level messages
-[  0:00:01.858][  WARN][#000004] Warn test - showing warning level messages
-[  0:00:02.000][ ERROR][#000005] Error test - showing error level messages
+[  0:00:02.474][ DEBUG][#000002] Debug test - showing debug level messages
+[  0:00:02.617][  INFO][#000003] Info test - showing info level messages
+[  0:00:02.761][  WARN][#000004] Warn test - showing warning level messages
+[  0:00:02.903][ ERROR][#000005] Error test - showing error level messages
 Direct Serial: Starting initialization sequence
-[  0:00:02.142][  INFO][#000006] ====================================
-[  0:00:02.285][  INFO][#000007] ESP32P4 Image Gallery Starting
-[  0:00:02.427][  INFO][#000008] Date: 2025-06-14 14:15:04 UTC
-[  0:00:02.569][  INFO][#000009] User: Chamil1983
-[  0:00:02.711][  INFO][#000010] ====================================
+[  0:00:03.046][  INFO][#000006] ====================================
+[  0:00:03.190][  INFO][#000007] ESP32P4 Image Gallery Starting
+[  0:00:03.331][  INFO][#000008] Date: 2025-06-14 14:15:04 UTC
+[  0:00:03.473][  INFO][#000009] User: Chamil1983
+[  0:00:03.616][  INFO][#000010] ====================================
 [DEBUG][Mutexes] Initializing...
 [DEBUG][Mutexes] Initialization successful
 [DEBUG][Watchdog] Initializing...
-[  0:00:02.856][  INFO][#000011] Setting up watchdog system with crash recovery...
-[  0:00:02.998][  INFO][#000012] Watchdog reconfigured with 30 second timeout and panic enabled
-[  0:00:03.140][  INFO][#000013] Main task added to watchdog with crash detection
+[  0:00:03.761][  INFO][#000011] Setting up watchdog system with crash recovery...
+[  0:00:03.904][  INFO][#000012] Watchdog reconfigured with 30 second timeout and panic enabled
+[  0:00:04.047][  INFO][#000013] Main task added to watchdog with crash detection
 [DEBUG][Watchdog] Initialization successful
 Starting component initialization sequence:
 1. LCD initialization
 [DEBUG][LCD] Initializing...
-[  0:00:03.285][  INFO][#000014] Setting up LCD...
-[  3426][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  3427][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[  0:00:03.713][  INFO][#000015] LCD initialized successfully with backlight ON
+[  0:00:04.191][  INFO][#000014] Setting up LCD...
+[  4334][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
+[  4335][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
+[  0:00:04.622][  INFO][#000015] LCD initialized successfully with backlight ON
 [DEBUG][LCD] Initialization successful
 LCD ready
 2. Touch initialization
 [DEBUG][Touch] Initializing...
-[  0:00:03.861][  INFO][#000016] Setting up Touch...
-[  0:00:05.082][  INFO][#000017] Touch initialized successfully
+[  0:00:04.770][  INFO][#000016] Setting up Touch...
+[  0:00:05.992][  INFO][#000017] Touch initialized successfully
 [DEBUG][Touch] Initialization successful
 Touch ready
 3. SD Card initialization
 [DEBUG][SD Card] Initializing...
-[  0:00:05.229][  INFO][#000018] Setting up SD Card with robust initialization...
-[  0:00:05.372][  INFO][#000019] Waiting for power stabilization...
-[  0:00:07.515][  INFO][#000020] Resetting SD pins...
-[  0:00:08.460][  INFO][#000021] Ensuring SD_MMC is deinitialized...
-[  0:00:09.105][  INFO][#000022] Configuring SD pins...
-[  0:00:09.250][  INFO][#000023] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:10.046][  INFO][#000024] SD card initialized successfully in ultra-conservative mode
-[  0:00:10.192][  INFO][#000025] Validating SD card...
-[  0:00:10.335][  INFO][#000026] SD Card Type: SDHC
-[  0:00:10.478][  INFO][#000027] SD Card Size: 128000MB
+[  0:00:06.139][  INFO][#000018] Setting up SD Card with robust initialization...
+[  0:00:06.283][  INFO][#000019] Waiting for power stabilization...
+[  0:00:08.427][  INFO][#000020] Resetting SD pins...
+[  0:00:09.373][  INFO][#000021] Ensuring SD_MMC is deinitialized...
+[  0:00:10.018][  INFO][#000022] Configuring SD pins...
+[  0:00:10.163][  INFO][#000023] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
+[  0:00:10.970][  INFO][#000024] SD card initialized successfully in ultra-conservative mode
+[  0:00:11.117][  INFO][#000025] Validating SD card...
+[  0:00:11.260][  INFO][#000026] SD Card Type: SDHC
+[  0:00:11.404][  INFO][#000027] SD Card Size: 128000MB
 [DEBUG][SD Card] Initialization successful
 SD ready
-[  0:00:10.624][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:12.201][  INFO][#000029] System configured to handle crashes via watchdog
+[  0:00:11.550][  INFO][#000028] Task watchdog panic is enabled for crash detection
+[  0:00:11.695][  INFO][#000029] System configured to handle crashes via watchdog
 4. WiFi initialization
 [DEBUG][WiFi] Initializing...
-[  0:00:12.346][  INFO][#000030] Setting up WiFi in AP mode...
-[ 12489][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31933656 min-free:31928004 lfb-def:31457268 lfb-8bit:31457268
+[  0:00:11.839][  INFO][#000030] Setting up WiFi in AP mode...
+[ 11983][W][STA.cpp:543] disconnect(): STA already disconnected.
+sdio_mempool_create free:31933440 min-free:31932364 lfb-def:31457268 lfb-8bit:31457268
 
 Name: 
 Type: SDIO
@@ -336,66 +169,69 @@ TUPLE: CFTABLE_ENTRY, size: 8
   IR: 30, mask: 1,   IRQ: FF FF
   LEN: FFFF
 TUPLE: END
-[  0:00:15.386][  INFO][#000031] WiFi AP Mode active
-[  0:00:15.532][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:15.675][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:15.818][  INFO][#000034] AP Channel: 6
-[  0:00:15.962][  INFO][#000035] AP Max Clients: 2
+[  0:00:14.881][  INFO][#000031] WiFi AP Mode active
+[  0:00:15.027][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
+[  0:00:15.172][  INFO][#000033] AP IP Address: 192.168.4.1
+[  0:00:15.315][  INFO][#000034] AP Channel: 6
+[  0:00:15.459][  INFO][#000035] AP Max Clients: 2
 [DEBUG][WiFi] Initialization successful
 WiFi ready
 5. LVGL initialization
 [DEBUG][LVGL] Initializing...
-[  0:00:16.106][  INFO][#000036] Setting up LVGL...
-[  0:00:16.250][ DEBUG][#000037] Allocating LVGL buffers: 512000 bytes each
-[  0:00:16.410][  INFO][#000038] LVGL initialized successfully
+[  0:00:15.604][  INFO][#000036] Setting up LVGL...
+[  0:00:15.748][ DEBUG][#000037] Allocating LVGL buffers: 512000 bytes each
+[  0:00:15.909][  INFO][#000038] LVGL initialized successfully
 [DEBUG][LVGL] Initialization successful
 LVGL ready
 6. UI initialization
 [DEBUG][UI] Initializing...
-[  0:00:16.560][  INFO][#000039] Setting up UI...
-[  0:00:16.708][  INFO][#000040] UI initialized successfully
+[  0:00:16.056][  INFO][#000039] Setting up UI...
+[  0:00:16.205][  INFO][#000040] UI initialized successfully
 [DEBUG][UI] Initialization successful
 UI ready
 7. Web Server initialization
 [DEBUG][WebServer] Initializing...
-[  0:00:16.855][  INFO][#000041] Setting up WebServer...
-[  0:00:16.999][  INFO][#000042] WebServer started on port 80
+[  0:00:16.350][  INFO][#000041] Setting up WebServer...
+[  0:00:16.494][  INFO][#000042] WebServer started on port 80
 [DEBUG][WebServer] Initialization successful
 WebServer ready
 8. Starting LVGL task
-[  0:00:17.144][  INFO][#000043] LVGL task started on Core 1
+[  0:00:16.640][  INFO][#000043] LVGL task started on Core 1
 LVGL task started successfully
 9. Scanning for images
-[  0:00:17.283][  INFO][#000044] Scanning for images...
-[  0:00:17.504][ DEBUG][#000045] Found image 0: /images/img_39767.jpg
-[  0:00:17.650][ DEBUG][#000046] Found image 1: /images/img_79907.jpg
-[  0:00:17.796][ DEBUG][#000047] Found image 2: /images/img_32173_chicago skyline.jpg
-[  0:00:17.941][ DEBUG][#000048] Found image 3: /images/img_54221.jpg
-[  0:00:18.086][ DEBUG][#000049] Found image 4: /images/img_11892.jpg
-[  0:00:18.232][ DEBUG][#000050] Found image 5: /images/img_11059.jpg
-[  0:00:18.377][ DEBUG][#000051] Found image 6: /images/img_37892.jpg
-[  0:00:18.523][ DEBUG][#000052] Found image 7: /images/img_152732.jpg
-[  0:00:18.668][ DEBUG][#000053] Found image 8: /images/img_86865.jpg
-[  0:00:18.814][ DEBUG][#000054] Found image 9: /images/img_42344.jpg
-[  0:00:18.959][ DEBUG][#000055] Found image 10: /images/img_69512_Eagles_Birds.jpg
-[  0:00:19.104][ DEBUG][#000056] Found image 11: /images/img_69100_Eagles_Birds.jpg
-[  0:00:19.249][  INFO][#000057] Found 12 images
-Found 12 images
+[  0:00:16.779][  INFO][#000044] Scanning for images...
+[  0:00:17.000][ DEBUG][#000045] Found image 0: /images/img_39767.jpg
+[  0:00:17.145][ DEBUG][#000046] Found image 1: /images/img_79907.jpg
+[  0:00:17.290][ DEBUG][#000047] Found image 2: /images/img_32173_chicago skyline.jpg
+[  0:00:17.435][ DEBUG][#000048] Found image 3: /images/img_54221.jpg
+[  0:00:17.581][ DEBUG][#000049] Found image 4: /images/img_11892.jpg
+[  0:00:17.725][ DEBUG][#000050] Found image 5: /images/img_11059.jpg
+[  0:00:17.871][ DEBUG][#000051] Found image 6: /images/img_37892.jpg
+[  0:00:18.016][ DEBUG][#000052] Found image 7: /images/img_152732.jpg
+[  0:00:18.162][ DEBUG][#000053] Found image 8: /images/img_86865.jpg
+[  0:00:18.307][ DEBUG][#000054] Found image 9: /images/img_42344.jpg
+[  0:00:18.452][ DEBUG][#000055] Found image 10: /images/img_69512_Eagles_Birds.jpg
+[  0:00:18.597][ DEBUG][#000056] Found image 11: /images/img_69100_Eagles_Birds.jpg
+[  0:00:18.743][ DEBUG][#000057] Found image 12: /images/img_52349_Blue_Flower.jpg
+[  0:00:18.888][  INFO][#000058] Found 13 images
+Found 13 images
 10. Loading first image
-[  0:00:19.393][  INFO][#000058] Displaying image 0: /images/img_39767.jpg
-[  0:00:19.537][ DEBUG][#000059] Starting operation: JPEG Rendering
-[  0:00:19.685][  INFO][#000060] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
-[  0:00:20.870][  INFO][#000061] JPEG decoded successfully: 1280x800
-[  0:00:21.015][  WARN][#000062] Operation JPEG Rendering took 1334 ms
+[  0:00:19.032][  INFO][#000059] Displaying image 0: /images/img_39767.jpg
+[  0:00:19.177][ DEBUG][#000060] Starting operation: JPEG Rendering
+E (19304) lcd.dsi.dpi: dpi_panel_draw_bitmap(530): previous draw operation is not finished
+[  0:00:19.748][  INFO][#000061] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
+[  0:00:19.896][  INFO][#000062] Decoding image at full resolution
+[  0:00:21.095][  INFO][#000063] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:00:21.241][  WARN][#000064] Operation JPEG Rendering took 1921 ms
 Initialization complete!
 STATUS: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
 =========== After Setup Start ============
 INTERNAL Memory Info:
 ------------------------------------------
-  Total Size        :   515400 B (503.3 KB)
-  Free Bytes        :   388668 B (379.6 KB)
-  Allocated Bytes   :   126732 B (123.8 KB)
-  Minimum Free Bytes:   378888 B (370.0 KB)
+  Total Size        :   514728 B (502.7 KB)
+  Free Bytes        :   387936 B (378.8 KB)
+  Allocated Bytes   :   126792 B (123.8 KB)
+  Minimum Free Bytes:   378204 B (369.3 KB)
   Largest Free Block:   344052 B (336.0 KB)
 ------------------------------------------
 SPIRAM Memory Info:
@@ -426,401 +262,10 @@ GPIO Info:
 =========== After Setup Start ============
 INTERNAL Memory Info:
 ------------------------------------------
-  Total Size        :   515400 B ( 503.3 KB)
-  Free Bytes        :   388668 B ( 379.6 KB)
-  Allocated Bytes   :   115860 B ( 113.1 KB)
-  Minimum Free Bytes:   378888 B ( 370.0 KB)
-  Largest Free Block:   344052 B ( 336.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 30440392 B (29726.9 KB)
-  Allocated Bytes   :  3111048 B (3038.1 KB)
-  Minimum Free Bytes: 30438464 B (29725.1 KB)
-  Largest Free Block: 30408692 B (29696.0 KB)
-------------------------------------------
-GPIO Info:
-------------------------------------------
-  GPIO : BUS_TYPE[bus/unit][chan]
-  --------------------------------------  
-    23 : GPIO
-    24 : USB_DM
-    25 : USB_DP
-    37 : UART_TX[0]
-    38 : UART_RX[0]
-    39 : SDMMC_D0
-    40 : SDMMC_D1
-    41 : SDMMC_D2
-    42 : SDMMC_D3
-    43 : SDMMC_CLK
-    44 : SDMMC_CMD
-    45 : SDMMC_POWER
-============ After Setup End =============
-[  0:00:38.093][ DEBUG][#000063] Serving main page
-[  0:00:55.853][  INFO][#000064] Starting new upload: Blue Flower.jpg
-[  0:00:55.999][  INFO][#000065] Upload start: /images/img_55999_Blue_Flower.jpg
-[  0:00:56.142][  INFO][#000066] Allocated 1048576 bytes for upload buffer
-[  0:00:56.286][ DEBUG][#000067] Buffered 1436 bytes, total 1436 bytes
-[  0:00:56.430][ DEBUG][#000068] Buffered 1436 bytes, total 2872 bytes
-[  0:00:56.576][ DEBUG][#000069] Buffered 1436 bytes, total 4308 bytes
-[  0:00:56.721][ DEBUG][#000070] Buffered 1436 bytes, total 5744 bytes
-[  0:00:56.866][ DEBUG][#000071] Buffered 1436 bytes, total 7180 bytes
-[  0:00:57.013][ DEBUG][#000072] Buffered 1436 bytes, total 8616 bytes
-[  0:00:57.158][ DEBUG][#000073] Buffered 1436 bytes, total 10052 bytes
-[  0:00:57.303][ DEBUG][#000074] Buffered 1436 bytes, total 11488 bytes
-[  0:00:57.447][ DEBUG][#000075] Buffered 1436 bytes, total 12924 bytes
-[  0:00:57.591][ DEBUG][#000076] Buffered 1436 bytes, total 14360 bytes
-[  0:00:57.737][ DEBUG][#000077] Buffered 1436 bytes, total 15796 bytes
-[  0:00:57.881][ DEBUG][#000078] Buffered 1436 bytes, total 17232 bytes
-[  0:00:58.027][ DEBUG][#000079] Buffered 1436 bytes, total 18668 bytes
-[  0:00:58.171][ DEBUG][#000080] Buffered 1436 bytes, total 20104 bytes
-[  0:00:58.317][ DEBUG][#000081] Buffered 1436 bytes, total 21540 bytes
-[  0:00:58.461][ DEBUG][#000082] Buffered 1436 bytes, total 22976 bytes
-[  0:00:58.607][ DEBUG][#000083] Buffered 1436 bytes, total 24412 bytes
-[  0:00:58.752][ DEBUG][#000084] Buffered 1436 bytes, total 25848 bytes
-[  0:00:58.901][ DEBUG][#000085] Buffered 1436 bytes, total 27284 bytes
-[  0:00:59.052][ DEBUG][#000086] Buffered 1436 bytes, total 28720 bytes
-[  0:00:59.200][ DEBUG][#000087] Buffered 1436 bytes, total 30156 bytes
-[  0:00:59.344][ DEBUG][#000088] Buffered 1436 bytes, total 31592 bytes
-[  0:00:59.490][ DEBUG][#000089] Buffered 1436 bytes, total 33028 bytes
-[  0:00:59.636][ DEBUG][#000090] Buffered 1436 bytes, total 34464 bytes
-[  0:00:59.780][ DEBUG][#000091] Buffered 1436 bytes, total 35900 bytes
-[  0:00:59.925][ DEBUG][#000092] Buffered 1436 bytes, total 37336 bytes
-[  0:01:00.071][ DEBUG][#000093] Buffered 1436 bytes, total 38772 bytes
-[  0:01:00.216][ DEBUG][#000094] Buffered 1436 bytes, total 40208 bytes
-[  0:01:00.361][ DEBUG][#000095] Buffered 1436 bytes, total 41644 bytes
-[  0:01:00.505][ DEBUG][#000096] Buffered 1436 bytes, total 43080 bytes
-[  0:01:00.651][ DEBUG][#000097] Buffered 1436 bytes, total 44516 bytes
-[  0:01:Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
-
-Core  1 register dump:
-MEPC    : 0x40049fb2  RA      : 0x40049ed0  SP      : 0x4ff29070  GP      : 0x4ff11f00  
-TP      : 0x4ff34a00  T0      : 0x00000fff  T1      : 0x30303023  T2      : 0x3020205b  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2fe34  A1      : 0x4ff2fe34  
-A2      : 0x00000004  A3      : 0x00000040  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000049  A7      : 0x4ff2fda8  S2      : 0x4ff40000  S3      : 0x4ff40000  
-S4      : 0x00000000  S5      : 0x4ff3489c  S6      : 0x0000002a  S7      : 0x400f1000  
-S8      : 0x00000001  S9      : 0x4ff40000  S10     : 0x4ff34720  S11     : 0x000000a6  
-T3      : 0x5b5d4755  T4      : 0x42454420  T5      : 0x5b5d3030  T6      : 0x382e3030  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
-
-Stack memory:
-4ff29070: 0x00000001 0x00000000 0x00000000 0x00000040 0x0000002a 0x4ff3489c 0x00000000 0x4ff40000
-4ff29090: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff34c28
-4ff290b0: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff29120 0x4ff29120 0x4ff291c0
-4ff290d0: 0x4ff291b0 0x00000000 0x4ff290dc 0xffffffff 0x4ff290dc 0x4ff290dc 0x00000001 0x4ff290f0
-4ff290f0: 0xffffffff 0x4ff323cc 0x4ff323cc 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff29110: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29130: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29150: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29170: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29190: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff291b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff291c8 0xffffffff 0x4ff291c8
-4ff291d0: 0x4ff291c8 0x00000000 0x4ff291dc 0xffffffff 0x4ff291dc 0x4ff291dc 0x00000000 0x4ff291e8
-4ff291f0: 0x00000000 0x00000000 0x00000000 0x4ff29200 0xffffffff 0x4ff29200 0x4ff29200 0x00000000
-4ff29210: 0x4ff29214 0xffffffff 0x4ff29214 0x4ff29214 0x00000001 0x00000001 0x00000000 0x00000001
-4ff29230: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff29244 0x00000000
-4ff29250: 0x00000000 0x00000000 0x4ff2925c 0xffffffff 0x4ff2925c 0x4ff2925c 0x00000000 0x4ff29270
-4ff29270: 0xffffffff 0x4ff29270 0x4ff29270 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff29290: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff292b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff292d0: 0x00000000 0x00000000 0x4ff2ba8c 0x4ff2bac0 0x4ff2baf4 0x4ff2bb28 0x48000a10 0x481fc368
-4ff292f0: 0x481fc40c 0x00000000 0x4ff482d0 0x00000000 0x00000001 0x00000000 0x00000000 0x4ff4ae7c
-4ff29310: 0x4ff36908 0x00010002 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29330: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29350: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29370: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29390: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293b0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293d0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293f0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29410: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29430: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29450: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-
-
-
-ELF file SHA256: d9e92d9ed
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    20][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
-Chip Info:
-------------------------------------------
-  Model             : ESP32-P4
-  Package           : 0
-  Revision          : 1.00
-  Cores             : 2
-  CPU Frequency     : 360 MHz
-  XTAL Frequency    : 40 MHz
-  Features Bitfield : 0000000000
-  Embedded Flash    : No
-  Embedded PSRAM    : No
-  2.4GHz WiFi       : No
-  Classic BT        : No
-  BT Low Energy     : No
-  IEEE 802.15.4     : No
-------------------------------------------
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   515400 B ( 503.3 KB)
-  Free Bytes        :   477052 B ( 465.9 KB)
-  Allocated Bytes   :    32372 B (  31.6 KB)
-  Minimum Free Bytes:   473012 B ( 461.9 KB)
-  Largest Free Block:   385012 B ( 376.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 33551856 B (32765.5 KB)
-  Allocated Bytes   :        0 B (   0.0 KB)
-  Minimum Free Bytes: 33551856 B (32765.5 KB)
-  Largest Free Block: 33030132 B (32256.0 KB)
-  Bus Mode          : QSPI
-------------------------------------------
-Flash Info:
-------------------------------------------
-  Chip Size         : 16777216 B (16 MB)
-  Block Size        :    65536 B (  64.0 KB)
-  Sector Size       :     4096 B (   4.0 KB)
-  Page Size         :      256 B (   0.2 KB)
-  Bus Speed         : 80 MHz
-  Bus Mode          : QIO
-------------------------------------------
-Partitions Info:
-------------------------------------------
-                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
-           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
-            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
-            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
-           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
-           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
-             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
-           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
-------------------------------------------
-Software Info:
-------------------------------------------
-  Compile Date/Time : Jun 14 2025 22:15:45
-  Compile Host OS   : windows
-  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
-  Arduino Version   : 3.2.0
-------------------------------------------
-Board Info:
-------------------------------------------
-  Arduino Board     : ESP32P4_DEV
-  Arduino Variant   : esp32p4
-  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=none,JTAGAdapter=default
-============ Before Setup End ============
-[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff27480
-[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff27480
-
-=== ESP32P4 Gallery Debug Output ===
-Initializing SPIFFS...
-SPIFFS mounted successfully
-SPIFFS: 7703441 total, 38403 used, 7665038 free
-
-------- Logger Initialized -------
-[   555][W][SPIFFS.cpp:62] begin(): SPIFFS Already Mounted!
-[  0:00:01.148][  INFO][#000000] Logger initialized: level=1, serial=ON, flash=ON
-[DEBUG] Log level set to 1
-[DEBUG] Serial debug output enabled
-[  0:00:01.433][  INFO][#000001] SPIFFS is available for logging
-Checking partition information:
-Flash size: 16777216 bytes
-
-Partition table:
-Type | Subtype | Address | Size | Label
------|---------|---------|------|-------
-   1 |       2 | 00009000 |     24K | nvs
-   1 |       1 | 0000f000 |      4K | phy_init
-   0 |       0 | 00010000 |   4096K | factory
-   1 |     130 | 00410000 |   8192K | storage
-   1 |       3 | 00c10000 |   1024K | coredump
-   1 |       8 | 00d10000 |   1024K | log_dump
-   1 |       2 | 00e10000 |    128K | config
-   1 |     255 | 00e30000 |   1856K | reserved
-
-SPIFFS partition found: storage at 0x410000, size 8192K
-
-[  0:00:01.577][ DEBUG][#000002] Debug test - showing debug level messages
-[  0:00:01.719][  INFO][#000003] Info test - showing info level messages
-[  0:00:01.861][  WARN][#000004] Warn test - showing warning level messages
-[  0:00:02.003][ ERROR][#000005] Error test - showing error level messages
-Direct Serial: Starting initialization sequence
-[  0:00:02.145][  INFO][#000006] ====================================
-[  0:00:02.288][  INFO][#000007] ESP32P4 Image Gallery Starting
-[  0:00:02.430][  INFO][#000008] Date: 2025-06-14 14:15:04 UTC
-[  0:00:02.571][  INFO][#000009] User: Chamil1983
-[  0:00:02.713][  INFO][#000010] ====================================
-[DEBUG][Mutexes] Initializing...
-[DEBUG][Mutexes] Initialization successful
-[DEBUG][Watchdog] Initializing...
-[  0:00:02.858][  INFO][#000011] Setting up watchdog system with crash recovery...
-[  0:00:03.000][  INFO][#000012] Watchdog reconfigured with 30 second timeout and panic enabled
-[  0:00:03.142][  INFO][#000013] Main task added to watchdog with crash detection
-[DEBUG][Watchdog] Initialization successful
-Starting component initialization sequence:
-1. LCD initialization
-[DEBUG][LCD] Initializing...
-[  0:00:03.286][  INFO][#000014] Setting up LCD...
-[  3427][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  3428][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[  0:00:03.714][  INFO][#000015] LCD initialized successfully with backlight ON
-[DEBUG][LCD] Initialization successful
-LCD ready
-2. Touch initialization
-[DEBUG][Touch] Initializing...
-[  0:00:03.862][  INFO][#000016] Setting up Touch...
-[  0:00:05.082][  INFO][#000017] Touch initialized successfully
-[DEBUG][Touch] Initialization successful
-Touch ready
-3. SD Card initialization
-[DEBUG][SD Card] Initializing...
-[  0:00:05.229][  INFO][#000018] Setting up SD Card with robust initialization...
-[  0:00:05.372][  INFO][#000019] Waiting for power stabilization...
-[  0:00:07.515][  INFO][#000020] Resetting SD pins...
-[  0:00:08.459][  INFO][#000021] Ensuring SD_MMC is deinitialized...
-[  0:00:09.104][  INFO][#000022] Configuring SD pins...
-[  0:00:09.249][  INFO][#000023] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:10.057][  INFO][#000024] SD card initialized successfully in ultra-conservative mode
-[  0:00:10.203][  INFO][#000025] Validating SD card...
-[  0:00:10.346][  INFO][#000026] SD Card Type: SDHC
-[  0:00:10.489][  INFO][#000027] SD Card Size: 128000MB
-[DEBUG][SD Card] Initialization successful
-SD ready
-[  0:00:10.635][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:10.778][  INFO][#000029] System configured to handle crashes via watchdog
-4. WiFi initialization
-[DEBUG][WiFi] Initializing...
-[  0:00:10.922][  INFO][#000030] Setting up WiFi in AP mode...
-[ 11065][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31934108 min-free:31933032 lfb-def:31457268 lfb-8bit:31457268
-
-Name: 
-Type: SDIO
-Speed: 40.00 MHz (limit: 40.00 MHz)
-Size: 0MB
-CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
-SCR: sd_spec=0, bus_width=0
-TUPLE: DEVICE, size: 3: D9 01 FF 
-TUPLE: MANFID, size: 4
-  MANF: 0092, CARD: 6666
-TUPLE: FUNCID, size: 2: 0C 00 
-TUPLE: FUNCE, size: 4: 00 00 02 32 
-TUPLE: CONFIG, size: 5: 01 01 00 02 07 
-TUPLE: CFTABLE_ENTRY, size: 8
-  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
-  IF: 41
-  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
-  IR: 30, mask: 1,   IRQ: FF FF
-  LEN: FFFF
-TUPLE: END
-[  0:00:13.963][  INFO][#000031] WiFi AP Mode active
-[  0:00:14.108][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:14.250][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:14.392][  INFO][#000034] AP Channel: 6
-[  0:00:14.535][  INFO][#000035] AP Max Clients: 2
-[DEBUG][WiFi] Initialization successful
-WiFi ready
-5. LVGL initialization
-[DEBUG][LVGL] Initializing...
-[  0:00:14.680][  INFO][#000036] Setting up LVGL...
-[  0:00:14.824][ DEBUG][#000037] Allocating LVGL buffers: 512000 bytes each
-[  0:00:14.985][  INFO][#000038] LVGL initialized successfully
-[DEBUG][LVGL] Initialization successful
-LVGL ready
-6. UI initialization
-[DEBUG][UI] Initializing...
-[  0:00:15.132][  INFO][#000039] Setting up UI...
-[  0:00:15.280][  INFO][#000040] UI initialized successfully
-[DEBUG][UI] Initialization successful
-UI ready
-7. Web Server initialization
-[DEBUG][WebServer] Initializing...
-[  0:00:15.428][  INFO][#000041] Setting up WebServer...
-[  0:00:15.572][  INFO][#000042] WebServer started on port 80
-[DEBUG][WebServer] Initialization successful
-WebServer ready
-8. Starting LVGL task
-[  0:00:15.717][  INFO][#000043] LVGL task started on Core 1
-LVGL task started successfully
-9. Scanning for images
-[  0:00:15.857][  INFO][#000044] Scanning for images...
-[  0:00:16.078][ DEBUG][#000045] Found image 0: /images/img_39767.jpg
-[  0:00:16.226][ DEBUG][#000046] Found image 1: /images/img_79907.jpg
-[  0:00:16.371][ DEBUG][#000047] Found image 2: /images/img_32173_chicago skyline.jpg
-[  0:00:16.516][ DEBUG][#000048] Found image 3: /images/img_54221.jpg
-[  0:00:16.662][ DEBUG][#000049] Found image 4: /images/img_11892.jpg
-[  0:00:16.807][ DEBUG][#000050] Found image 5: /images/img_11059.jpg
-[  0:00:16.953][ DEBUG][#000051] Found image 6: /images/img_37892.jpg
-[  0:00:17.098][ DEBUG][#000052] Found image 7: /images/img_152732.jpg
-[  0:00:17.243][ DEBUG][#000053] Found image 8: /images/img_86865.jpg
-[  0:00:17.388][ DEBUG][#000054] Found image 9: /images/img_42344.jpg
-[  0:00:17.533][ DEBUG][#000055] Found image 10: /images/img_69512_Eagles_Birds.jpg
-[  0:00:17.679][ DEBUG][#000056] Found image 11: /images/img_69100_Eagles_Birds.jpg
-[  0:00:17.823][  INFO][#000057] Found 12 images
-Found 12 images
-10. Loading first image
-[  0:00:17.967][  INFO][#000058] Displaying image 0: /images/img_39767.jpg
-[  0:00:18.111][ DEBUG][#000059] Starting operation: JPEG Rendering
-[  0:00:18.259][  INFO][#000060] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
-[  0:00:19.446][  INFO][#000061] JPEG decoded successfully: 1280x800
-[  0:00:19.592][  WARN][#000062] Operation JPEG Rendering took 1337 ms
-Initialization complete!
-STATUS: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
-=========== After Setup Start ============
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   515400 B (503.3 KB)
-  Free Bytes        :   388692 B (379.6 KB)
-  Allocated Bytes   :   126708 B (123.7 KB)
-  Minimum Free Bytes:   378904 B (370.0 KB)
-  Largest Free Block:   344052 B (336.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 30440392 B (29726.9 KB)
-  Allocated Bytes   :  3114040 B (3041.1 KB)
-  Minimum Free Bytes: 30438464 B (29725.1 KB)
-  Largest Free Block: 30408692 B (29696.0 KB)
-------------------------------------------
-GPIO Info:
-------------------------------------------
-  GPIO : BUS_TYPE[bus/unit][chan]
-  --------------------------------------  
-    23 : GPIO
-    24 : USB_DM
-    25 : USB_DP
-    37 : UART_TX[0]
-    38 : UART_RX[0]
-    39 : SDMMC_D0
-    40 : SDMMC_D1
-    41 : SDMMC_D2
-    42 : SDMMC_D3
-    43 : SDMMC_CLK
-    44 : SDMMC_CMD
-    45 : SDMMC_POWER
-============ After Setup End =============
-=========== After Setup Start ============
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   515400 B ( 503.3 KB)
-  Free Bytes        :   388692 B ( 379.6 KB)
-  Allocated Bytes   :   115836 B ( 113.1 KB)
-  Minimum Free Bytes:   378904 B ( 370.0 KB)
+  Total Size        :   514728 B ( 502.7 KB)
+  Free Bytes        :   387936 B ( 378.8 KB)
+  Allocated Bytes   :   115904 B ( 113.2 KB)
+  Minimum Free Bytes:   378204 B ( 369.3 KB)
   Largest Free Block:   344052 B ( 336.0 KB)
 ------------------------------------------
 SPIRAM Memory Info:
