@@ -1,142 +1,4 @@
-[    20][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added[  0:00:10.382][  INFO][#000019] Resetting SD pins...
-[  0:00:10.628][  INFO][#000020] Ensuring SD_MMC is deinitialized...
-[  0:00:11.274][  INFO][#000021] Configuring SD pins...
-[  0:00:11.420][  INFO][#000022] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:12.229][  INFO][#000023] Validating SD card...
-[  0:00:12.375][  INFO][#000024] SD Card Type: SDHC
-[  0:00:12.519][  INFO][#000025] SD Card Size: 128000MB
-[  0:00:12.663][  INFO][#000026] SD card initialized successfully in ultra-conservative mode
-[DEBUG][SD Card] Initialization successful
-[  0:00:12.809][  INFO][#000027] SD ready
-[  0:00:12.953][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:13.097][  INFO][#000029] System configured to handle crashes via watchdog
-[DEBUG][WiFi] Initializing...
-[  0:00:13.242][  INFO][#000030] Setting up WiFi in AP mode...
-[ 13386][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31933564 min-free:31933100 lfb-def:31457268 lfb-8bit:31457268
-
-Name: 
-Type: SDIO
-Speed: 40.00 MHz (limit: 40.00 MHz)
-Size: 0MB
-CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
-SCR: sd_spec=0, bus_width=0
-TUPLE: DEVICE, size: 3: D9 01 FF 
-TUPLE: MANFID, size: 4
-  MANF: 0092, CARD: 6666
-TUPLE: FUNCID, size: 2: 0C 00 
-TUPLE: FUNCE, size: 4: 00 00 02 32 
-TUPLE: CONFIG, size: 5: 01 01 00 02 07 
-TUPLE: CFTABLE_ENTRY, size: 8
-  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
-  IF: 41
-  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
-  IR: 30, mask: 1,   IRQ: FF FF
-  LEN: FFFF
-TUPLE: END
-[  0:00:15.783][  INFO][#000031] WiFi AP Mode active
-[  0:00:15.929][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:16.073][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:16.217][  INFO][#000034] AP Channel: 6
-[  0:00:16.362][  INFO][#000035] AP Max Clients: 2
-[DEBUG][WiFi] Initialization successful
-[  0:00:16.507][  INFO][#000036] WiFi ready
-[DEBUG][LVGL] Initializing...
-[  0:00:16.652][  INFO][#000037] Setting up LVGL...
-[  0:00:16.796][ DEBUG][#000038] Allocating LVGL buffers: 64000 bytes each
-[  0:00:16.942][  INFO][#000039] LVGL initialized successfully
-[DEBUG][LVGL] Initialization successful
-[  0:00:17.087][  INFO][#000040] LVGL ready
-[DEBUG][UI] Initializing...
-[  0:00:17.231][  INFO][#000041] Setting up UI...
-[  0:00:17.377][  INFO][#000042] UI initialized successfully
-[DEBUG][UI] Initialization successful
-[  0:00:17.523][  INFO][#000043] UI ready
-[DEBUG][WebServer] Initializing...
-[  0:00:17.668][  INFO][#000044] Setting up WebServer...
-[  0:00:17.812][  INFO][#000045] WebServer started on port 80
-[DEBUG][WebServer] Initialization successful
-[  0:00:17.957][  INFO][#000046] WebServer ready
-[  0:00:18.101][  INFO][#000047] LVGL task started on Core 1
-[  0:00:18.249][  INFO][#000048] Scanning for images...
-[  0:00:19.875][  INFO][#000049] Scanning for images...
-[  0:00:20.025][ DEBUG][#000050] Found image 0: /images/img_39767.jpg (939213 bytes)
-[  0:00:20.171][ DEBUG][#000051] Found image 1: /images/img_79907.jpg (1586123 bytes)
-[  0:00:20.316][ DEBUG][#000052] Found image 2: /images/img_32173_chicago skyline.jpg (1101785 bytes)
-[  0:00:20.462][  WARN][#000053] Skipping small file: /images/img_54221.jpg (0 bytes)
-[  0:00:20.607][ DEBUG][#000054] Found image 3: /images/img_11892.jpg (939213 bytes)
-[  0:00:20.752][ DEBUG][#000055] Found image 4: /images/img_11059.jpg (843783 bytes)
-[  0:00:20.898][  WARN][#000056] Skipping small file: /images/img_37892.jpg (0 bytes)
-[  0:00:21.043][  WARN][#000057] Skipping small file: /images/img_152732.jpg (0 bytes)
-[  0:00:21.188][ DEBUG][#000058] Found image 5: /images/img_86865.jpg (170884 bytes)
-[  0:00:21.334][ DEBUG][#000059] Found image 6: /images/img_42344.jpg (14360 bytes)
-[  0:00:21.479][ DEBUG][#000060] Found image 7: /images/img_69512_Eagles_Birds.jpg (529884 bytes)
-[  0:00:21.625][ DEBUG][#000061] Found image 8: /images/img_69100_Eagles_Birds.jpg (147908 bytes)
-[  0:00:Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
-
-Core  1 register dump:
-MEPC    : 0x40049a44  RA      : 0x40049962  SP      : 0x4ff292a0  GP      : 0x4ff11e00  
-TP      : 0x4ff34a00  T0      : 0x00000fff  T1      : 0x60000000  T2      : 0xffffffff  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2fe1a  A1      : 0x4ff2fe1a  
-A2      : 0x00000004  A3      : 0x00000040  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000065  A7      : 0x4ff2fda8  S2      : 0x4ff40000  S3      : 0x4ff40000  
-S4      : 0x00000000  S5      : 0x4ff40000  S6      : 0x40102618  S7      : 0x400d5000  
-S8      : 0x400d5000  S9      : 0x00000400  S10     : 0x00000001  S11     : 0x00000000  
-T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
-
-Stack memory:
-4ff292a0: 0x00011880 0x00000000 0x00000000 0x00000040 0x00011880 0x4ff40000 0x00000000 0x4ff40000
-4ff292c0: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff3a9fc
-4ff292e0: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff29350 0x4ff29350 0x4ff293f0
-4ff29300: 0x4ff293e0 0x00000000 0x4ff2930c 0xffffffff 0x4ff2930c 0x4ff2930c 0x00000001 0x4ff29320
-4ff29320: 0xffffffff 0x4ff323cc 0x4ff323cc 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff29340: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29360: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29380: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff293f8 0xffffffff 0x4ff293f8
-4ff29400: 0x4ff293f8 0x00000000 0x4ff2940c 0xffffffff 0x4ff2940c 0x4ff2940c 0x00000000 0x4ff29418
-4ff29420: 0x00000000 0x00000000 0x00000000 0x4ff29430 0xffffffff 0x4ff29430 0x4ff29430 0x00000000
-4ff29440: 0x4ff29444 0xffffffff 0x4ff29444 0x4ff29444 0x00000001 0x00000001 0x00000000 0x00000001
-4ff29460: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff29474 0x00000000
-4ff29480: 0x00000000 0x00000000 0x4ff2948c 0xffffffff 0x4ff2948c 0x4ff2948c 0x00000000 0x4ff294a0
-4ff294a0: 0xffffffff 0x4ff294a0 0x4ff294a0 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff294c0: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff294e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29500: 0x00000000 0x00000000 0x4ff2ba8c 0x4ff2bac0 0x4ff2baf4 0x4ff2bb28 0x48000a10 0x481fc368
-4ff29520: 0x481fc40c 0x00000000 0x4ff484dc 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29540: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29560: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29580: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29600: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29620: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29640: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29660: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29680: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-
-
-
-ELF file SHA256: 74d313e24
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    20][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
+[     2][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added=========== Before Setup Start ===========
 Chip Info:
 ------------------------------------------
   Model             : ESP32-P4
@@ -155,10 +17,10 @@ Chip Info:
 ------------------------------------------
 INTERNAL Memory Info:
 ------------------------------------------
-  Total Size        :   514840 B ( 502.8 KB)
-  Free Bytes        :   476492 B ( 465.3 KB)
+  Total Size        :   515688 B ( 503.6 KB)
+  Free Bytes        :   477340 B ( 466.2 KB)
   Allocated Bytes   :    32372 B (  31.6 KB)
-  Minimum Free Bytes:   472452 B ( 461.4 KB)
+  Minimum Free Bytes:   473300 B ( 462.2 KB)
   Largest Free Block:   385012 B ( 376.0 KB)
 ------------------------------------------
 SPIRAM Memory Info:
@@ -192,7 +54,7 @@ Partitions Info:
 ------------------------------------------
 Software Info:
 ------------------------------------------
-  Compile Date/Time : Jun 14 2025 22:15:45
+  Compile Date/Time : Jun 15 2025 21:37:55
   Compile Host OS   : windows
   ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
   Arduino Version   : 3.2.0
@@ -201,797 +63,733 @@ Board Info:
 ------------------------------------------
   Arduino Board     : ESP32P4_DEV
   Arduino Variant   : esp32p4
-  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=none,JTAGAdapter=default
+  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=all,JTAGAdapter=default
 ============ Before Setup End ============
-[   141][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff276b0
-[   142][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff276b0
+[  2053][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff27370
+[  2054][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff27370
 
 === ESP32P4 Gallery Debug Output ===
-Initializing SPIFFS...
-SPIFFS mounted successfully
-SPIFFS: 7703441 total, 34638 used, 7668803 free
+E (3053) SPIFFS: mount failed, -10025
+task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+p_task_wdt_reset(705): task not found
+5): task not found
+E (7147) task_wdt: esp_task_wdt_reset(705): task not found
+dt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+ot found
+E (7201) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+ask_wdt_reset(705): task not found
+E (7203) task_wdt: esp_task_wdt_reset(705): task not found
+E (7247) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (7292) task_wdt: esp_task_wdt_reset(705): task not found
+E (7293) task_wdt: esp_task_wdt_reset(705): task not found
+294) task_wdt: esp_task_wdt_reset(705): task not found
+E (7294) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+: task not found
+: esp_task_wdt_reset(705): task not found
+371) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+E (7373) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+found
+ask not found
+task_wdt: esp_task_wdt_reset(705): task not found
+ esp_task_wdt_reset(705): task not found
+E (7478) task_wdt: esp_task_wdt_reset(705): task not found
 
-------- Logger Initialized -------
-[  1456][W][SPIFFS.cpp:62] begin(): SPIFFS Already Mounted!
-[  0:00:02.162][  INFO][#000000] Logger initialized: level=1, serial=ON, flash=ON
-[DEBUG] Log level set to 1
-[DEBUG] Serial debug output enabled
-[  0:00:02.449][  INFO][#000001] SPIFFS is available for logging
-Checking partition information:
-Flash size: 16777216 bytes
+E (7480) task_wdt: esp_task_wdt_reset(705): task not found
+nd
+E (7524) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+E (7525) task_wdt: esp_task_wdt_reset(705): task not found
+E (7571) task_wdt: esp_task_wdt_reset(705): task not found
+d
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (7573) task_wdt: esp_task_wdt_reset(705): task not found
+E (7612) task_wE (7613) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+14) task_wdt: esp_task_wdt_reset(705): task not found
+E (7654) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+705): task not found
+ot found
+und
+E (705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (7725) task_wdt: esp_task_wdt_reset(705): task not found
+E (7772) task_wdt: esp_task_wdt_reset(705): task not found
+found
+sk_wdt: esp_task_wdt_reset(705): task not found
+ found
+21) task_wdt: esp_task_wdt_reset(705): task not found
+found
+found
+E (7823) task_wdt: esp_task_wdt_reset(705): task not found
+E (7864) task_wdt: esp_task_wdt_reset(705): task not found
+E (7866) task_wdt: esp_task_wdt_reset(705): task not found
+E (7866) task_wdt: esp_task_wdt_reset(705): task not found
+E (7909) task_wdt: esp_task_wdt_reset(705): task not found
+E (7910) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+E (7948) task_wdt: esp_task_wdt_reset(705): task not found
+E (7949) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (7950) task_wdt: esp_task_wdt_reset(705): task not found
+E (7988) task_wdt: esp_task_wdt_reset(705): task not found
+E (7989) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+dt: esp_task_wdt_reset(705): task not found
+E (05): task not found
+): task not found
+ not found
+ task_et(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+k not found
+not found
+05): task not found
+ask_wdt_reset(705): task not found
+E (8101) task_wdt: esp_task_wdt_reset(705): task not found
+E (8101) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ not found
+k not found
+ not found
+E (8187) task_wdt: esp_task_wdt_reset(705): task not found
+und
+set(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+k not found
+nd
+reset(705): task not found
+nd
+t found
+E (8270) task_wdt: esp_task_wdt_reset(705): task not found
+E (8270) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+(705): task not found
+E (8305) task_wdt: esp_task_wdt_reset(705): task not found
+05) task_wdt: esp_task_wdt_reset(705): task not found
+E (8334) task_wdt: esp_task_wdt_reset(705): task not found
+335) task_wdt: esp_task_wdt_reset(705): task not found
+36) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (8365) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+E (8411) task_wdt: esp_task_wdt_reset(705): task not found
+t(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (8413) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+E (8457) task_wdt: esp_task_wdt_reset(705): task not found
+8) task_wdt: esp_task_wdt_reset(705): task not found
+E (8458) task_wdt: esp_task_wdt_reset(705): task not found
+E (8498) task_wdt: esp_task_wdt_reset(705): task not found
+dt: esp_task_wdt_reset(705): task not found
+500) task_wdt: esp_task_wdt_reset(705): task not found
+esp_task_wdt_reset(705): task not found
+k not found
+task not found
+found
+705): task not found
+esp_task_wdt_reset(705): task not found
+ task not found
+wdt: esp_task_wdt_reset(705): task not found
+_reset(705): task not found
+_task_wdt_reset(705): task not found
+E (8622) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+651) task_wdt: esp_task_wdt_reset(705): task not found
+E (8652) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (8653) task_wdt: esp_task_wdt_reset(705): task not found
+E (8682) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+: task not found
+und
+d
+ (8728) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (8770) task_wdt: esp_task_wdt_reset(705): task not found
+E (8771) task_wdt: esp_task_wdt_reset(705): task not found
+2) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+E (8811) task_wdt: esp_task_wdt_reset(705): task not found
+813) task_wdt: esp_task_wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+E (8855) task_wdt: esp_task_wdt_reset(705): task not found
+d
+E (8705): task not found
+ task not found
+t: 705): task not found
+_task_wdt_reset(705): task not found
+05): task not found
+t found
+28) 705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (8957) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+E (705): task not found
+959) task_wdt: esp_task_wdt_reset(705): task not found
+E (8986) task_wdt: esp_task_wdt_reset(705): task not found
+t found
+ found
+task_wdt: esp_task_wdt_reset(705): task not found
+E (9030) task_wdt: esp_task_wdt_reset(705): task not found
+E (9031) task_wdt: esp_task_wdt_reset(705): task not found
+031) task_wdt: esp_task_wdt_reset(705): task not found
+E (9070) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+072) task_wdt: esp_task_wdt_reset(705): task not found
+E (9072) task_wdt: esp_task_wdt_reset(705): task not found
+E (9108) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+110) task_wdt: esp_task_wdt_reset(705): task not found
+E (9110) task_wdt: esp_task_wdt_reset(705): task not found
+E (9146) task_wdt: esp_task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+8) task_wdt: esp_task_wdt_reset(705): task not found
+E (9148) task_wdt: esp_task_wdt_reset(705): task not found
+E (9179) task_wdt: esp_task_wdt_reset(705): task not found
+1) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+E (9214) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+E (9242) task_wdt: esp_task_wdt_reset(705): task not found
+E (9242) task_wdt: esp_task_wdt_reset(705): task not found
+E (9269) task_wdt: esp_task_wdt_reset(705): task not found
+E (9270) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+wdt: esp_task_wdt_reset(705): task not found
+ask not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (9308) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+6) task_wdt: esp_task_wdt_reset(705): task not found
+reset(705): task not found
+7) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (9384) task_wdt: esp_task_wdt_reset(705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+E (9385) task_wdt: esp_task_wdt_reset(705): task not found
+E (9420) task_wdt: esp_task_wdt_reset(705): task not found
+t(705): task not found
+ task not found
+422) task_wdt: esp_task_wdt_reset(705): task not found
+E (9452) task_wdt: esp_task_wdt_reset(705): task not found
+E (9453) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
 
-Partition table:
-Type | Subtype | Address | Size | Label
------|---------|---------|------|-------
-   1 |       2 | 00009000 |     24K | nvs
-   1 |       1 | 0000f000 |      4K | phy_init
-   0 |       0 | 00010000 |   4096K | factory
-   1 |     130 | 00410000 |   8192K | storage
-   1 |       3 | 00c10000 |   1024K | coredump
-   1 |       8 | 00d10000 |   1024K | log_dump
-   1 |       2 | 00e10000 |    128K | config
-   1 |     255 | 00e30000 |   1856K | reserved
+k_wdt_reset(705): task not found
+5) task_wdt: esp_task_wdt_reset(705): task not found
+ not found
+(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (9540) task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+wdt_reset(705): task not found
+E (9612) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+E (9614) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
 
-[  0:00:02.592][  INFO][#000002] ====================================
-[  0:00:02.735][  INFO][#000003] ESP32P4 Image Gallery Starting
-[  0:00:02.877][  INFO][#000004] Date: 2025-06-15 05:30:35 UTC
-[  0:00:03.019][  INFO][#000005] User: Chamil1983
-[  0:00:03.161][  INFO][#000006] ====================================
-[DEBUG][Mutexes] Initializing...
-[DEBUG][Mutexes] Initialization successful
-[  0:00:03.305][  INFO][#000007] Setting up watchdog system with crash recovery...
-[  0:00:03.447][  INFO][#000008] Watchdog reconfigured with 120 second timeout and panic enabled
-[  0:00:03.589][  INFO][#000009] Main task added to watchdog with crash detection
-[  0:00:03.732][  INFO][#000010] Starting component initialization sequence:
-[DEBUG][LCD] Initializing...
-[  0:00:03.874][  INFO][#000011] Setting up LCD...
-[  4016][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  4017][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[  0:00:04.303][  INFO][#000012] LCD initialized successfully with backlight ON
-[DEBUG][LCD] Initialization successful
-[  0:00:04.450][  INFO][#000013] LCD ready
-[DEBUG][Touch] Initializing...
-[  0:00:04.594][  INFO][#000014] Setting up Touch...
-[  0:00:05.813][  INFO][#000015] Touch initialized successfully
-[DEBUG][Touch] Initialization successful
-[  0:00:05.959][  INFO][#000016] Touch ready
-[DEBUG][SD Card] Initializing...
-[  0:00:06.103][  INFO][#000017] Setting up SD Card with robust initialization...
-[  0:00:06.247][  INFO][#000018] Waiting for power stabilization...
-[  0:00:08.389][  INFO][#000019] Resetting SD pins...
-[  0:00:08.634][  INFO][#000020] Ensuring SD_MMC is deinitialized...
-[  0:00:09.279][  INFO][#000021] Configuring SD pins...
-[  0:00:09.424][  INFO][#000022] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:10.232][  INFO][#000023] Validating SD card...
-[  0:00:10.378][  INFO][#000024] SD Card Type: SDHC
-[  0:00:10.522][  INFO][#000025] SD Card Size: 128000MB
-[  0:00:10.666][  INFO][#000026] SD card initialized successfully in ultra-conservative mode
-[DEBUG][SD Card] Initialization successful
-[  0:00:10.811][  INFO][#000027] SD ready
-[  0:00:10.955][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:11.100][  INFO][#000029] System configured to handle crashes via watchdog
-[DEBUG][WiFi] Initializing...
-[  0:00:11.244][  INFO][#000030] Setting up WiFi in AP mode...
-[ 11388][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31933564 min-free:31933100 lfb-def:31457268 lfb-8bit:31457268
+esp_task_wdt_reset(705): task not found
+: task not found
+ task not found
+ task not found
+ esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+dt_reset(705): task not found
+und
+task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+E (9741) task_wdt: esp_task_wdt_reset(705): task not found
+t_reset(705): task not found
+E (9743) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+E (9770) task_wdt: esp_task_wdt_reset(705): task not found
+E (9771) task_wdt: esp_task_wdt_reset(705): task not found
+71) task_wdt: esp_task_wdt_reset(705): task not found
+E (9797) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+E (9799) task_wdt: esp_task_wdt_reset(705): task not found
+E (9705): task not found
+E (9832) task_wdt: esp_task_wdt_reset(705): task not found
+p_task_wdt_reset(705): task not found
+(705): task not found
+ task not found
+705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+E (9903) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (9905) task_wdt: esp_task_wdt_reset(705): task not found
+E (9905) task_wdt: esp_task_wdt_reset(705): task not found
+E (9938) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+dt: esp_task_wdt_reset(705): task not found
+E (9940) task_wdt: esp_task_wdt_reset(705): task not found
+70) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+ not found
+ask not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
 
-Name: 
-Type: SDIO
-Speed: 40.00 MHz (limit: 40.00 MHz)
-Size: 0MB
-CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
-SCR: sd_spec=0, bus_width=0
-TUPLE: DEVICE, size: 3: D9 01 FF 
-TUPLE: MANFID, size: 4
-  MANF: 0092, CARD: 6666
-TUPLE: FUNCID, size: 2: 0C 00 
-TUPLE: FUNCE, size: 4: 00 00 02 32 
-TUPLE: CONFIG, size: 5: 01 01 00 02 07 
-TUPLE: CFTABLE_ENTRY, size: 8
-  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
-  IF: 41
-  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
-  IR: 30, mask: 1,   IRQ: FF FF
-  LEN: FFFF
-TUPLE: END
-[  0:00:13.785][  INFO][#000031] WiFi AP Mode active
-[  0:00:13.933][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:14.075][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:14.219][  INFO][#000034] AP Channel: 6
-[  0:00:14.363][  INFO][#000035] AP Max Clients: 2
-[DEBUG][WiFi] Initialization successful
-[  0:00:14.508][  INFO][#000036] WiFi ready
-[DEBUG][LVGL] Initializing...
-[  0:00:14.653][  INFO][#000037] Setting up LVGL...
-[  0:00:14.797][ DEBUG][#000038] Allocating LVGL buffers: 64000 bytes each
-[  0:00:14.942][  INFO][#000039] LVGL initialized successfully
-[DEBUG][LVGL] Initialization successful
-[  0:00:15.087][  INFO][#000040] LVGL ready
-[DEBUG][UI] Initializing...
-[  0:00:15.232][  INFO][#000041] Setting up UI...
-[  0:00:15.378][  INFO][#000042] UI initialized successfully
-[DEBUG][UI] Initialization successful
-[  0:00:15.523][  INFO][#000043] UI ready
-[DEBUG][WebServer] Initializing...
-[  0:00:15.668][  INFO][#000044] Setting up WebServer...
-[  0:00:15.812][  INFO][#000045] WebServer started on port 80
-[DEBUG][WebServer] Initialization successful
-[  0:00:15.956][  INFO][#000046] WebServer ready
-[  0:00:16.099][  INFO][#000047] LVGL task started on Core 1
-[  0:00:16.249][  INFO][#000048] Scanning for images...
-[  0:00:Guru Meditation Error: Core  1 panic'ed (Store access fault). Exception was unhandled.
+E (10030) task_wdt: esp_task_wdt_reset(705): task not found
+1) task_wdt: esp_task_wdt_reset(705): task not found
+E (10032) task_wdt: esp_task_wdt_reset(705): task not found
+E (10032) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+E (10060) task_wdt: esp_task_wdt_reset(705): task not found
+4) task_wdt:t: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (10096) task_wdt: esp_task_wdt_reset(705): task not found
+E (10128) task_wdt: esp_task_wdt_reset(705): task not found
+nd
+wdt: esp_task_wdt_reset(705): task not found
+E (10130) task_wdt: esp_task_wdt_reset(705): task not found
+E (10164) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+E (10166) task_wdt: esp_task_wdt_reset(705): task not found
+E (10198) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+sp_task_wdt_reset(705): task not found
+E (10230) task_wdt: esp_task_wdt_reset(705): task not found
+E (10231) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+2) task_wdt: esp_task_wdt_reset(705): task not found
+E (10262) task_wdt: esp_task_wdt_reset(705): task not found
+10263) task_wdt: esp_task_wdt_reset(705): task not found
+E (10264) task_wdt: esp_task_wdt_reset(705): task not found
+E (10264) task_wdt: esp_task_wdt_reset(705): task not found
+1) task_wdt: esp_task_wdt_reset(705): task not found
+E (10292) task_wdt: esp_task_wdt_reset(705): task not found
+nd
+dt_reset(705): task not found
+E (10320) task_wdt: esp_task_wdt_reset(705): task not found
+sp_task_wdt_reset(705): task not found
+p_task_wdt_reset(705): task not found
+task not found
+reset(705): task not found
+: esp_task_wdt_reset(705): task not found
+p_task_wdt_reset(705): task not found
+task not found
+5): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+ask not found
+ask not found
+_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+p_task_wdt_reset(705): task not found
+E (10462) task_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+dt_reset(705): task not found
 
-Core  1 register dump:
-MEPC    : 0x40049a44  RA      : 0x40049962  SP      : 0x4ff292a0  GP      : 0x4ff11e00  
-TP      : 0x4ff34a00  T0      : 0x00000fff  T1      : 0x40000000  T2      : 0x723d713d  
-S0/FP   : 0x500d2000  S1      : 0x00000008  A0      : 0x4ff2fe07  A1      : 0x4ff2fe07  
-A2      : 0x00000004  A3      : 0x00000039  A4      : 0x00000009  A5      : 0x00000002  
-A6      : 0x00000039  A7      : 0x4ff2fda8  S2      : 0x4ff40000  S3      : 0x4ff40000  
-S4      : 0x00000000  S5      : 0x4ff40000  S6      : 0x4ff40000  S7      : 0x400d5000  
-S8      : 0x00000000  S9      : 0x4ff40000  S10     : 0x4ff40000  S11     : 0x00000000  
-T3      : 0x00000000  T4      : 0x7a3d793d  T5      : 0x783d773d  T6      : 0x763d753d  
-MSTATUS : 0x00011880  MTVEC   : 0x4ff00003  MCAUSE  : 0x00000007  MTVAL   : 0x500d2000  
-MHARTID : 0x00000001  
+E (10494) task_wdt: esp_task_wdt_reset(705): task not found
+E (10495) task_wdt: esp_task_wdt_reset(705): task not found
+705): task not found
+t found
+E (_wdt_reset(705): task not found
+E (10525) task_wdt: esp_task_wdt_reset(705): task not found
+E (10525) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (10553) task_wdt: esp_task_wdt_reset(705): task not found
+E (10553) task_wdt: esp_task_wdt_reset(705): task not found
+E (10579) task_wdt: esp_task_wdt_reset(705): task not found
+E (10580) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+found
 
-Stack memory:
-4ff292a0: 0x00000100 0x00000000 0x00000000 0x00000039 0x00011880 0x4ff40000 0x00000000 0x500d2000
-4ff292c0: 0x00011880 0xb8000012 0x00000004 0x4ff002c2 0x00000000 0x00000000 0x00000000 0x4ff3a9fc
-4ff292e0: 0x00000000 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x4ff29350 0x4ff29350 0x4ff293f0
-4ff29300: 0x4ff293e0 0x00000000 0x4ff2930c 0xffffffff 0x4ff2930c 0x4ff2930c 0x00000001 0x4ff29320
-4ff29320: 0xffffffff 0x4ff323cc 0x4ff323cc 0x00000000 0x0000000a 0x00000010 0x00000001 0x00000000
-4ff29340: 0x00000000 0x00000000 0xb33fffff 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29360: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29380: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff293e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x4ff293f8 0xffffffff 0x4ff293f8
-4ff29400: 0x4ff293f8 0x00000000 0x4ff2940c 0xffffffff 0x4ff2940c 0x4ff2940c 0x00000000 0x4ff29418
-4ff29420: 0x00000000 0x00000000 0x00000000 0x4ff29430 0xffffffff 0x4ff29430 0x4ff29430 0x00000000
-4ff29440: 0x4ff29444 0xffffffff 0x4ff29444 0x4ff29444 0x00000001 0x00000001 0x00000000 0x00000001
-4ff29460: 0x00000000 0x00000000 0x00000004 0xb33fffff 0x00000000 0x00000000 0x4ff29474 0x00000000
-4ff29480: 0x00000000 0x00000000 0x4ff2948c 0xffffffff 0x4ff2948c 0x4ff2948c 0x00000000 0x4ff294a0
-4ff294a0: 0xffffffff 0x4ff294a0 0x4ff294a0 0x00000001 0x00000001 0x00000000 0x00000001 0x00000000
-4ff294c0: 0x00000000 0x00000001 0xb33fffff 0x00000000 0x500e2000 0x4ff06a2a 0x4ff06a36 0x00000000
-4ff294e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29500: 0x00000000 0x00000000 0x4ff2ba8c 0x4ff2bac0 0x4ff2baf4 0x4ff2bb28 0x48000a10 0x481fc368
-4ff29520: 0x481fc40c 0x00000000 0x4ff484dc 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29540: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29560: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29580: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295a0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295c0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff295e0: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29600: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29620: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29640: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29660: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
-4ff29680: 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+05): task not found
+task not found
+ask not found
+E (10646) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+): task not found
+E (10679) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+_wdt: esp_task_wdt_reset(705): task not found
+E (10681) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+_wdt_reset(705): task not found
+05): task not found
+t_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (10743) task_wdt: esp_task_wdt_reset(705): task not found
+E (10744) task_wdt: esp_task_wdt_reset(705): task not found
+E (10744) task_wdt: esp_task_wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+10775) task_wdt: esp_task_wdt_reset(705): task not found
+nd
+1) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+t found
+_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+E (10831) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+t found
+ not found
+wdt_reset(705): task not found
+sk not found
+ask_wdt_reset(705): task not found
+E (10898) task_wdt: esp_task_wdt_reset(705): task not found
+0) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+932) task_wdt: esp_task_wdt_reset(705): task not found
+2) task_wdt: esp_task_wdt_reset(705): task not found
+E (_task_wdt_reset(705): task not found
+05): task not found
+0964) task_wdt: esp_task_wdt_reset(705): task not found
+t found
+ task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (11022) task_wdt: esp_task_wdt_reset(705): task not found
+E (11024) task_wdt: esp_task_wdt_reset(705): task not found
+E (11024) task_wdt: esp_task_wdt_reset(705): task not found
+E (11049) task_wdt: esp_task_wdt_reset(705): task not found
+1051) task_wdt: esp_task_wdt_reset(705): task not found
+E (11051) task_wdt: esp_task_wdt_reset(705): task not found
+E (11076) task_wdt: esp_task_wdt_reset(705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+E ((705): task not found
+(705): task not found
+k_wdt_reset(705): task not found
+705): task not found
+E (wdt: esp_task_wdt_reset(705): task not found
+E (11141) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt_reset(705): task not found
+ esp_705): task not found
+E (11143) task_wdt: esp_task_wdt_reset(705): task not found
+E (11174) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+(705): task not found
+1176) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+_wdt: esp_task_wdt_reset(705): task not found
+(705): task not found
+1208) task_wdt: esp_task_wdt_reset(705): task not found
+E (11235) task_wdt: esp_task_wdt_reset(705): task not found
+237) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (11264) task_wdt: esp_task_wdt_reset(705): task not found
+_task_wdt_reset(705): task not found
+266) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+291) task_wdt: esp_task_wdt_reset(705): task not found
+E (11292) task_wdt: esp_task_wdt_reset(705): task not found
+E (11293) task_wdt: esp_task_wdt_reset(705): task not found
+E (11293) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+ task not found
+ task not found
+E (11321) task_wdt: esp_task_wdt_reset(705): task not found
+E (11351) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+53) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+dt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+85) task_wdt: esp_task_wdt_reset(705): task not found
+ot found
+E (11415) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+(705): task not found
+E (11446) task_wdt: esp_task_wdt_reset(705): task not found
+E (7) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+task not found
+E (11475) task_wdt: esp_task_wdt_reset(705): task not found
+7) task_wdt: esp_task_wdt_reset(705): task not found
+E (11477) task_wdt: esp_task_wdt_reset(705): task not found
+E (11505) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+E (11507) task_wdt: esp_task_wdt_reset(705): task not found
+: task not found
+E (11532) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+et(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (11560) task_wdt: esp_task_wdt_reset(705): task not found
+61) task_wdt: esp_task_wdt_reset(705): task not found
+2) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+92) task_wdt: esp_task_wdt_reset(705): task not found
+E (11593) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (11594) task_wdt: esp_task_wdt_reset(705): task not found
+E (11624) task_wdt: esp_task_wdt_reset(705): task not found
+5) task_wdt: esp_task_wdt_reset(705): task not found
+E (11626) task_wdt: esp_task_wdt_reset(705): task not found
+t: esp_task_wdt_reset(705): task not found
+E (11658) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+sk not found
+60) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+: task not found
+t: esp_task_wdt_reset(705): task not found
+E (705): task not found
+E (11720) task_wdt: esp_task_wdt_reset(705): task not found
+ot found
+) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+E (11749) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+_wdt_reset(705): task not found
+: task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+d
+778) task_wdt: esp_task_wdt_reset(705): task not found
+E (11778) task_wdt: esp_task_wdt_reset(705): task not found
+E (11804) task_wdt: esp_task_wdt_reset(705): task not found
+ound
+05): task not found
+6) task_wdt: esp_task_wdt_reset(705): task not found
+_reset705): task not found
+ esp_task_wdt_reset(705): task not found
+E (): task not found
+5): task not found
+t_reset(705): task not found
+E (11867) task_wdt: esp_task_wdt_reset(705): task not found
+E (11868) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+E (11898) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+5): task not found
+5): task not found
+9) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+1) tk not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+ound
+_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+989) task_wdt: esp_task_wdt_reset(705): task nE (11990) task_wdt: esp_task_wdt_reset(705): task not found
+ task_wdt: esp_task_wdt_reset(705): task not found
+E (11991) task_wdt: esp_task_wdt_reset(705): task not found
+E (12017) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+E (12019) task_wdt: esp_task_wdt_reset(705): task not found
+E (12019) task_wdt: esp_task_wdt_reset(705): task not found
+E (12044) task_wdt: esp_task_wdt_reset(705): task not found
+E (12046) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+E (12074) task_wdt: esp_task_wdt_reset(705): task not found
+E (12076) task_wdt: esp_task_wdt_reset(705): task not found
+ found
+104) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt_reset(705): task not found
+E (12106) task_wdt: esp_task_wdt_reset(705): task not found
+E (12106) task_wdt: esp_task_wdt_reset(705): task not found
+2136) task_wdt: esp_task_wdt_reset(705): task not found
+esp_task_wdt_reset(705): task not found
+8) task_wdt: esp_task_wdt_reset(705): task not found
+d
+2166) task_wdt: esp_task_wdt_reset(705): task not found
 
+task_wdt: esp_task_wdt_reset(705): task not found
+ound
+E (12196) task_wdt: esp_task_wdt_reset(705): task not found
+E (12197) task_wdt: esp_task_wdt_reset(705): task not found
+E (12198) task_wdt: esp_task_wdt_reset(705): task not found
+98) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+E (12227) task_wdt: esp_task_wdt_reset(705): task not found
+E (12227) task_wdt: esp_task_wdt_reset(705): task not found
+E (12252) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+E (1task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+E (12280) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+82) task_wdt: esp_task_wdt_reset(705): task not found
+12311) task_wdt: esp_task_wdt_reset(705): task not found
+E (12312) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (12313) task_wdt: esp_task_wdt_reset(705): task not found
+E (12342) task_wdt: esp_task_wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+found
+wdt_reset(705): task not found
+3) task_wdt: esp_task_wdt_reset(705): task not found
+nd
+E (12375) task_wdt: esp_task_wdt_reset(705): task not found
+d
+E (12404) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (12406) task_wdt: esp_task_wdt_reset(705): task not found
+E (12406) task_wdt: esp_task_wdt_reset(705): task not found
+E (12433) task_wdt: esp_task_wdt_reset(705): task not found
+4) task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt_reset(705): task not found
+esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+E (12463) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+ask not found
+E (12489) task_wdt: esp_task_wdt_reset(705): task not found
+E (12490) task_wdt: esp_task_wdt_reset(705): task not found
+): task not found
+E (705): task not found
+E (12517) task_wdt: esp_task_wdt_reset(705): task not found
+task not found
+ask not found
+E (12519) task_wdt: esp_task_wdt_reset(705): task not found
+E (12548) task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+2550) task_wdt: esp_task_wdt_reset(705): task not found
+E (12580) task_wdt: esp_task_wdt_reset(705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+p_task_wdt_reset(705): task not found
+wdt_705): task not found
+ not found
+: task not found
+sk not found
+ask not found
+(705): task not found
+E (12644) task_wdt: esp_task_wdt_reset(705): task not found
+ task not found
+E (12672) task_wdt: esp_task_wdt_reset(705): task not found
+k not found
+k_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+ask not found
+ found
+t_reset(705): task not found
+t_reset(705): task not found
+nd
+k_wdtE (12730) task_wdt: esp_task_wdt_reset(705): task not found
+E (12756) task_wdt: esp_task_wdt_reset(705): task not found
+E (12757) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+_wdt: esp_task_wdt_reset(705): task not found
+2787) task_wdt: esp_task_wdt_reset(705): task not found
+12788) 705): task not found
+eset(705): task not found
+5): task not found
+E (12818) task_wdt: esp_task_wdt_reset(705): task not found
+E (12819) task_wdt: esp_task_wdt_reset(705): task not found
+5): task not found
+): task not found
+E (12850) task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+E (705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (12908) task_wdt: esp_task_wdt_reset(705): task not found
+E (129705): task not found
+k not found
+E (12910) task_wdt: esp_task_wdt_reset(705): task not found
+E (12936) task_wdt: esp_task_wdt_reset(705): task not found
+705): task not found
+_task_wdt_reset(705): task not found
+E (12938) task_wdt: esp_task_wdt_reset(705): task not found
+E (12963) task_wdt: esp_task_wdt_reset(705): task not found
+05): task not found
+E (12965) task_wdt: esp_task_wdt_reset(705): task not found
+E (12965) task_wdt: esp_task_wdt_reset(705): task not found
+) task_wdt: esp_task_wdt_reset(705): task not found
+92) task_wdt: esp_task_wdt_reset(705): task not found
+E (12992) task_wdt: esp_task_wdt_reset(705): task not found
+E (13021) task_wdt: esp_task_wdt_reset(705): task not found
+k_wdt: esp_task_wdt_reset(705): task not found
+E (13023) task_wdt: esp_task_wdt_reset(705): task not found
+E (13052) task_wdt: esp_task_wdt_reset(705): task not found
+ask_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+ask not found
+E (13083) task_wdt: esp_task_wdt_reset(705): task not found
+E (13085) task_wdt: esp_task_wdt_reset(705): task not found
+5) task_wdt: esp_task_wdt_reset(705): task not found
+E (13113) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+sk_wdt: esp_task_wdt_reset(705): task not found
+E (13115) task_wdt: esp_task_wdt_reset(705): task not found
+E (13142) task_wdt: esp_task_wdt_reset(705): task not found
+E (13143) task_wdt: esp_task_wdt_reset(705): task not found
+E (13144) task_wdt: esp_task_wdt_reset(705): task not found
+E (13144) task_wdt: esp_task_wdt_reset(705): task not found
+E (13171) task_wdt: esp_task_wdt_reset(705): task not found
+E (13172) task_wdt: esp_task_wdt_reset(705): task not found
+E (13173) task_wdt: esp_task_wdt_reset(705): task not found
+E (13173) task_wdt: esp_task_wdt_reset(705): task not found
+E (13198) task_wdt: esp_task_wdt_reset(705): task not found
+3199) task_wdt: esp_task_wdt_reset(705): task not found
+E (13200) task_wdt: esp_task_wdt_reset(705): task not found
+t_reset(705): task not found
+E (13225) task_wdt: esp_task_wdt_reset(705): task not found
+_task_wdt_reset(705): task not found
+nd
+wdt: esp_task_wdt_reset(705): task not found
+E (13256) task_wdt: esp_task_wdt_reset(705): task not found
+705): task not found
+3258) task_wdt: esp_task_wdt_reset(705): task not found
+t(705): task not found
+13287) task_wdt: esp_task_wdt_reset(705): task not found
+sk_wd705): task not found
+9) task_wdt: esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+): task not found
+esp_task_wdt_reset(705): task not found
+wdt: esp_task_wdt_reset(705): task not found
+_wdt_reset(705): task not found
+E (13347) task_wdt: esp_task_wdt_reset(705): task not found
 
-
-ELF file SHA256: 74d313e24
-
-Rebooting...
-ESP-ROM:esp32p4-eco2-20240710
-Build:Jul 10 2024
-rst:0xc (SW_CPU_RESET),boot:0x30f (SPI_FAST_FLASH_BOOT)
-Core0 Saved PC:0x4ff046d6
-Core1 Saved PC:0x4ff022da
-SPI mode:DIO, clock div:1
-load:0x4ff33ce0,len:0x11c8
-load:0x4ff2abd0,len:0xc1c
-load:0x4ff2cbd0,len:0x32fc
-entry 0x4ff2abd0
-[    20][I][esp32-hal-psram.c:102] psramAddToHeap(): PSRAM added to the heap.
-=========== Before Setup Start ===========
-Chip Info:
-------------------------------------------
-  Model             : ESP32-P4
-  Package           : 0
-  Revision          : 1.00
-  Cores             : 2
-  CPU Frequency     : 360 MHz
-  XTAL Frequency    : 40 MHz
-  Features Bitfield : 0000000000
-  Embedded Flash    : No
-  Embedded PSRAM    : No
-  2.4GHz WiFi       : No
-  Classic BT        : No
-  BT Low Energy     : No
-  IEEE 802.15.4     : No
-------------------------------------------
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   514840 B ( 502.8 KB)
-  Free Bytes        :   476492 B ( 465.3 KB)
-  Allocated Bytes   :    32372 B (  31.6 KB)
-  Minimum Free Bytes:   472452 B ( 461.4 KB)
-  Largest Free Block:   385012 B ( 376.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 33551856 B (32765.5 KB)
-  Allocated Bytes   :        0 B (   0.0 KB)
-  Minimum Free Bytes: 33551856 B (32765.5 KB)
-  Largest Free Block: 33030132 B (32256.0 KB)
-  Bus Mode          : QSPI
-------------------------------------------
-Flash Info:
-------------------------------------------
-  Chip Size         : 16777216 B (16 MB)
-  Block Size        :    65536 B (  64.0 KB)
-  Sector Size       :     4096 B (   4.0 KB)
-  Page Size         :      256 B (   0.2 KB)
-  Bus Speed         : 80 MHz
-  Bus Mode          : QIO
-------------------------------------------
-Partitions Info:
-------------------------------------------
-                nvs : addr: 0x00009000, size:    24.0 KB, type: DATA, subtype: NVS
-           phy_init : addr: 0x0000F000, size:     4.0 KB, type: DATA, subtype: PHY
-            factory : addr: 0x00010000, size:  4096.0 KB, type:  APP, subtype: FACTORY
-            storage : addr: 0x00410000, size:  8192.0 KB, type: DATA, subtype: SPIFFS
-           coredump : addr: 0x00C10000, size:  1024.0 KB, type: DATA, subtype: COREDUMP
-           log_dump : addr: 0x00D10000, size:  1024.0 KB, type: DATA, subtype: 0x08
-             config : addr: 0x00E10000, size:   128.0 KB, type: DATA, subtype: NVS
-           reserved : addr: 0x00E30000, size:  1856.0 KB, type: DATA, subtype: 0xFF
-------------------------------------------
-Software Info:
-------------------------------------------
-  Compile Date/Time : Jun 14 2025 22:15:45
-  Compile Host OS   : windows
-  ESP-IDF Version   : v5.4.1-1-g2f7dcd862a-dirty
-  Arduino Version   : 3.2.0
-------------------------------------------
-Board Info:
-------------------------------------------
-  Arduino Board     : ESP32P4_DEV
-  Arduino Variant   : esp32p4
-  Arduino FQBN      : esp32:esp32:esp32p4:UploadSpeed=921600,USBMode=hwcdc,CDCOnBoot=cdc,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,CPUFreq=360,FlashFreq=80,FlashMode=qio,FlashSize=16M,PartitionScheme=custom,DebugLevel=debug,PSRAM=enabled,EraseFlash=none,JTAGAdapter=default
-============ Before Setup End ============
-[   142][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 24 already has type USB_DM (45) with bus 0x4ff276b0
-[   142][I][esp32-hal-periman.c:141] perimanSetPinBus(): Pin 25 already has type USB_DP (46) with bus 0x4ff276b0
-
-=== ESP32P4 Gallery Debug Output ===
-Initializing SPIFFS...
-SPIFFS mounted successfully
-SPIFFS: 7703441 total, 37650 used, 7665791 free
-
-------- Logger Initialized -------
-[  1457][W][SPIFFS.cpp:62] begin(): SPIFFS Already Mounted!
-[  0:00:02.165][  INFO][#000000] Logger initialized: level=1, serial=ON, flash=ON
-[DEBUG] Log level set to 1
-[DEBUG] Serial debug output enabled
-[  0:00:02.452][  INFO][#000001] SPIFFS is available for logging
-Checking partition information:
-Flash size: 16777216 bytes
-
-Partition table:
-Type | Subtype | Address | Size | Label
------|---------|---------|------|-------
-   1 |       2 | 00009000 |     24K | nvs
-   1 |       1 | 0000f000 |      4K | phy_init
-   0 |       0 | 00010000 |   4096K | factory
-   1 |     130 | 00410000 |   8192K | storage
-   1 |       3 | 00c10000 |   1024K | coredump
-   1 |       8 | 00d10000 |   1024K | log_dump
-   1 |       2 | 00e10000 |    128K | config
-   1 |     255 | 00e30000 |   1856K | reserved
-
-[  0:00:02.595][  INFO][#000002] ====================================
-[  0:00:02.738][  INFO][#000003] ESP32P4 Image Gallery Starting
-[  0:00:02.880][  INFO][#000004] Date: 2025-06-15 05:30:35 UTC
-[  0:00:03.022][  INFO][#000005] User: Chamil1983
-[  0:00:03.164][  INFO][#000006] ====================================
-[DEBUG][Mutexes] Initializing...
-[DEBUG][Mutexes] Initialization successful
-[  0:00:03.307][  INFO][#000007] Setting up watchdog system with crash recovery...
-[  0:00:03.449][  INFO][#000008] Watchdog reconfigured with 120 second timeout and panic enabled
-[  0:00:03.592][  INFO][#000009] Main task added to watchdog with crash detection
-[  0:00:03.734][  INFO][#000010] Starting component initialization sequence:
-[DEBUG][LCD] Initializing...
-[  0:00:03.877][  INFO][#000011] Setting up LCD...
-[  4019][I][jd9365_lcd.cpp:50] example_bsp_enable_dsi_phy_power(): [example] MIPI DSI PHY Powered on
-[  4020][I][jd9365_lcd.cpp:83] begin(): [example] Install MIPI DSI LCD control panel
-[  0:00:04.306][  INFO][#000012] LCD initialized successfully with backlight ON
-[DEBUG][LCD] Initialization successful
-[  0:00:04.451][  INFO][#000013] LCD ready
-[DEBUG][Touch] Initializing...
-[  0:00:04.595][  INFO][#000014] Setting up Touch...
-[  0:00:05.814][  INFO][#000015] Touch initialized successfully
-[DEBUG][Touch] Initialization successful
-[  0:00:05.960][  INFO][#000016] Touch ready
-[DEBUG][SD Card] Initializing...
-[  0:00:06.104][  INFO][#000017] Setting up SD Card with robust initialization...
-[  0:00:06.247][  INFO][#000018] Waiting for power stabilization...
-[  0:00:08.390][  INFO][#000019] Resetting SD pins...
-[  0:00:08.635][  INFO][#000020] Ensuring SD_MMC is deinitialized...
-[  0:00:09.281][  INFO][#000021] Configuring SD pins...
-[  0:00:09.426][  INFO][#000022] SD init attempt 1: 1-bit mode at 125KHz (ultra conservative)
-[  0:00:10.234][  INFO][#000023] Validating SD card...
-[  0:00:10.380][  INFO][#000024] SD Card Type: SDHC
-[  0:00:10.524][  INFO][#000025] SD Card Size: 128000MB
-[  0:00:10.668][  INFO][#000026] SD card initialized successfully in ultra-conservative mode
-[DEBUG][SD Card] Initialization successful
-[  0:00:10.813][  INFO][#000027] SD ready
-[  0:00:10.957][  INFO][#000028] Task watchdog panic is enabled for crash detection
-[  0:00:11.101][  INFO][#000029] System configured to handle crashes via watchdog
-[DEBUG][WiFi] Initializing...
-[  0:00:11.246][  INFO][#000030] Setting up WiFi in AP mode...
-[ 11390][W][STA.cpp:543] disconnect(): STA already disconnected.
-sdio_mempool_create free:31933564 min-free:31933100 lfb-def:31457268 lfb-8bit:31457268
-
-Name: 
-Type: SDIO
-Speed: 40.00 MHz (limit: 40.00 MHz)
-Size: 0MB
-CSD: ver=1, sector_size=0, capacity=0 read_bl_len=0
-SCR: sd_spec=0, bus_width=0
-TUPLE: DEVICE, size: 3: D9 01 FF 
-TUPLE: MANFID, size: 4
-  MANF: 0092, CARD: 6666
-TUPLE: FUNCID, size: 2: 0C 00 
-TUPLE: FUNCE, size: 4: 00 00 02 32 
-TUPLE: CONFIG, size: 5: 01 01 00 02 07 
-TUPLE: CFTABLE_ENTRY, size: 8
-  INDX: C1, Intface: 1, Default: 1, Conf-Entry-Num: 1
-  IF: 41
-  FS: 30, misc: 0, mem_space: 1, irq: 1, io_space: 0, timing: 0, power: 0
-  IR: 30, mask: 1,   IRQ: FF FF
-  LEN: FFFF
-TUPLE: END
-[  0:00:13.787][  INFO][#000031] WiFi AP Mode active
-[  0:00:13.933][  INFO][#000032] AP SSID: ESP32P4-ImageViewer
-[  0:00:14.077][  INFO][#000033] AP IP Address: 192.168.4.1
-[  0:00:14.221][  INFO][#000034] AP Channel: 6
-[  0:00:14.365][  INFO][#000035] AP Max Clients: 2
-[DEBUG][WiFi] Initialization successful
-[  0:00:14.509][  INFO][#000036] WiFi ready
-[DEBUG][LVGL] Initializing...
-[  0:00:14.654][  INFO][#000037] Setting up LVGL...
-[  0:00:14.798][ DEBUG][#000038] Allocating LVGL buffers: 64000 bytes each
-[  0:00:14.943][  INFO][#000039] LVGL initialized successfully
-[DEBUG][LVGL] Initialization successful
-[  0:00:15.088][  INFO][#000040] LVGL ready
-[DEBUG][UI] Initializing...
-[  0:00:15.233][  INFO][#000041] Setting up UI...
-[  0:00:15.380][  INFO][#000042] UI initialized successfully
-[DEBUG][UI] Initialization successful
-[  0:00:15.524][  INFO][#000043] UI ready
-[DEBUG][WebServer] Initializing...
-[  0:00:15.668][  INFO][#000044] Setting up WebServer...
-[  0:00:15.813][  INFO][#000045] WebServer started on port 80
-[DEBUG][WebServer] Initialization successful
-[  0:00:15.958][  INFO][#000046] WebServer ready
-[  0:00:16.101][  INFO][#000047] LVGL task started on Core 1
-[  0:00:16.249][  INFO][#000048] Scanning for images...
-[  0:00:16.399][  INFO][#000049] Scanning for images...
-[  0:00:16.582][ DEBUG][#000050] Found image 0: /images/img_39767.jpg (939213 bytes)
-[  0:00:16.732][ DEBUG][#000051] Found image 1: /images/img_79907.jpg (1586123 bytes)
-[  0:00:16.878][ DEBUG][#000052] Found image 2: /images/img_32173_chicago skyline.jpg (1101785 bytes)
-[  0:00:17.023][  WARN][#000053] Skipping small file: /images/img_54221.jpg (0 bytes)
-[  0:00:17.168][ DEBUG][#000054] Found image 3: /images/img_11892.jpg (939213 bytes)
-[  0:00:17.313][ DEBUG][#000055] Found image 4: /images/img_11059.jpg (843783 bytes)
-[  0:00:17.459][  WARN][#000056] Skipping small file: /images/img_37892.jpg (0 bytes)
-[  0:00:17.605][  WARN][#000057] Skipping small file: /images/img_152732.jpg (0 bytes)
-[  0:00:17.751][ DEBUG][#000058] Found image 5: /images/img_86865.jpg (170884 bytes)
-[  0:00:17.896][ DEBUG][#000059] Found image 6: /images/img_42344.jpg (14360 bytes)
-[  0:00:18.042][ DEBUG][#000060] Found image 7: /images/img_69512_Eagles_Birds.jpg (529884 bytes)
-[  0:00:18.187][ DEBUG][#000061] Found image 8: /images/img_69100_Eagles_Birds.jpg (147908 bytes)
-[  0:00:18.333][  WARN][#000062] Skipping small file: /images/img_52349_Blue_Flower.jpg (512 bytes)
-[  0:00:18.479][  WARN][#000063] Skipping small file: /images/img_133659_Favorite_Pink_Flowers.jpg (512 bytes)
-[  0:00:18.624][ DEBUG][#000064] Found image 9: /images/img_22824_Eagles_Birds.jpg (16308 bytes)
-[  0:00:18.769][  INFO][#000065] Found 10 images
-[  0:00:18.914][  INFO][#000066] Found 10 images
-Found 10 images
-[  0:00:19.058][  INFO][#000067] Loading first image
-[  0:00:19.210][  INFO][#000068] Displaying image 0: /images/img_39767.jpg
-[  0:00:19.541][  INFO][#000069] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
-[  0:00:19.687][  INFO][#000070] Decoding image at full resolution
-[  0:00:22.270][  INFO][#000071] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:00:22.416][  WARN][#000072] JPEG decoding took 2878 ms
-[  0:00:22.560][  WARN][#000073] JPEG rendering took 3022 ms
-[  0:00:22.864][  INFO][#000074] Successfully displayed image 0
-[  0:00:23.010][  INFO][#000075] Slideshow task started
-[  0:00:23.010][  INFO][#000076] Slideshow task added to watchdog
-381) task_wdt: add_entry(192): task is already subscribed
-[  0:00:23.157][  WARN][#000078] Failed to add slideshow task to watchdog: 258
-STATUS: LCD:OK Touch:OK SD:OK WiFi:OK LVGL:OK UI:OK Server:OK
-=========== After Setup Start ============
-INTERNAL Memory Info:
-------------------------------------------
-  Total Size        :   514840 B ( 502.8 KB)
-  Free Bytes        :   383156 B ( 374.2 KB)
-  Allocated Bytes   :   120716 B ( 117.9 KB)
-  Minimum Free Bytes:   373588 B ( 364.8 KB)
-  Largest Free Block:   335860 B ( 328.0 KB)
-------------------------------------------
-SPIRAM Memory Info:
-------------------------------------------
-  Total Size        : 33554432 B (32768.0 KB)
-  Free Bytes        : 31343560 B (30608.9 KB)
-  Allocated Bytes   :  2207880 B (2156.1 KB)
-  Minimum Free Bytes: 31317444 B (30583.4 KB)
-  Largest Free Block: 30932980 B (30208.0 KB)
-------------------------------------------
-GPIO Info:
-------------------------------------------
-  GPIO : BUS_TYPE[bus/unit][chan]
-  --------------------------------------  
-    24 : USB_DM
-    25 : USB_DP
-    37 : UART_TX[0]
-    38 : UART_RX[0]
-    39 : SDMMC_D0
-    40 : GPIO
-    41 : GPIO
-    42 : GPIO
-    43 : SDMMC_CLK
-    44 : SDMMC_CMD
-    45 : SDMMC_POWER
-============ After Setup End =============
-[  0:00:26.304][  INFO][#000079] Slideshow task initialized
-[  0:00:36.883][ DEBUG][#000080] Serving main page
-[  0:00:42.388][  INFO][#000081] Attempting to start slideshow
-[  0:00:42.541][  INFO][#000082] Slideshow started with 5000 ms interval
-[  0:00:46.867][ DEBUG][#000083] Serving main page
-[  0:00:47.549][  INF 5099 ms
-[  0:00:47.706][  INFO][#000085] Slideshow advancing to image 1
-[  0:00:47.864][  INFO][#000086] Displaying image 1: /images/img_79907.jpg
-[  0:00:48.195][  INFO][#000087] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
-[  0:00:48.341][  INFO][#000088] Decoding image at full resolution
-ted): 1280x800 -> 800x1280
-[  0:00:51.372][  WARN][#000090] JPEG decoding took 3181 ms
-[  0:00:51.517][  WARN][#000091] JPEG rendering took 3326 ms
-[  0.821][  INFO][#000092] Successfully displayed image 1
-[  0:00:51.969][  INFO][#000093] Slideshow advanced to image 1
-[  0:00:57.213][  INFO][#000094] Slideshow timer triggered after 5099 ms
-[  0:00:57.375][  INFO][#000095] Slideshow advancing to image 2
-[  0:00:57.532][  INFO][#000096] Displaying image 2: /images/img_32173_chicago skyline.jpg
-[  0:00:57ges/img_32173_chicago skyline.jpg (1101785 bytes)
-[  0:00:58.005][  INFO][#000098] Decoding image at full resolution
-ted): 1280x800 -> 800x1280
-[  0:01:00.878][  WARN][#000101] JPEG rendering took 3022 ms
-[  0:01:01.181][  INFO][#000102] Successfully displayed image 2
-[  0:01:01.329][  INFO][#000103] Slideshow advanced to image 2
-[  0:01:06.476][  INFO][#000104] Slideshow timer triggered after 5000 ms
-[  0:01:06.631][  INFO][#000105] Slideshow advancing to image 3
-[  0:01:06.786][  INFO][#000106] Displaying image 3: /images/img_11892.jpg
-[  0:01:07.ges/img_11892.jpg (939213 bytes)
-[  0:01:07.260][  INFO][#000108] Decoding image at full resolution
-[  0:01:09.733][  INFO][#000109] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:01:09.878][  WARN][#000110] JPEG decoding took 2768 ms
-[  0:01:10.023][  WARN][#000111] JPEG rendering took 2913 ms
-[  0:01:10.325][  INFO][#000112] Successfully displayed image 3
-[  0:01:10.471][  INFO][#000113] Slideshow advanced to image 3
-[  0:01:15.713][  INFO][#000114] Slideshow timer triggered after 5099 ms
-[  0:01:15.867][  INFO][#000115] Slideshow advancing to image 4
-[  0:: /images/img_11059.jpg
-[  0:01:16.351][  INFO][#000117] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
-[  0:01:16.496][  INFO][#000118] Decoding image at full resolution
-ted): 1280x800 -> 800x1280
-[  0:01:18.985][  WARN][#000120] JPEG decoding took 2638 ms
-[  0:01:19.128][  WARN][#000121] JPEG rendering took 2781 ms
-[  0:01:19.432][  INFO][#000122] Successfully displayed image 4
-[  0:01:19.577][  INFO][#000123] Slideshow advanced to image 4
-[  0:01:24.820][  INFO][#000124] Slideshow timer triggered after 5099 ms
-[  0:01:24.977][  WARN][#000125] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[  0:01:25.126][  INFO][#000126] Slideshow advancing to image 5
-[  0:01:25.279][  WARN][#000127] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[  0:01:25.427][  INFO][#000128] Displaying image 5: /images/img_86865.jpg
-[  0:01:/images/img_86865.jpg (170884 bytes)
-[  0:01:25.901][  INFO][#000130] Decoding image at full resolution
-[  0:01:26.642][  WARN][#000131] Full resolution decode failed, trying half resolution
-[  0:01:26.787][  WARN][#000132] JPEG decoding took 1036 ms
-[  0:01:26.931][  WARN][#000133] JPEG rendering took 1180 ms
-[  0:01:27.082][ ERROR][#000134] Failed to display image 5
-[  0:01:27.231][  INFO][#000135] Slideshow advanced to image 5
-[  0:01:32.380][  INFO][#000136] Slideshow timer triggered after 5000 ms
- proper EOI marker: /images/img_42344.jpg
-[  0:01:32.685][  INFO][#000138
-[  0:01:32.838][  WARN][#000139] JPEG may be corrupted - missing proper EOI marker: /images/img_42344.jpg
-[  0_42344.jpg
-[  0:01:ges/img_42344.jpg (14360 bytes)
-[  0:01:33.477][  INFO][#000142] Decoding image at full resolution
-[  0:01:33.694][  WARN][#000143] Full resolution decode failed, trying half resolution
-[  0:01:33.843][ ERROR][#000144] Failed to display image 6
-[  0:01:33.989][  INFO][#000145] Slideshow advanced to image 6
-[  0:01:39.237Slideshow timer triggered after 5099 ms
-[  0:01: proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:01:39.540][  INFO][#000148] Slideshow advancing to image 7
-[  0:01:39.699][  WARN][#000149] JPEG may be corrupted - missing proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:01:_69512_Eagles_Birds.jpg
-ges/img_69512_Eagles_Birds.jpg (529884 bytes)
-[  0:01:40.336][  INFO][#000152] Decoding image at full resolution
-[  0:01:41.792][  WARN][trying half resolution
-[  0:01:41.937][  WARN][#000154] JPEG decoding took 1751 ms
-[  0:01:42.080][  WARN][#000155] JPEG rendering took 1894 ms
-[  0:01:42.229][ ERROR][#000156] Failed to display image 7
-[  0:01:42.372][  INFO][#000157] Slideshow advanced to image 7
-[  0:01:47 5099 ms
-[  0:01:47.768][  WARN][#000159] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-[  0:01:47.919][  INFO][#000160] Slideshow advancing to image 8
-[  0:01:48.073][  WARN][#000161] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-[  0:01:48.2_69100_Eagles_Birds.jpg
-[  0:01:48.555][  INFO][#000163] Starting JPEG decoding for /images/img_69100_Eagles_Birds.jpg (147908 bytes)
-[  0:01:48.705][  INFO][#000164] Decoding image at full resolution
-[  0:01:4trying half resolution
-[  0:01:49.450][ ERROR][#000166] Failed to display image 8
-[  0:01:49.594][  INFO][#000167] Slideshow advanced to image 8
-[  0:01:54.738][  INFO][#000168] Slideshow timer triggered after 5000 ms
-[  0:01:54.898][  WARN][#000169] JPEG may be corrupted - missing proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-[ ancing to image 9
-[  0:01:55.204][  WARN][#000171] JPEG may be corrupted - missing proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-[  0:0_22824_Eagles_Birds.jpg
-[  173] Starting JPEG decoding for /images/img_22824_Eagles_Birds.jpg (16308 bytes)
-[ on
-[  0:01:56.018][  WARN][#000175] Full resolution decode failed, trying half resolution
-[  0:01:56.162][ ERROR][#000176] Failed to display image 9
-[  0:01:56.311][  INFO][#000177] Slideshow advanced to image 9
-[  0:02:01.559][  INFO][#000178] Slideshow timer triggered after 5099 ms
-[  0:02:01.717][  INFO][#000179] Slideshow advancing to image 0
-[  0:02:01.870][  INFO][#000180] Displaying image 0: /images/img_39767.jpg
-[  0:02:ges/img_39767.jpg (939213 bytes)
-[  0:02:02.343][  INFO][#000182] Decoding image at full resolution
-000183] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:02:04.966][  WARN][#000184] JPEG decoding took 2771 ms
-[  0:02:05.109][  WARN][#000185] JPEG rendering took 2914 ms
-[  0:02:05.418][  INFO][#000186] Successfully displayed image 0
-[  0:02:05.565][  INFO][#000187] Slideshow advanced to image 0
-[  0:02:10.809][  INFO][#000188] Slideshow timer triggered after 5099 ms
-[  0:02:10.970][  INFO][#000189] Slideshow advancing to image 1
-[  0:02:1images/img_79907.jpg
-[  0:02:11.457][  INFO][#000191] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
-on
-[  0:02:14.479][  INFO][#000193] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:02:14.624][  WARN][#000194] JPEG decoding took 3170 ms
-[  0:02:14.767][  WARN][#000195] JPEG rendering took 3313 ms
-[  0:02:15.070][  INFO][#000196] Successfully displayed image 1
-[  0:02:15.218][  INFO][#000197] Slideshow advanced to image 1
-[  0:02:20.462 5099 ms
-[  0:02:20.620][  INFO][#000199] Slideshow advancing to image 2
-[  0:02:20.773][  INFO][#000200] Displaying image 2: /images/img_32173_chicago skyline.jpg
-[  0:02:21.104][  INFO][#000201] Starting JPEG decoding for /images/img_32173_chicago skyline.jpg (1101785 bytes)
-on
-[  0:02:23.839][  INFO][#000203] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:02:23.984][  WARN][#000204] JPEG decoding took 2884 ms
-[  0:02:24.127][  WARN][#000205] JPEG rendering took 3027 ms
-[  0:02:24.436][  INFO][#000206] Successfully displayed image 2
-[  0:02:24.581][  INFO][#000207] Slideshow advanced to image 2
-[  0:02:29.825][  INFO][#000208] Slideshow timer triggered after 5099 ms
-[  0:02:29.980][  INFO][#000209] Slideshow advancing to image 3
-[  0:02:30.133][  INFO][#000210] Displaying image 3: /images/img_11892.jpg
-[  0:02:1] Starting JPEG decoding for /images/img_11892.jpg (939213 bytes)
-[  0:02:30.618][  INFO][#000212] Decoding image at full resolution
-[  0:02:33.099][  INFO][#000213] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:02:33.245][  WARN][#000214] JPEG decoding took 2783 ms
-[  0:02:33.388][  WARN][#000215] JPEG rendering took 2926 ms
-
-[  0:02:33.841][  INFO][#000217] Slideshow advanced to image 3
-[  0:02:39.087][  INFO][#000218] Slideshow timer triggered after 5099 ms
-[  0:02:39.249][  INFO][#000219] Slideshow advancing to image 4
-[  0:02:39.406][  INFO][#000220] Displaying image 4: /images/img_11059.jpg
-[  0:02:39.734][  INges/img_11059.jpg (843783 bytes)
-[  0:02:39.884][  INFO][#000222] Decoding image at full resolution
-[  0:02:ted): 1280x800 -> 800x1280
-[  0:02:42.383][  WARN][#000224] JPEG decoding took 2652 ms
-[  0:02:42.528][  WARN][#000225] JPEG rendering took 2797 ms
-[  0:02:42.830][  INFO][#000226] Successfully displayed image 4
-[  0:02:42.977][  INFO][#000227] Slideshow advanced to image 4
- 5099 ms
-[  0:02:48.387][  WARN][#000229] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[  0:02:48.534][  INFO][#000230] Slideshow advancing to image 5
- proper EOI marker: /images/img_86865.jpg
-[  0:02:48.836][  INFO][#000232] Displaying image 5: /images/img_86865.jpg
-ges/img_86865.jpg (170884 bytes)
-[  0:02:49.318][  INFO][#000234] Decoding image at full resolution
-[  0:02:50.061][  WARN][#000235] Full resolution decode failed, trying half resolution
-[  0:02:50.206][  WARN][#000236] JPEG decoding took 1040 ms
-[  0:02:50ed to display image 5
-[  0:02:50.649][  INFO][#000239] Slideshow advanced to image 5
-[  0:02:55.892][  INFO][#000240] Slideshow timer triggered after 5099 ms
- proper EOI marker: /images/img_42344.jpg
-[  0:02:56.205][  INFO][#000242] Slideshow advancing to image 6
-[  0:02:56.360][  WARN][#000243] JPEG may be corrupted - missing proper EOI marker: /images/img_42344.jpg
-[  0:02:56.513_42344.jpg
-[  0:02:56.845][  INFO][#000245] Starting JPEG decoding for /images/img_42344.jpg (14360 bytes)
-on
-[  0:02:trying half resolution
-[  0:02:57.353][ ERROR][#000248] Failed to display image 6
-[  0:02:57.496][  INFO][#000249] Slideshow advanced to image 6
-[  0:03:02.738][  INFO][#000250] Slideshow timer triggered after 5099 ms
-[  0:03:02.896][  WARN][#000251] JPEG may be corrupted - missing proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:03
-[  0:03:03.202][  WARN][#000253] JPEG may be corrupted - missing proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:03:03.350][  INFO][#000254] Displaying image 7: /images/img_69512_Eagles_Birds.jpg
-ges/img_69512_Eagles_Birds.jpg (529884 bytes)
-[  on
-[  0:03:05.292][  Wtrying half resolution
-[  0:03:05.437][  WARN][#000258] JPEG decoding took 1758 ms
-[  0:03:05.582][  WARN][#000259] JPEG rendering took 1903 ms
-[  0:03:05.729][ ERROR][#000260] Failed to display image 7
-[  0:03:11.119][  INFO][#000262] Slideshow timer triggered after 5099 ms
-[  0:03:11.275][  WARN][#000263] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-[  0:03:11.427][  INFO][#000264] Slideshow advancing to image 8
-[  0:03:11.583][  WARN][#000265] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-[  0:03:11.733][  INFO][#000266] Displaying image 8: /images/img_69100_Eagles_Birds.jpg
-[  0:03:12.070][  INFO][#000267] Starting JPEG decoding for /images/img_69100_Eagles_Birds.jpg (147908 bytes)
-[  0:03:12.216][  INFO][#000268] Decoding image at full resolution
-[  0:03:12.815][  WARN][#000269] Full resolution decode failed, trying half resolution
-[  0:03:12.960][ ERROR][#000270] Failed to display image 8
-[  0:03:13.110][  INFO][#000271] Slideshow advanced to image 8
-[  0:03:18.360][  INFO][#000272] Slideshow timer triggered after 5099 ms
-[  0:03:18.514][  WARN][#000273] JPEG may be corrupted - missing proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-[  0:03:18.666][  INFO][#000274] Slideshow advancing to image 9
- proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-_22824_Eagles_Birds.jpg
-[  0:03:19.303][  INFO][#000277] Starting JPEG decoding for /images/img_22824_Eagles_Birds.jpg (16308 bytes)
-[  0:03:19.453][  INFO][#000278] Decoding image at full resolution
-[ trying half resolution
-[  0:03:19.799][ ERROR][#000280] Failed to display image 9
-[  mage 9
-[  0:03:25.186][  INFO][#000282] Slideshow timer triggered after 5099 ms
-[  0:03:25.340][  INFO][#000283] Slideshow advancing to image 0
-_39767.jpg
-Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
-[  0:03:25.969][  INFO][#000286]on
-[  0:03:28.440][  INFO][#000287] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:03:28.585][  WARN][#000288] JPEG decoding took 2764 ms
-[  0:03:28.729][  WARN][#000289] JPEG rendering took 2908 ms
-[  0:
-[  0:03:29.181][  INFO][#000291] Slideshow advanced to image 0
-[  0:03:34.326][  INFO][#000292] Slideshow timer triggered after 5000 ms
-
-[  0:03:34.640][  INFO][#000294] Displaying image 1: /images/img_79907.jpg
-[  0:03:34.972][  INFO][#000295] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
-[  0:03:35.117][  INFO][#000296] Decoding image at full resolution
-ted): 1280x800 -> 800x1280
-[  0:03:38.140][  WARN][#000298] JPEG decoding took 3171 ms
-[  0:03:38.284][  WARN][#000299] JPEG rendering took 3315 ms
-[  0:03:38.591][  INFO][#000300] Successfully displayed image 1
-[  0:03:38.741][  INFO][#000301] Slideshow advanced to image 1
-[  0:03:43.985][  INFO][#000302] Slideshow timer triggered after 5099 ms
-[  0:03:44.140][  INFO][#000303] Slideshow advancing to image 2
-_32173_chicago skyline.jpg
-[  0:03:44.628][  INFO][#000305] Starting JPEG decoding for /images/img_32173_chicago skyline.jpg (1101785 bytes)
-[  0:03:44.773][  INFO][#000306] Decoding image at full resolution
-[  0:03:47.359][  INFO][ted): 1280x800 -> 800x1280
-[  0:03:47.504][  WARN][#000308] JPEG decoding took 2880 ms
-[  0:03:47][#000309] JPEG rendering took 3024 ms
-[  0:03:47.954][  INFO][#000310] Successfully displayed image 2
-[  0:03:48.101][  INFO][#000311] Slideshow advanced to image 2
-[  0:03:53.343][  INFO][#000312] Slideshow timer triggered after 5099 ms
-[  2][  INFO][#000313] Slideshow advancing to image 3
-[  0:0_11892.jpg
-ges/img_11892.jpg (939213 bytes)
-[  0:03:54.133][  INFO][#000316] Decoding image at full resolution
-[  0:03:56.608][  INFO][#000317] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:03:56.754][  WARN][#000318] JPEG decoding took 2773 ms
-0:03:57.198][  INFO][#000320] Successfully displayed image 3
-[  0:03:57.345][  INFO][#000321] Slideshow advanced to image 3
-[  0:04:02.5 5099 ms
-[  0:04:02.742][  INFO][#000323] Slideshow advancing to image 4
-[ _11059.jpg
-[  0:04:03.234][  INFO][#000325] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
-[  0:04:03.381][  INFO][#000326] Decoding image at full resolution
-[  0:04:05.740][  INFO][#000327] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:04:05.886][  WARN][#000328] JPEG decoding took 2655 ms
-[  0:04:06.030][  WARN][#000329] JPEG rendering took 2798 ms
-[  0:04:06.334][  INFO][#000330] Successfully displayed image 4
-[  0:04:06.484][  INFO][#000331] Slideshow advanced to image 4
-[   5099 ms
-[  0:04:11.879][  WARN][#000333] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[ 
-[  0:04:12.183][  WARN][#000335] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[  0:04:12.336][  INFO][#000336] Displaying image 5: /images/img_86865.jpg
-[  0:04:12.665ges/img_86865.jpg (170884 bytes)
-[  0:04:12.810][  INFO][#000338] Decoding image at full resolution
-[  0:04:13.548][  WARN][#000339] Full resolution decode failed, trying half resolution
-[  0:04:13.692][  WARN][#000340] JPEG decoding took 1032 ms
-[  0:04:13.836][  WARN][#000341] JPEG rendering took 1176 ms
-[  0:04:13.983][ ERROR][#000342] Failed to display image 5
-[  0:04:14.126][  INFO][#000343] Slideshow advanced to image 5
-[  0:04:19.368][  INFO][#000344] Slideshow timer triggered after 5099 ms
-[  0:04:19.520][  WARN][#000345] JPEG may be corrupted - missing proper EOI marker: /images/img_42344.jpg
-[  0:04:19.675][  INFO][#000346] Slideshow advancing to image 6
-[  0:04:19.830][  WARN][#000347] JPEG may be corrupted - missing proper EOI marker: /images/img_42344.jpg
-[  0:04:19.981][  INFO][#000348] Displaying image 6: /images/img_42344.jpg
-[  0:04:20.309][  INFO][#000349] Starting JPEG decoding for /images/img_42344.jpg (14360 bytes)
-[  0:04:20.459][  INFO][#000350] Decoding image at full resolution
-[  0:04:20.trying half resolution
-[  0:04:20.816][ ERROR][#000352] Failed to display image 6
-[  0:04:20.960][  INFO][#000353] Slideshow advanced to image 6
- 5099 ms
-[  0:04:26.366][  WARN][#000355] JPEG may be corrupted - missing proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:04:26.516][  INFO][#000356] Slideshow advancing to image 7
-[  0:04:26.673][  WARN][#000357] JPEG may be corrupted - missing proper EOI marker: /images/img_69512_Eagles_Birds.jpg
-[  0:04:26.821][  INFO][#000358] Displaying image 7: /images/img_69512_Eagles_Birds.jpg
-[  0 INFO][#000359] Starting JPEG decoding for /images/img_69512_Eagles_Birds.jpg (529884 bytes)
-[  0:04:27.300][  INFO][#000360] Decoding image at full resolution
-[  0:04:28.754][  WARN][#000361] Full resolution decode failed, trying half resolution
-4:28.900][  WARN][#000362] JPEG decoding took 1755 ms
-[  0:04:29.043][  WARN][#000363] JPEG rendering took 1898 ms
-[  0:04:29.189][ ERROR][#000364] Failed to display image 7
-[  0:04:29.332][  INFO][#000365] Slideshow advanced to image 7
-[  0:04:34.575][  INFO][#000366] Slideshow timer triggered after 5099 ms
-[  0:04:34.730][  WARN][#000367] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-[  0:04:34.882][  INFO][#000368] Slideshow advancing to image 8
-[  0:04:35.035][  WARN][#000369] JPEG may be corrupted - missing proper EOI marker: /images/img_69100_Eagles_Birds.jpg
-_69100_Eagles_Birds.jpg
-[  0:04 /images/img_69100_Eagles_Birds.jpg (147908 bytes)
-[  0:04:35.676][  INFO][#000372] Decoding image at full resolution
-[  0:04:36.279][  WARN][#000373] Full resolution decode failed, trying half resolution
-[  0:04:36.424][ ERROR][#000374] Failed to display image 8
-[  0:04:36.575][  INFO][#000375] Slideshow advanced to image 8
-[  0:04:43.297][  INFO][#000376] Slideshow timer triggered after 5099 ms
-[  0:04:43.451][  WARN][#000377] JPEG may be corrupted - missing proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-[  0:04:43.599][  INFO][#000378] Slideshow advancing to image 9
-[  0:04:43.754][  WARN][#000379] JPEG may be corrupted - missing proper EOI marker: /images/img_22824_Eagles_Birds.jpg
-[  0:04:43.903][  INFO][#000380] Displaying image 9: /images/img_22824_Eagles_Birds.jpg
-[  0:04:44.233][  INFO][#000381] Starting JPEG decoding for /images/img_22824_Eagles_Birds.jpg (16308 bytes)
-[  0:04:44.382][  INFO][#000382] Decoding image at full resolution
-[  0on decode failed, trying half resolution
-[  0:04:44.720][ ERROR][#000384] Failed to display image 9
-[  0:04:44.865][  INFO][#000385] Slideshow advanced to image 9
-[  0 5099 ms
-[  0:04:50.262][  INFO][#000387] Slideshow advancing to image 0
-[  0:04:50.416][  INFO][#000388] Displaying image 0: /images/img_39767.jpg
-[  0:04:5ges/img_39767.jpg (939213 bytes)
-[  0:04:50.892][  INFO][#000390] Decoding image at full resolution
-[  0:04:53.372][  INFO][#000391] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:04:53.519][  WARN][#000392] JPEG decoding took 2775 ms
-[  0:04:53.662][  WARN][#000393] JPEG rendering took 2918 ms
-[  0:04:53.971][  INFO][#000394] Successfully displayed image 0
-[  0:04:54.123][  INFO][#000395] Slideshow advanced to image 0
-[  0:04:59.373][  INFO][#000396] Slideshow timer triggered after 5099 ms
-[  0:04:59.529][  INFO][#000397] Slideshow advancing to image 1
-_79907.jpg
-[  0:05:00.020][  INFO][#000399] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
-[  0:05:00.169][  INFO][#000400] Decoding image at full resolution
-[  0:05:03.061][  INFO][#000401] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:05:03.207][  WARN][#000402] JPEG decoding took 3191 ms
-[  0:05:03.349][  WARN][#000403] JPEG rendering took 3333 ms
-[  0:05:03.654][  INFO][#000404] Successfully displayed image 1
-[  0:05:03.800][  INFO][#000405] Slideshow advanced to image 1
-[  0:05:09.048][  INFO][#000406] Slideshow timer triggered after 5099 ms
-[  0:05:09.207][  INFO][#000407] Slideshow advancing to image 2
-[  0:05:09.363][  INFO][#000408] Displaying image 2: /images/img_32173_chicago skyline.jpg
-[  0:05:09.696][ges/img_32173_chicago skyline.jpg (1101785 bytes)
-[  0:05:09.841][  INFO][#000410] Decoding image at full resolution
-[  0:05:12.424][  INFO][#000411] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:05:12.571][  WARN][#000412] JPEG decoding took 2879 ms
-[  0:05:12.714][  WARN][#000413] JPEG rendering took 3022 ms
-[  0:05:13.022][  INFO][#000414] Successfully displayed image 2
-[  0:05:13.173][  INFO][#000415] Slideshow advanced to image 2
-[  0:05:18.423][  INFO][#000416] Slideshow timer triggered after 5099 ms
-[  
-[  0:05:18.731][  INFO][#000418] Displaying image 3: /images/img_11892.jpg
-[  0:05:19.060][  INFO][#000419] Starting JPEG decoding for /images/img_11892.jpg (939213 bytes)
-on
-[  0:05:21.684][  INFO][#000421] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
-[  0:05:21.830][  WARN][#000422] JPEG decoding took 2774 ms
-[  0:05:21.975][  WARN][#000423] JPEG rendering took 2919 ms
-[  0:05:22.281][  INFO][#000424] Successfully displayed image 3
-[  0:05:22.429][  INFO][#000425] Slideshow advanced to image 3
-[  0:05:27.676][  INFO][#000426] Slideshow timer triggered after 5099 ms
-[  0:05:27.833][  INFO][#000427] Slideshow advancing to image 4
-[  0:05:27.989][  INFO][#000428] Displaying image 4: /images/img_11059.jpg
-[  0:05:28.317][  INFO][#000429] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
-[  0:05:28.464][  INFO][#000430] Decoding image at full resolution
-[  0:ted): 1280x800 -> 800x1280
-[  0:05:30.972][  WARN][#000432] JPEG decoding took 2658 ms
-[  0:05:31.117][  WARN][#000433] JPEG rendering took 2803 ms
-[  0:05:31.4
-[  0:05:31.570][  INFO][#000435] Slideshow advanced to image 4
-[  0:05:36.718][  INFO][#000436] Slideshow timer triggered after 5000 ms
-[  0:05:36.871 proper EOI marker: /images/img_86865.jpg
-[  0:05:37.022][  INFO][#000438] Slideshow advancing to image 5
-[  0:05:37.175][  WARN][#000439] JPEG may be corrupted - missing proper EOI marker: /images/img_86865.jpg
-[  0:05:37.324][  INFO][#000440] Displaying image 5: /images/img_86865.jpg
-ges/img_86865.jpg (170884 bytes)
-[  0:05:37.799][  INFO][#000442] Decoding image at full resolution
-[  0:05:38.536][  WARN][#000443] Full resolution decode failed, trying half resolution
-[  0:05:38.680][  WARN][#000444] JPEG decoding took 1032 ms
-[  0:05:38.823][  WARN][#000445] JPEG rendering took 1175 ms
-[  0:05:38.968][ ERROR][#000446] Failed to display image 5
+found
+E (dt: esp_task_wdt_reset(705): task not found
+sk not found
+dt:705): task not found
+dt: esp705): task not found
+E (13378) task_wdt: esp_task_wdt_reset(705): task not found
+set(705): task not found
+): task not found
+E (13407) task_wdt: esp_task_wdt_reset(705): task not found
+(705): task not found
+: task not found
+_task_wdt_reset(705): task not found
+t(705): task not found
+3435) task_wdt: esp_task_wdt_reset(705): task not found
+sk not found
+t(705): task not found
+ es
