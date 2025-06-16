@@ -593,3 +593,343 @@ ges/img_39767.jpg (939213 bytes)
 [  0:03:44.326][  INFO][#000423] Displaying image 2: /images/img_32173_chicago skyline.jpg
 [  0:03:45.164][  INFO][#000424] Starting JPEG decoding for /images/img_32173_chicago skyline.jpg (1101785 bytes)
 [  0:03:45.315][  INFO][#000425] Decoding image at full resolution
+[  0:03:47.908][  INFO][#000426] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:03:48.056][  WARN][#000427] JPEG decoding took 2895 ms
+[  0:03:48.200][  WARN][#000428] JPEG rendering took 3039 ms
+[  0:03:48.609][  INFO][#000429] Successfully displayed image 2
+
+[  0:03:48.902][  INFO][#000431] Slideshow advanced to image 2
+[  0:03:49.150][  INFO][#000432] Slideshow timer triggered after 5128 ms
+[  0:03:49.311][  INFO][#000433] Slideshow advancing to image 3
+[  _11892.jpg
+ges/img_11892.jpg (939213 bytes)
+[  0:03:50.453][  INFO][#000436] Decoding image at full resolution
+[  0:03:52.938][  Ited): 1280x800 -> 800x1280
+[  0:03:53.086][  WARN][#000438] JPEG decoding took 2783 ms
+[  0:03:53.230][  WARN][#000439] JPEG rendering took 2927 ms
+[  0:03:53.641][  INFO][#000440] Successfully displayed image 3
+[  0:03:53.793][  INFO][#000441] Successfully displayed image 3
+[  0:03:53.937][  INFO][#000442] Slideshow advanced to image 3
+[  0:03:54.181][  INFO][#000443] Slideshow timer triggered after 5031 ms
+[  0:03:54.338][  INFO][#000444] Slideshow advancing to image 4
+[  0:03:54.485][  INFO][#000445] Displaying image 4: /images/img_11059.jpg
+[  0:03:55.323][  INFO][#000446] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
+[  on
+ted): 1280x800 -> 800x1280
+[  0:03:58.011][  WARN][#000449] JPEG decoding took 2691 ms
+[  0:03:5850] JPEG rendering took 2836 ms
+[  0:03:58.567][  INFO][#000451] Successfully displayed image 4
+[  0:03:58.717][  INFO][#000452] Successfully displayed image 4
+[  0:03:58.866][  INFO][#000453] Slideshow advanced to image 4
+[  0:03:59.210][  INFO][#000454] Slideshow timer triggered after 5029 ms
+[  0:03:59.370][  INFO][#000455] Slideshow advancing to image 5
+[  0:03:59.521][  INFO][#000456] Displaying image 5: /images/img_86865.jpg
+ges/img_86865.jpg (170884 bytes)
+[  0:04:00.512][  INFO][#000458] Decoding image at full resolution
+[  0:04:01.263][  WARN][#000459] Full resolution decode failed, trying half resolution
+[  0:04:01.410][  WARN][#000460] JPEG decoding took 1049 ms
+[  0:04:01.555][ ERROR][#000461] Failed to render image 5
+[  0:04:01.701][  WARN][#000462] JPEG rendering took 1340 ms
+[  0:04:01.999][ ERROR][#000464] Failed to display image 5
+[  0:04:02.149][  INFO][#000465] Slideshow advanced to image 5
+[  0:04:04.299][  INFO][#000466] Slideshow timer triggered after 5089 ms
+[  0:04:0
+[  0:04:0_42344.jpg
+0:04:05.453][  INFO][#000469] Starting JPEG decoding for /images/img_42344.jpg (14360 bytes)
+[  0:04:05.600][  INFO][#000470] Decoding image at full resolution
+[  0:04:05.815][  WARN][#000471] Full resolution decode failed, trying half resolution
+[  0:04:05.962][ ERROR][#000472] Failed to render image 6
+[  0:04:06.108][ ERROR][#000473] Failed to display image 6
+[  0:04:06.405][  INFO][#000475] Slideshow advanced to image 6
+[  0:04:09.349][  INFO][#000476] Slideshow timer triggered after 5050 ms
+[  0
+[  0:04:09.654][  INFO][#000478] Displaying image 7: /images/img_69512_Eagles_Birds.jpg
+[  0:04:10.493][  INFO][#000479] Starting JPEG decoding for /images/img_69512_Eagles_Birds.jpg (529884 bytes)
+[  0:04:10.640][  INFO][#000480] Decoding image at full resolution
+[  0:04:12.106][  WARN][#000481] Full resolution decode failed, trying half resolution
+[  0:04:12.252][  WARN][#000482] JPEG decoding took 1763 ms
+[  0:04:12.397][ ERROR][#000483] Failed to render image 7
+[  0:04:12.542][  WARN][#000484] JPEG rendering took 2053 ms
+[  0:04:12.686][ ERROR][#000485] Failed to display image 7
+ image 7
+[  0:04:12.976][  INFO][#000487] Slideshow advanced to image 7
+[  0:04:14.421][  INFO][#000488] Slideshow timer triggered after 5072 ms
+[  0:04:14.580][  INFO][#000489] Slideshow advancing to image 8
+[  0:04:14.725] image 8: /images/img_69100_Eagles_Birds.jpg
+[  0:04:15.565][  INFO]ges/img_69100_Eagles_Birds.jpg (147908 bytes)
+[  0:04:15.711][  INFO][#000492] Decoding image at full resolution
+[  0:04:16.312][  WARN][#000493] Full resolution decode failed, trying half resolution
+[  0:04:16.459][ ERROR][#000494] Failed to render image 8
+[  0:04:16.603][  WARN][#000495] JPEG rendering took 1042 ms
+[  0:04:16.748][ ERROR][#000496] Failed to display image 8
+[  0:04:16.892][ ERROR][#000497] Failed to display image 8
+[  0:04:17.037][  INFO][#000498] Slideshow advanced to image 8
+[  0:04:19.483][  INFO][#000499] Slideshow timer triggered after 5062 ms
+
+[  0:04:19.790][  INFO][#000501] Displaying image 9: /images/img_22824_Eagles_Birds.jpg
+[ ges/img_22824_Eagles_Birds.jpg (16308 bytes)
+[  0:04:20.776][  INFO][#000503] Decoding image at full resolution
+[  0:04:20.967][  WARN][#000504] Full resolution decode failed, trying half resolution
+[  0:04:21.114][ ERROR][#000505] Failed to render image 9
+[  0:04:21.259][ ERROR][#000506] Failed to display image 9
+[  0:04:21.404][ ERROR][#000507] Failed to display image 9
+[  0:04:21.549][  INFO][#000508] Slideshow advanced to image 9
+[  0:04:24.493][  INFO][#000509] Slideshow timer triggered after 5010 ms
+[  0:04:24.649][  INFO][#000510] Slideshow advancing to image 0
+[  0:04:24.797][  INFO][#000511] Displaying image 0: /images/img_39767.jpg
+[  0:04:25.636][  INFO][#000512] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
+[  0:04:25.783][  INFO][#000513] Decoding image at full resolution
+[  0:04:28.273][  INFO][#000514] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:04:28.421][  WARN][#000515] JPEG decoding took 2788 ms
+[  0:04:28.565][  WARN][#000516] JPEG rendering took 2932 ms
+[  0:04:28.969][  INFO][#000517] Successfully displayed image 0
+[  0:04:29.116][  INFO][#000518] Successfully displayed image 0
+[  0:04:29.505][  INFO][#000520] Slideshow timer triggered after 5012 ms
+[  0:04:29.661][  INFO][#000521] Slideshow advancing to image 1
+[  0:04:29.808][  INFO][#000522] Displaying image 1: /images/img_79907.jpg
+[  0:04:30.647][  INFO][#000523] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
+[  0:04:30.794][  INFO][#000524] Decoding image at full resolution
+[  0:04:33.741][  INFO][#000525] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:04:33.888][  WARN][#000526] JPEG decoding took 3244 ms
+[  0:04:34.033][  WARN][#000527] JPEG rendering took 3389 ms
+[  0:04:34.436][  INFO][#000528] Successfully displayed image 1
+[  0:04:34.583][  INFO][#000529] Successfully displayed image 1
+[  0:04:34.728][  INFO][#000530] Slideshow advanced to image 1
+[  0:04:34.973][  INFO][#000531] Slideshow timer triggered after 5468 ms
+[  0:04:35.130][  INFO][#000532] Slideshow advancing to image 2
+[  0:04:35.277][  INFO][#000533] Displaying image 2: /images/img_32173_chicago skyline.jpg
+[  0:04:36.115][  INFO][#000534] Starting JPEG decoding for /images/img_32173_chicago skyline.jpg (1101785 bytes)
+[  0:04:36.262][  INFO][#000535] Decoding image at full resolution
+[  0:04:38.850][  INFO][#000536] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:04:38.996][  WARN][#000537] JPEG decoding took 2884 ms
+[ [  0:04:39.546][  INFO][#000539] Successfully displayed image 2
+[  0:04:39.693][  INFO][#000540] Successfully displayed image 2
+[  0:04:39.838][  INFO][#000541] Slideshow advanced to image 2
+[  0:04:40.082][  INFO][#000542] Slideshow timer triggered after 5109 ms
+[  0:04:40.239][  INFO][#000543] Slideshow advancing to image 3
+[  0:04:40.386][  INFO][#000544] Displaying image 3: /images/img_11892.jpg
+ges/img_11892.jpg (939213 bytes)
+[  0:04:41.371][  INFO][#000546] Decoding image at full resolution
+[  0:04:43ted): 1280x800 -> 800x1280
+[  0:04:44.007][  WARN][#000548] JPEG decoding took 2786 ms
+[  0:04:44.152][  WARN][#000549] JPEG rendering took 2931 ms
+[  0:04:44.557][  INFO][#000550] Successfully displayed image 3
+[  0:04:44.704][  INFO][#000551] Successfully displayed image 3
+[  0:04:44.849][  INFO][#000552] Slideshow advanced to image 3
+[  0:04:45.095][  INFO][#000553] Slideshow timer triggered after 5013 ms
+[  0:04:45.251][  INFO][#000554] Slideshow advancing to image 4
+[  0:04:45.398][  INFO][#000555] Displaying image 4: /images/img_11059.jpg
+[  0:04:46.236][  INFO][#000556] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
+[  0:04:46.383][  INFO][#000557] Decoding image at full resolution
+[  0:04:48.759][  INFO][#000558] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:04:49.051][  WARN][#000560] JPEG rendering took 2818 ms
+[  0:04:49.455][  INFO][#000561] Successfully displayed image 4
+[  0:04:49.602][  INFO][#000562] Successfully displayed image 4
+[  0:04:49.748][  INFO][#000563] Slideshow advanced to image 4
+[  0:04:50.192][  INFO][#000564] Slideshow timer triggered after 5097 ms
+[  0:04:50.350][  INFO][#000565] Slideshow advancing to image 5
+_86865.jpg
+[  0:04:51.336][  INFO][#000567] Starting JPEG decoding for /images/img_86865.jpg (170884 bytes)
+[  0:04:51.482][  INFO][#000568] Decoding image at full resolution
+[  0:04:52.226][  WARN][#000569] Full resolution decode failed, trying half resolution
+[  0:04:52.373][  WARN][#000570] JPEG decoding took 1041 ms
+[  0:04:52.519][ ERROR][#000571] Failed to render image 5
+[  0:04:52.665][  WARN][#000572] JPEG rendering took 1333 ms
+[  0:04:52.810][ ERROR][#000573] Failed to display image 5
+[  0:04:52.955][ ERROR][#000574] Failed to display image 5
+[  0:04:53.100][  INFO][#000575] Slideshow advanced to image 5
+[  0:04:55.245][  INFO][#000576] Slideshow timer triggered after 5053 ms
+[  0:04:55.403][  INFO][#000577] Slideshow advancing to image 6
+[  0:04:55.550][  INFO][#000578] Displaying image 6: /images/img_42344.jpg
+[  0:04:56.389][  INFO][#000579] Starting JPEG decoding for /images/img_42344.jpg (14360 bytes)
+[  0:04:56.535][  INFO][#000580] Decoding image at full resolution
+[  0:04:56.743][  WARN][#000581] Full resolution decode failed, trying half resolution
+[  0:04:56.890][ ERROR][#000582] Failed to render image 6
+[  0:04:57.036][ ERROR][#000583] Failed to display image 6
+[  0:04:57.327][  INFO][#000585] Slideshow advanced to image 6
+[  0:05:00.272][  INFO][#000586] Slideshow timer triggered after 5027 ms
+[  0:05:00.432][  INFO][#000587] Slideshow advancing to image 7
+[  0:05:00.579][  INFO][#000588] Displaying image 7: /images/img_69512_Eagles_Birds.jpg
+[  0:05:01.418][  INFO][#000589] Starting JPEG decoding for /images/img_69512_Eagles_Birds.jpg (529884 bytes)
+on
+[  0:05:03.034][  WARN][#000591] Full resolution decode failed, trying half resolution
+[  ng took 1766 ms
+[  0:05:03.326][ ERROR][#000593] Failed to render image 7
+[  0:05:03.472][  WARN][#000594] JPEG rendering took 2058 ms
+[  0:05:03.617][ ERROR][#000595] Failed to display image 7
+[  0:05:03.763][ ERROR][#000596] Failed to display image 7
+[  0:05:03.908][  INFO][#000597] Slideshow advanced to image 7
+[  0:05:05.353][  INFO][#000598] Slideshow timer triggered after 5081 ms
+
+[  0:05:05.65: /images/img_69100_Eagles_Birds.jpg
+[  0:05:06.499][  INFO][#000601] Starting JPEG decoding for /iges/img_69100_Eagles_Birds.jpg (147908 bytes)
+on
+[  0:05:07.248][  WARN][#000603] Full resolution decode failed, trying half resolution
+[  0:05:07.394][ ERROR][#000604] Failed to render image 8
+[  0:05:07.540][  WARN][#000605] JPEG rendering took 1045 ms
+[  0:05:07.685][ ERROR][#000606] Failed to display image 8
+[  0:05:07.829][ ERROR][#000607] Failed to display image 8
+[  0:05:07.975][  INFO][#000608] Slideshow advanced to image 8
+[  0:05:10.420][  INFO][#000609] Slideshow timer triggered after 5067 ms
+[  0:05:10.581][  INFO][#000610] Slideshow advancing to image 9
+NFO][#000611] Displaying image 9: /images/img_22824_Eagles_Birds.jpg
+[  0:05:11.568][  INFO][#000612] Starting JPEG decoding for /images/img_22824_Eagles_Birds.jpg (16308 bytes)
+[  0:05:11.715][  INFO][#000613] Decoding image at full resolution
+[  0:05:11.905][  WARN][#000614] Full resolution decode failed, trying half resolution
+[  0:05:12.052][ ERROR][#000615] Failed to render image 9
+[  0:05:12.198][ ERROR][#000616] Failed to display image 9
+9
+[  0:05:12.488][  INFO][#000618] Slideshow advanced to image 9
+[  0:05:15.433][  INFO][#000619] Slideshow timer triggered after 5013 ms
+[  0:05:15.590][  INFO][#000620] Slideshow advancing to image 0
+[  0:05:15.737][  INFO][#000621] Displaying image 0: /images/img_39767.jpg
+[  0:05:16.576][  INFO][#000622] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
+[  0:05:16.723][  INFO][#000623] Decoding image at full resolution
+[  0:05:19.213][  INFO][#000624] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:05:19.505][  WARN][#000626] JPEG rendering took 2932 ms
+
+[  0:05:20.057][  INFO][#000628] Successfully displayed image 0
+[  0:05:20.203][  INFO][#000629] Slideshow advanced to image 0
+[  0:05:20.449][  INFO][#000630] Slideshow timer triggered after 5016 ms
+[  
+[  0:05:20.752][  INFO][#000632] Displaying image 1: /images/img_79907.jpg
+[  0:05:21.591][  INFO][#000633] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
+[  0:05:21.738][  INFO][#000634] Decoding image at full resolution
+[  0:05:24.685][  INFO][#000635] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:05:24.833][  WARN][#000636] JPEG decoding took 3244 ms
+[  0:05:24.977][  WARN][#000637] JPEG rendering took 3389 ms
+[  0:05:25.380][  INFO][#000638] Successfully displayed image 1
+[  0:05:25.527][  INFO][#000639] Successfully displayed image 1
+[  0:05:25.673][  INFO][#000640] Slideshow advanced to image 1
+[  0:05:25.917][  INFO][#000641] Slideshow timer triggered after 5468 ms
+[  0:05:26.073][  INFO][#000642] Slideshow advancing to image 2
+[  0:05:26.220][  INFO][#000643] Displaying image 2: /images/img_32173_chicago skyline.jpg
+[  0:05:27.059][  INFO][#000644] Starting JPEG decoding for /images/img_32173_chicago skyline.jpg (1101785 bytes)
+[ l resolution
+ted): 1280x800 -> 800x1280
+[  0:05:29.942][  WARN][#000647] JPEG decoding took 2885 ms
+[  0:05:30.086][  WARN][#000648] JPEG rendering took 3030 ms
+[  0:05:30.489][  INFO][#000649] Successfully displayed image 2
+[  0:05:30.636][  INFO][#000650] Successfully displayed image 2
+[  0:05:30.781][  INFO][#000651] Slideshow advanced to image 2
+[  0:05:31.026][  INFO][#000652] Slideshow timer triggered after 5109 ms
+[  0:05:31.182][  INFO][#000653] Slideshow advancing to image 3
+[  0:05:31.329][  INFO][#000654] Displaying image 3: /images/img_11892.jpg
+[  0:05:32.167][  INFO][#000655] Starting JPEG decoding for /images/img_11892.jpg (939213 bytes)
+[  0:05:32.314][  INFO][#000656] Decoding image at full resolution
+[  0:05:34.803][  INFO][#000657] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:05:34.950][  WARN][#000658] JPEG decoding took 2786 ms
+[  0:05:35.096][  WARN][#000659] JPEG rendering took 2932 ms
+[  0:05:35.501][  INFO][#000660] Successfully displayed image 3
+
+[  0:05:35.794][  INFO][#000662] Slideshow advanced to image 3
+[  0:05:36.040][  INFO][#000663] Slideshow timer triggered after 5014 ms
+[  0:05:36.197][  INFO][#000664] Slideshow advancing to image 4
+[  0:05:36.344][  INFO][#000665] Displaying image 4: /images/img_11059.jpg
+[  0:05:37.182][  INFO][#000666] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
+[  0:05:37.329][  INFO][#000667] Decoding image at full resolution
+[  0:05:39.705][  INFO][#000668] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:05:39.852][  WARN][#000669] JPEG decoding took 2673 ms
+[  0:05:39.997][  WARN][#000670] JPEG rendering took 2818 ms
+[  0:05:40.402][  INFO][#000671] Successfully displayed image 4
+[  0:05:40.549][  INFO][#000672] Successfully displayed image 4
+[  0:05:40.695][  INFO][#000673] Slideshow advanced to image 4
+[  0:05:41.139][  INFO][#000674] Slideshow timer triggered after 5099 ms
+[  0:05:41.298][  INFO][#000675] Slideshow advancing to image 5
+[  0:05:41.445][  INFO][#000676] Displaying image 5: /images/img_86865.jpg
+[  0:05:42ges/img_86865.jpg (170884 bytes)
+[  0:05:42.432][  INFO][#000678] Decoding image at full resolution
+[  0:05:43.176][  WARN][#000679] Full resolution decode failed, trying half resolution
+[  0:05:43.324][  WARN][#000680] JPEG decoding took 1043 ms
+[  0:05:43.469][ ERROR][#000681] Failed to render image 5
+[  0:05:43.615][  WARN][#000682] JPEG rendering took 1334 ms
+[  0:05:43.760][ ERROR][#000683] Failed to display image 5
+[  0:05:43.904][ ERROR][#000684] Failed to display image 5
+[  0:05:44.050][  INFO][#000685] Slideshow advanced to image 5
+[  0:05:46.196][  INFO][#000686] Slideshow timer triggered after 5057 ms
+[  0:05:46.355][  INFO][#000687] Slideshow advancing to image 6
+[  0:05:46.503][  INFO][#000688] Displaying image 6: /images/img_42344.jpg
+[  0:05:47.342][  INFO][#000689] Starting JPEG decoding for /images/img_42344.jpg (14360 bytes)
+[  0:05:47.489][  INFO][#000690] Decoding image at full resolution
+[  0:05:47.697][  WARN][#000691] Full resolution decode failed, trying half resolution
+[  0:05:47.845][ ERROR][#000692] Failed to render image 6
+[  0:05:47.990][ ERROR][#000693] Failed to display image 6
+[  0:05:48.280][  INFO][#000695] Slideshow advanced to image 6
+[  0:05:51.226][  INFO][#000696] Slideshow timer triggered after 5030 ms
+[  0:05:51.386][  INFO][#000697] Slideshow advancing to image 7
+_69512_Eagles_Birds.jpg
+[  0:05:52.372][  INFO][#000699] Starting JPEG decoding for /images/img_69512_Eagles_Birds.jpg (529884 bytes)
+[  0:05:52.519][  INFO][#000700] Decoding image at full resolution
+[  0:05:53.985][  WARN][#000701] Full resolution decode failed, trying half resolution
+[  0:05:54.133][  WARN][#000702] JPEG decoding took 1765 ms
+[  0:05:54.423][  WARN][#000704] JPEG rendering took 2055 ms
+[  0:05:54.568][ ERROR][#000705] Failed to display image 7
+[  0:05:54.713][ ERROR][#000706] Failed to display image 7
+5:54.858][  INFO][#000707] Slideshow advanced to image 7
+[  0:05:56.303][  INFO][#000708] Slideshow timer triggered after 5077 ms
+[  0:0
+[  0:05:56.608][  INFO][#000710] Displaying image 8: /images/img_69100_Eagles_Birds.jpg
+[  0:05:57.447][  INFO][#000711ges/img_69100_Eagles_Birds.jpg (147908 bytes)
+[  0:05:on
+[  0:05:58.200][  WARN][#000713] Full resolution decode failed, trying half resolution
+[  0:05:58.351][ ERROR][#000714] Failed to render image 8
+[  0:05:58.640][ ERROR][#000716] Failed to display image 8
+[  0:05:58.784][ ERROR][#000717] Failed to display image 8
+[  0:06:01.373][  INFO][#000719] Slideshow timer triggered after 5070 ms
+[  0:06:01.534][  INFO][#000720] Slideshow advancing to image 9
+[  0:06:01.680][  INFO][#000721] Displaying image 9: /images/img_22824_Eagles_Birds.jpg
+[  0:06:02.520ges/img_22824_Eagles_Birds.jpg (16308 bytes)
+on
+[  0:06:02.856][  WARN][#000724] Full resolution decode failed, trying half resolution
+[  0:06:03.003][ ERROR][#000725] Failed to render image 9
+[  0:06:03.148][ ERROR][#000726] Failed to display image 9
+[  0:06:03.292][ ERROR][#000727] Failed to display image 9
+[  0:06:03.438][  INFO][#000728] Slideshow advanced to image 9
+[  0:06:06.382][  INFO][#000729] Slideshow timer triggered after 5009 ms
+[  0:06:06.538][  INFO][#000730] Slideshow advancing to image 0
+[  0:06:06.685][  INFO][#000731] Displaying image 0: /images/img_39767.jpg
+[  0:06:07.523][  INFO][#000732] Starting JPEG decoding for /images/img_39767.jpg (939213 bytes)
+[  0:06:07.669][  INFO][#000733] Decoding image at full resolution
+[  0:06:10.160][  INFO][#000734] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:06:10.307][  WARN][#000735] JPEG decoding took 2787 ms
+[  0:06:10.452][  WARN][#000736] JPEG rendering took 2932 ms
+[  0:06:10.856][  INFO][#000737] Successfully displayed image 0
+splayed image 0
+[  0:06:11.149][  INFO][#000739] Slideshow advanced to image 0
+[  0:06:11.394][  INFO][#000740] Slideshow timer triggered after 5012 ms
+[  0:06:11.551][  INFO][#000741] Slideshow advancing to image 1
+[  0:06:11.698][  INFO][#000742] Displaying image 1: /images/img_79907.jpg
+[  0:06:12.536][  INFO][#000743] Starting JPEG decoding for /images/img_79907.jpg (1586123 bytes)
+[  0:06:12.682][  INFO][#000744] Decoding image at full resolution
+[  0:06:15.632][  INFO][#000745] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:06:15.778][  WARN][#000746] JPEG decoding took 3245 ms
+[  0:06:16.327][  INFO][#000748] Successfully displayed image 1
+[  0:06:16.474][  INFO][#000749] Successfully displayed image 1
+[  0:06:16.619][  INFO][#000750] Slideshow advanced to image 1
+[  0:06:16.863][  INFO][#000751] Slideshow timer triggered after 5469 ms
+[  0:
+[  0:06:17.168][  INFO][#000753] Displaying image 2: /images/img_32173_chicago skyline.jpg
+[  0:06:18.006]ges/img_32173_chicago skyline.jpg (1101785 bytes)
+[  0:06:18.153][  INFO][#000755] Decoding image at full resolution
+[  0:06:20.744][  INFO][#000756] JPEG decoded successfully (rotated): 1280x800 -> 800x1280
+[  0:06:20.890][  WARN][#000757] JPEG decoding took 2887 ms
+[  0:06:21.035][  WARN][#000758] JPEG rendering took 3032 ms
+[  0:06:21.440][  INFO][#000759] Successfully displayed image 2
+[  0:06:21.587][  INFO][#000760] Successfully displayed image 2
+[  0:06:21.732][  INFO][#000761] Slideshow advanced to image 2
+[   5114 ms
+[  0:06:22.[#000763] Slideshow advancing to image 3
+_11892.jpg
+[  0:06:23.119][  INFO][#000765] Starting JPEG decoding for /images/img_11892.jpg (939213 bytes)
+[  0:06:23.266][  INFO][#000766] Decoding image at full resolution
+[  0:06:25.752ted): 1280x800 -> 800x1280
+[  0:06:25.899][  WARN][#000768] JPEG decoding took 2783 ms
+[  0:06:26.045][  WARN][#000769] JPEG rendering took 2929 ms
+[  0:06:26.448][  INFO][#000770] Successfully displayed image 3
+[  0:06:26
+[  0:06:26.740][  INFO][#000772] Slideshow advanced to image 3
+[   5008 ms
+[  0:06:27.141][  INFO][#000774] Slideshow advancing to image 4
+[  0:06:27.288][  INFO][#000775] Displaying image 4: /images/img_11059.jpg
+[  0:06:28.127][  INFO][#000776] Starting JPEG decoding for /images/img_11059.jpg (843783 bytes)
+[  0:06:28.274][  INFO][#000777] Decoding image at full resolution
